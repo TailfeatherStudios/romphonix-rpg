@@ -6,4 +6,3 @@ selected = -1
 pocket = 1
 scroll = 0
 instance_deactivate_all(true)
-alarm[10] = 10

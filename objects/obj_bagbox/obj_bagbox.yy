@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Menu",
+    "path": "folders/Objects/Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_bagbox",

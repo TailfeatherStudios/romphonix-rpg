@@ -16,4 +16,4 @@ randomise()
 global.seed = irandom_range(0,16777216)
 random_set_seed(global.seed)
 
-room_goto(rm_test)
+room_goto(rm_title)
