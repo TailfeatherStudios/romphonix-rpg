@@ -1,20 +1,20 @@
 name,brand,base battery,base attack,base defence,base weight,base rarity,broken chance (one in),base exp,icon,sprite,description
 LGC-330W,LG,850,10,10,100,1,3,4,0,1,LG's first phone to be released in the US. A basic phone with 10 ringtones and 99 contacts.
-TP-1100,LG,950,15,10,119,3,5,5,1,2,An early phone from LG. Features a large display; web capabilities and two games.
+TP-1100,LG,950,15,10,119,3,5,5,1,2,An early phone from LG. Features a large display, web capabilities and two games.
 TM-510,LG,950,15,10,120,3,5,5,1,3,An early phone from LG. Features analogue roaming and voice dialing.
-TP-5200,LG,950,20,10,99,4,3,6,1,4,An early phone from LG. Features polyphonic ringtones; but affected by quality issues.
+TP-5200,LG,950,20,10,99,4,3,6,1,4,An early phone from LG. Features polyphonic ringtones, but affected by quality issues.
 TP-5250,LG,950,20,10,99,3,4,6,1,4,An early phone from LG. Features downloadable ringtones and graphics.
 VX-9000,LG,950,30,10,135,5,5,7,0,5,Not much is known about this phone presently.
 VX-1,LG,900,20,10,108,5,5,6,1,6,An early phone from LG. Features polyphonic ringtones and voice dialing.
-VX-10,LG,900,20,10,108,2,5,6,1,6,An early phone from LG. Very similar to the VX-1; but adds downloadable app support.
-4NE1,LG,850,20,10,105,4,5,6,0,7,An early phone from LG. Very similar to the TP-5250; but sports a unique neck strap.
+VX-10,LG,900,20,10,108,2,5,6,1,6,An early phone from LG. Very similar to the VX-1, but adds downloadable app support.
+4NE1,LG,850,20,10,105,4,5,6,0,7,An early phone from LG. Very similar to the TP-5250, but sports a unique neck strap.
 VX-2000,LG,950,20,10,113,3,5,6,0,8,Not much is known about this phone presently.
 LX-5350,LG,950,30,10,110,4,5,7,1,9,LG's first colour screen phone to be released in the US. Also features downloadable J2ME apps.
-VX-4400,LG,950,30,10,113,0,5,7,1,10,A very popular LG phone; supporting downloadable graphics; ringtones and apps.
-LX-1200,LG,850,15,10,90,2,5,5,1,11,A low-end LG phone; featuring monophonic ringtones and a monochrome display.
-VX-3100,LG,950,15,10,89,1,5,5,1,12,A low-end LG phone; featuring monophonic ringtones and a monochrome display.
+VX-4400,LG,950,30,10,113,0,5,7,1,10,A very popular LG phone, supporting downloadable graphics, ringtones and apps.
+LX-1200,LG,850,15,10,90,2,5,5,1,11,A low-end LG phone, featuring monophonic ringtones and a monochrome display.
+VX-3100,LG,950,15,10,89,1,5,5,1,12,A low-end LG phone, featuring monophonic ringtones and a monochrome display.
 LX-5450,LG,950,40,10,110,3,4,7,1,13,LG's first camera phone to be released in the US. Also features downloadable J2ME apps.
-LX-5550,LG,950,40,10,110,1,4,8,1,14,Very similar to the LG VX-4500; but features an OLED external display.
+LX-5550,LG,950,40,10,110,1,4,8,1,14,Very similar to the LG VX-4500, but features an OLED external display.
 VX-6000,LG,950,40,10,113,3,3,7,1,15,Not much is known about this phone presently.
 VX-4500,LG,950,40,10,105,2,3,8,1,16,This upgrade to the LG VX-4400 features a speakerphone and a tall display.
 G4010,LG,950,20,10,83,3,5,7,1,17,LG's first GSM phone to be released in the US. Notable for being very thin at the time.
@@ -27,3 +27,37 @@ VX-6100,LG,1000,40,10,110,1,4,7,1,23,Not much is known about this phone presentl
 VX-4700,LG,1000,40,10,105,3,5,7,1,24,Not much is known about this phone presently.
 PM-325,LG,1000,40,10,94,3,5,7,2,25,Not much is known about this phone presently.
 PM-225,LG,1000,40,10,95,2,5,7,1,26,Not much is known about this phone presently.
+GX201,Gxphone,900,30,10,100,3,5,,,27,"An upgraded model of the GX200, supporting GxApp applications."
+GX200,Gxphone,900,25,10,110,0,5,,,28,"Gxphone’s most popular phone, and their first to support polyphonic ringtones."
+GX650,Gxphone,950,40,10,140,2,4,,,29,"A slider PDA phone by Gxphone, supporting J2ME apps."
+GX120,Gxphone,800,15,10,90,1,5,,,30,A low-end Gxphone model with a colorful backlight and built-in games.
+GX651,Gxphone,1000,40,10,130,4,3,,,31,A Gxphone model that runs Nokia’s Symbian operating system.
+GX100,Gxphone,850,20,10,85,1,5,,,32,A basic phone made by Gxphone featuring text to speech.
+7650,Nokia,750,25,10,154,3,4,,,33,"A high-end Nokia phone with a large color screen. Also Nokia’s first camera phone, and the first",phone running the Series 60 interface.
+N-Gage,Nokia,850,30,10,135,4,4,,,34,A gaming phone by Nokia. It was a commercial failure.
+N70,Nokia,970,40,10,128,1,5,,,35,"The first phone in the Nseries, a series of high-end multimedia phones, along with the N90."
+N90,Nokia,760,50,10,173,4,4,,,36,The first phone in the Nseries along with the N70. Features a camcorder style design and a high,resolution display.
+3310,Nokia,1000,20,10,133,0,6,,,37,A popular phone which has gained a reputation for being very durable.
+3510i,Nokia,1000,40,10,111,1,5,,,38,"A phone featuring new technologies like polyphonic ringtones, J2ME applications, and a color screen."
+5110,Nokia,900,15,10,170,0,5,,,39,"Nokia’s first phone with changeable covers, and one of the first with the popular Snake game."
+1100,Nokia,900,10,10,86,0,5,,,40,"A low-end basic phone. The best selling phone of all time, with over 250 million units sold."
+9500,Nokia,1300,50,10,230,5,4,,,41,"Part of the “Communicator” line of business phones, and Nokia’s first phone with WiFi."
+7210,Nokia,780,40,10,83,2,5,,,42,"A Nokia phone with J2ME support, a fashion oriented version of the 6610."
+6610,Nokia,780,40,10,83,0,5,,,43,"A Nokia phone with J2ME support, a business oriented version of the 7210."
+7700,Nokia,1300,45,10,189,6,5,,,44,A never released prototype of the Nokia 7710.
+7710,Nokia,1300,45,10,189,5,5,,,45,An early touchscreen Nokia phone with strong multimedia capabilities.
+6600,Nokia,1020,40,10,125,1,5,,,46,"A popular Nokia smartphone, one of the most advanced phones at the time."
+2610,Nokia,970,30,10,91,0,5,,,47,An entry level phone with support for GPRS data connections and J2ME applications.
+SGH-D500,Samsung,1000,30,10,99,1,5,,,48,"With a high resolution camera and display, this is Samsung’s first phone to sell over a million."
+SGH-E700,Samsung,780,40,10,85,2,3,,,49,A popular flip phone by Samsung.
+SGH-T100,Samsung,720,30,10,94,2,4,,,50,"A popular flip phone by Samsung, one of the first with a color screen."
+R380,Ericsson,960,50,10,164,4,5,,,51,The first device to be considered a smartphone. The keyboard flip can be opened to reveal a,touchscreen.
+T68,Sony Ericsson,650,30,10,84,2,5,,,52,"A small and lightweight phone by Sony Ericsson, their first featuring a color screen."
+T610,Sony Ericsson,770,40,10,95,1,5,,,53,"A popular Sony Ericsson phone with a camera, polyphonic ringtones, and J2ME support."
+P900,Sony Ericsson,1260,50,10,150,3,4,,,54,"A phone which can be used with both a keypad and a touch screen, similar to the Ericsson R380."
+A1000,Motorola,1600,50,10,168,4,4,,,55,A Motorola touchscreen phone with GPS and microSD card support.
+RAZR V3,Motorola,680,40,10,99,0,5,,,56,"The best selling flip phone of all time, with over 130 million units sold."
+RAZR V3xx,Motorola,940,50,10,107,1,5,,,57,An upgraded version of the RAZR V3 with a higher resolution camera and display.
+ROKR E1,Motorola,830,40,10,107,3,5,,,58,A candybar phone developed in collaboration with Apple to include the iTunes music player.
+V60,Motorola,700,20,10,109,2,5,,,59,A flip phone made by Motorola.
+SLVR L7,Motorola,820,40,10,96,2,5,,,60,"A multimedia focused Motorola phone, successor of the ROKR E1 “iTunes phone”. "
