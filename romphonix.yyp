@@ -8,6 +8,7 @@
     {"id":{"name":"spr_playerright","path":"sprites/spr_playerright/spr_playerright.yy",},"order":11,},
     {"id":{"name":"spr_playerleft","path":"sprites/spr_playerleft/spr_playerleft.yy",},"order":13,},
     {"id":{"name":"bgm_test","path":"sounds/bgm_test/bgm_test.yy",},"order":1,},
+    {"id":{"name":"obj_bagbox","path":"objects/obj_bagbox/obj_bagbox.yy",},"order":16,},
     {"id":{"name":"script_reference","path":"scripts/script_reference/script_reference.yy",},"order":1,},
     {"id":{"name":"parser_start","path":"scripts/parser_start/parser_start.yy",},"order":3,},
     {"id":{"name":"parser","path":"scripts/parser/parser.yy",},"order":5,},
