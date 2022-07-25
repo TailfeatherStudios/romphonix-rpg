@@ -10,7 +10,11 @@ function give_tool(item,number){
 			ds_grid_set(global.dsgrid_bag,3,i,number)
 			return 1
 		}
-		else
+		else if ds_grid_get(global.dsgrid_bag,2,i) == item
+		{
+			ds_grid_set(global.dsgrid_bag,3,i,ds_grid_get(global.dsgrid_bag,3,i) + number)
+			return 1
+		}
 		{
 			i += 1
 		}

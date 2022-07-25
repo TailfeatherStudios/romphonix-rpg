@@ -10,7 +10,11 @@ function give_memcard(item,number){
 			ds_grid_set(global.dsgrid_bag,5,i,number)
 			return 1
 		}
-		else
+		else if ds_grid_get(global.dsgrid_bag,4,i) == item
+		{
+			ds_grid_set(global.dsgrid_bag,5,i,ds_grid_get(global.dsgrid_bag,5,i) + number)
+			return 1
+		}
 		{
 			i += 1
 		}

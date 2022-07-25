@@ -1,0 +1,9 @@
+Item,Item description,Tool,Tool description,Move,Move description
+Bicycle,Item description here.,Spare Battery,Restores 30% battery to one phone.,Mosaic,Move description here.
+Item Finder,Item description here.,Extended Battery,Restores 60% battery to one phone.,AnnoyingTune,Move description here.
+Prepaid Card,Item description here.,Super Battery,Restores 90% battery to one phone.,Screech,Move description here.
+,,Power Bank,Revives a dead phone with 50% battery.,,
+,,Upgrade,Upgrades one stat for one phone.,,
+,,Screwdriver,Can be used to repair phones a little.,,
+,,Automatic Screwdriver,Can be used to repair phones a good amount.,,
+,,Repair Kit,Can be used to combine the parts from two phones.,,
