@@ -12,7 +12,7 @@ if stage == 0
 }
 if stage == 1
 {
-	draw_text_ext(__view_get( e__VW.XView, 0 ) + 4,__view_get( e__VW.YView, 0 ) + 194,"DANGER: There is already another save file present. If you save now, you will lose that save file. Are you sure you want to continue?",16,320)
+	draw_text_ext(__view_get( e__VW.XView, 0 ) + 4,__view_get( e__VW.YView, 0 ) + 194,"DANGER: There is already another save file present. If you save now, you will lose that\nsave file. Are you sure?",16,320)
 }
 if stage == 2
 {
