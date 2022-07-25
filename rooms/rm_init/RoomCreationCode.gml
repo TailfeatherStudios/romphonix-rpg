@@ -7,6 +7,7 @@ global.gamepaused = 0
 global.dsgrid_phones = ds_grid_create(24,6)
 global.dsgrid_phonesbox1 = ds_grid_create(24,100)
 global.dsgrid_wildphones = load_csv("wildphones.csv")
+global.dsgrid_bag = ds_grid_create(6,20)
 
 randomise()
 global.seed = irandom_range(0,16777216)

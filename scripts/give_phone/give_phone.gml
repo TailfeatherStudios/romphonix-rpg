@@ -33,6 +33,11 @@ function give_phone(number,level){
 				ds_grid_set(global.dsgrid_phones,14,i,irandom_range(1,3))
 				ds_grid_set(global.dsgrid_phones,15,i,irandom_range(1,3))
 			}
+			if ds_grid_get(global.dsgrid_phones,15,i) == 0
+			{
+				ds_grid_set(global.dsgrid_phones,2,i,0)
+				ds_grid_set(global.dsgrid_phones,3,i,1)				
+			}
 			ds_grid_set(global.dsgrid_phones,20,i,real(ds_grid_get(global.dsgrid_wildphones,10,number)))
 			ds_grid_set(global.dsgrid_phones,21,i,ds_grid_get(global.dsgrid_wildphones,11,number))
 			return 1

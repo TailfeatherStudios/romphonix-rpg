@@ -150,10 +150,64 @@ if selected != -1
 	draw_text(__view_get( e__VW.XView, 0 ) + 70,__view_get( e__VW.YView, 0 ) + 52,"EXP: " + string(ds_grid_get(global.dsgrid_phones,5,selected)) + "/" + string(ds_grid_get(global.dsgrid_phones,6,selected)))
 	draw_set_valign(fa_top)
 	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 70,"AT: " + string(ds_grid_get(global.dsgrid_phones,8,selected)))
+	switch ds_grid_get(global.dsgrid_phones,12,selected)
+	{
+		case 0:
+		draw_set_colour(c_red)
+		draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 70,"------")
+		draw_set_colour(c_white)
+		break
+		case 1:
+		draw_set_colour(c_red)
+		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 70,"x 0.5")
+		draw_set_colour(c_white)
+		break
+		case 3:
+		draw_set_colour(c_lime)
+		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 70,"x 2")
+		draw_set_colour(c_white)
+		break
+	}
 	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 85,"...Screen Status: " + condition_to_string(ds_grid_get(global.dsgrid_phones,12,selected)))
 	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 105,"DF: " + string(ds_grid_get(global.dsgrid_phones,9,selected)))
+	switch ds_grid_get(global.dsgrid_phones,13,selected)
+	{
+		case 0:
+		draw_set_colour(c_red)
+		draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 105,"------")
+		draw_set_colour(c_white)
+		break
+		case 1:
+		draw_set_colour(c_red)
+		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 105,"x 0.5")
+		draw_set_colour(c_white)
+		break
+		case 3:
+		draw_set_colour(c_lime)
+		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 105,"x 2")
+		draw_set_colour(c_white)
+		break
+	}
 	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 120,"...Board Status: " + condition_to_string(ds_grid_get(global.dsgrid_phones,13,selected)))
 	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 140,"WT: " + string(ds_grid_get(global.dsgrid_phones,10,selected)))
+	switch ds_grid_get(global.dsgrid_phones,14,selected)
+	{
+		case 0:
+		draw_set_colour(c_red)
+		draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 140,"------")
+		draw_set_colour(c_white)
+		break
+		case 1:
+		draw_set_colour(c_red)
+		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 140,"x 0.5")
+		draw_set_colour(c_white)
+		break
+		case 3:
+		draw_set_colour(c_lime)
+		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 140,"x 2")
+		draw_set_colour(c_white)
+		break
+	}
 	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 155,"...Cover Status: " + condition_to_string(ds_grid_get(global.dsgrid_phones,14,selected)))
 	
 	draw_text_ext(__view_get( e__VW.XView, 0 ) + 166,__view_get( e__VW.YView, 0 ) + 70,ds_grid_get(global.dsgrid_phones,21,selected),16,160)
