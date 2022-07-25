@@ -13,14 +13,16 @@ draw_rectangle_color(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0
 draw_rectangle(__view_get( e__VW.XView, 0 ) + 2,__view_get( e__VW.YView, 0 ) + 2,__view_get( e__VW.XView, 0 ) + 126,__view_get( e__VW.YView, 0 ) + 22,true)
 
 i = scroll
+j = 0
 repeat(17)
 {
 	if ds_grid_get(global.dsgrid_bag,(pocket*2)-1,i) != 0
 	{
-		draw_text(__view_get( e__VW.XView, 0 ) + 134,__view_get( e__VW.YView, 0 ) + 14*i,ds_grid_get(global.dsgrid_bag,(pocket*2)-1,i))
-		draw_text(__view_get( e__VW.XView, 0 ) + 300,__view_get( e__VW.YView, 0 ) + 14*i,":" + string(ds_grid_get(global.dsgrid_bag,(pocket*2),i)))
+		draw_text(__view_get( e__VW.XView, 0 ) + 134,__view_get( e__VW.YView, 0 ) + 14*j,ds_grid_get(global.dsgrid_bag,(pocket*2)-2,i))
+		draw_text(__view_get( e__VW.XView, 0 ) + 300,__view_get( e__VW.YView, 0 ) + 14*j,":" + string(ds_grid_get(global.dsgrid_bag,(pocket*2)-1,i)))
 	}
 	i += 1
+	j += 1
 }
 
 draw_set_halign(fa_center)

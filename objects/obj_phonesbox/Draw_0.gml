@@ -159,12 +159,12 @@ if selected != -1
 		break
 		case 1:
 		draw_set_colour(c_red)
-		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 70,"x 0.5")
+		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 70,"x 0.8")
 		draw_set_colour(c_white)
 		break
 		case 3:
 		draw_set_colour(c_lime)
-		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 70,"x 2")
+		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 70,"x 1.2")
 		draw_set_colour(c_white)
 		break
 	}
@@ -179,12 +179,12 @@ if selected != -1
 		break
 		case 1:
 		draw_set_colour(c_red)
-		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 105,"x 0.5")
+		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 105,"x 0.8")
 		draw_set_colour(c_white)
 		break
 		case 3:
 		draw_set_colour(c_lime)
-		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 105,"x 2")
+		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 105,"x 1.2")
 		draw_set_colour(c_white)
 		break
 	}
@@ -199,12 +199,12 @@ if selected != -1
 		break
 		case 1:
 		draw_set_colour(c_red)
-		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 140,"x 0.5")
+		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 140,"x 0.8")
 		draw_set_colour(c_white)
 		break
 		case 3:
 		draw_set_colour(c_lime)
-		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 140,"x 2")
+		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 140,"x 1.2")
 		draw_set_colour(c_white)
 		break
 	}
