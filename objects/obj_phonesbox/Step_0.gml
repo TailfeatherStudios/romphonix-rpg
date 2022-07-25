@@ -20,9 +20,9 @@ if keyboard_check_pressed(ord("X"))
 
 if keyboard_check_pressed(ord("Z"))
 {
-	if selected == -1
+	audio_play_sound(sfx_beep,0,0)
+	if selected == -1 && is_string(ds_grid_get(global.dsgrid_phones, 0, selection))
 	{
-		audio_play_sound(sfx_beep,0,0)
 		selected = selection
 	}
 }
