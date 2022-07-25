@@ -1,0 +1,29 @@
+name,brand,base battery,base attack,base defence,base weight,base rarity,broken chance (one in),base exp,icon,sprite,description
+LGC-330W,LG,850,10,10,100,1,3,4,0,1,LG's first phone to be released in the US. A basic phone with 10 ringtones and 99 contacts.
+TP-1100,LG,950,15,10,119,3,5,5,1,2,An early phone from LG. Features a large display; web capabilities and two games.
+TM-510,LG,950,15,10,120,3,5,5,1,3,An early phone from LG. Features analogue roaming and voice dialing.
+TP-5200,LG,950,20,10,99,4,3,6,1,4,An early phone from LG. Features polyphonic ringtones; but affected by quality issues.
+TP-5250,LG,950,20,10,99,3,4,6,1,4,An early phone from LG. Features downloadable ringtones and graphics.
+VX-9000,LG,950,30,10,135,5,5,7,0,5,Not much is known about this phone presently.
+VX-1,LG,900,20,10,108,5,5,6,1,6,An early phone from LG. Features polyphonic ringtones and voice dialing.
+VX-10,LG,900,20,10,108,2,5,6,1,6,An early phone from LG. Very similar to the VX-1; but adds downloadable app support.
+4NE1,LG,850,20,10,105,4,5,6,0,7,An early phone from LG. Very similar to the TP-5250; but sports a unique neck strap.
+VX-2000,LG,950,20,10,113,3,5,6,0,8,Not much is known about this phone presently.
+LX-5350,LG,950,30,10,110,4,5,7,1,9,LG's first colour screen phone to be released in the US. Also features downloadable J2ME apps.
+VX-4400,LG,950,30,10,113,0,5,7,1,10,A very popular LG phone; supporting downloadable graphics; ringtones and apps.
+LX-1200,LG,850,15,10,90,2,5,5,1,11,A low-end LG phone; featuring monophonic ringtones and a monochrome display.
+VX-3100,LG,950,15,10,89,1,5,5,1,12,A low-end LG phone; featuring monophonic ringtones and a monochrome display.
+LX-5450,LG,950,40,10,110,3,4,7,1,13,LG's first camera phone to be released in the US. Also features downloadable J2ME apps.
+LX-5550,LG,950,40,10,110,1,4,8,1,14,Very similar to the LG VX-4500; but features an OLED external display.
+VX-6000,LG,950,40,10,113,3,3,7,1,15,Not much is known about this phone presently.
+VX-4500,LG,950,40,10,105,2,3,8,1,16,This upgrade to the LG VX-4400 features a speakerphone and a tall display.
+G4010,LG,950,20,10,83,3,5,7,1,17,LG's first GSM phone to be released in the US. Notable for being very thin at the time.
+G4050,LG,950,40,10,91,5,5,7,1,18,Not much is known about this phone presently.
+VX-4600,LG,950,40,10,96,5,5,8,1,19,Not much is known about this phone presently.
+L1200,LG,950,40,10,95,3,5,8,1,20,Not much is known about this phone presently.
+VX-7000,LG,1100,50,10,110,2,5,9,1,21,LG's first video phone to be released in the US.
+VX-8000,LG,1100,50,10,110,4,5,9,1,22,Not much is known about this phone presently.
+VX-6100,LG,1000,40,10,110,1,4,7,1,23,Not much is known about this phone presently.
+VX-4700,LG,1000,40,10,105,3,5,7,1,24,Not much is known about this phone presently.
+PM-325,LG,1000,40,10,94,3,5,7,2,25,Not much is known about this phone presently.
+PM-225,LG,1000,40,10,95,2,5,7,1,26,Not much is known about this phone presently.

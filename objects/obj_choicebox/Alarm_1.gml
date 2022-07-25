@@ -1,0 +1,2 @@
+canclose = 1
+
