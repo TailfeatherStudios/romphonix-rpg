@@ -30,21 +30,3 @@ Column | Value
 21 | Description
 22 | Base EXP
 23 | (currently unused)
-
-## Wild Phone Array
-Used for wild phones. Due to the way JSON data is loaded by Game Maker.
-Column | Value
---- | ---
-0 | Description
-1 | Battery
-2 | Defence
-3 | Rarity
-4 | Base EXP
-5 | Sprite
-6 | Name
-7 | Fictional flag
-8 | Attack
-9 | Weight
-10 | Broken chance (one in X)
-11 | Icon
-12 | Brand
