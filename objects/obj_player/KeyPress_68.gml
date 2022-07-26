@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-num = get_integer("What phone should I give you? See wildphones.csv.",1)
+num = get_integer("What phone should I give you? See phones.json.",0)
 result = give_phone(num,1)
 if result == 1
 {

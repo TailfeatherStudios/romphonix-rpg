@@ -6,19 +6,19 @@ function give_phone(number,level){
 	{
 		if ds_grid_get(global.dsgrid_phones,0,i) == 0
 		{
-			ds_grid_set(global.dsgrid_phones,0,i,ds_grid_get(global.dsgrid_wildphones,0,number))
+			ds_grid_set(global.dsgrid_phones,0,i,variable_struct_get(global.array_wildphones[number],"model"))
 			ds_grid_set(global.dsgrid_phones,1,i,level)
-			ds_grid_set(global.dsgrid_phones,2,i,real(ds_grid_get(global.dsgrid_wildphones,2,number)))
-			ds_grid_set(global.dsgrid_phones,3,i,real(ds_grid_get(global.dsgrid_wildphones,2,number)))
+			ds_grid_set(global.dsgrid_phones,2,i,variable_struct_get(global.array_wildphones[number],"battery"))
+			ds_grid_set(global.dsgrid_phones,3,i,variable_struct_get(global.array_wildphones[number],"battery"))
 			ds_grid_set(global.dsgrid_phones,4,i,100)
-			ds_grid_set(global.dsgrid_phones,22,i,real(ds_grid_get(global.dsgrid_wildphones,8,number)))
-			ds_grid_set(global.dsgrid_phones,6,i,floor(real(ds_grid_get(global.dsgrid_phones,22,i))*((level*1.5)+level)))
-			ds_grid_set(global.dsgrid_phones,7,i,ds_grid_get(global.dsgrid_wildphones,1,number))
-			ds_grid_set(global.dsgrid_phones,8,i,real(ds_grid_get(global.dsgrid_wildphones,3,number)))
-			ds_grid_set(global.dsgrid_phones,9,i,real(ds_grid_get(global.dsgrid_wildphones,4,number)))
-			ds_grid_set(global.dsgrid_phones,10,i,real(ds_grid_get(global.dsgrid_wildphones,5,number)))
-			ds_grid_set(global.dsgrid_phones,11,i,real(ds_grid_get(global.dsgrid_wildphones,9,number)))
-			broken_chance = irandom_range(1,real(ds_grid_get(global.dsgrid_wildphones,7,number)))
+			ds_grid_set(global.dsgrid_phones,22,i,variable_struct_get(global.array_wildphones[number],"baseExp"))
+			ds_grid_set(global.dsgrid_phones,6,i,floor(variable_struct_get(global.array_wildphones[number],"baseExp")*((level*1.5)+level)))
+			ds_grid_set(global.dsgrid_phones,7,i,variable_struct_get(global.array_wildphones[number],"brand"))
+			ds_grid_set(global.dsgrid_phones,8,i,variable_struct_get(global.array_wildphones[number],"attack"))
+			ds_grid_set(global.dsgrid_phones,9,i,variable_struct_get(global.array_wildphones[number],"defense"))
+			ds_grid_set(global.dsgrid_phones,10,i,variable_struct_get(global.array_wildphones[number],"weight"))
+			ds_grid_set(global.dsgrid_phones,11,i,variable_struct_get(global.array_wildphones[number],"icon"))
+			broken_chance = irandom_range(1,variable_struct_get(global.array_wildphones[number],"brokenChance"))
 			if broken_chance == 1
 			{
 				ds_grid_set(global.dsgrid_phones,12,i,irandom_range(0,3))
@@ -38,9 +38,8 @@ function give_phone(number,level){
 				ds_grid_set(global.dsgrid_phones,2,i,0)
 				ds_grid_set(global.dsgrid_phones,3,i,1)				
 			}
-			ds_grid_set(global.dsgrid_phones,20,i,real(ds_grid_get(global.dsgrid_wildphones,10,number)))
-			ds_grid_set(global.dsgrid_phones,21,i,ds_grid_get(global.dsgrid_wildphones,11,number))
-			ds_grid_set(global.dsgrid_phones,21,i,string_replace_all(ds_grid_get(global.dsgrid_phones,21,i),";",","))
+			ds_grid_set(global.dsgrid_phones,20,i,variable_struct_get(global.array_wildphones[number],"sprite"))
+			ds_grid_set(global.dsgrid_phones,21,i,variable_struct_get(global.array_wildphones[number],"description"))
 			ds_grid_set(global.dsgrid_phones,21,i,string_replace_all(ds_grid_get(global.dsgrid_phones,21,i),"~","\""))
 			return 1
 		}
