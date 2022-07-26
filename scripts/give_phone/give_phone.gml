@@ -40,6 +40,8 @@ function give_phone(number,level){
 			}
 			ds_grid_set(global.dsgrid_phones,20,i,real(ds_grid_get(global.dsgrid_wildphones,10,number)))
 			ds_grid_set(global.dsgrid_phones,21,i,ds_grid_get(global.dsgrid_wildphones,11,number))
+			ds_grid_set(global.dsgrid_phones,21,i,string_replace_all(ds_grid_get(global.dsgrid_phones,21,i),";",","))
+			ds_grid_set(global.dsgrid_phones,21,i,string_replace_all(ds_grid_get(global.dsgrid_phones,21,i),"~","\""))
 			return 1
 		}
 		else

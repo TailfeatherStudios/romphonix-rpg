@@ -122,6 +122,34 @@ function parser() {
 	        obj_player.x = real(tempr1)
 	        obj_player.y = real(tempr2)
 	    }
+		
+		else if temp2 = "ITA"
+	    {
+			temp2 = string_copy(str,i+5,4)
+			temp3 = string_copy(str,i+10,4)
+	        give_item(temp2,temp3)
+	    }
+		
+		else if temp2 = "TLA"
+	    {
+			temp2 = string_copy(str,i+5,4)
+			temp3 = string_copy(str,i+10,4)
+	        give_tool(temp2,temp3)
+	    }
+		
+		else if temp2 = "MVA"
+	    {
+			temp2 = string_copy(str,i+5,4)
+			temp3 = string_copy(str,i+10,4)
+	        give_memcard(temp2,temp3)
+	    }
+		
+		else if temp2 = "PHA"
+	    {
+			temp2 = string_copy(str,i+5,4)
+			temp3 = string_copy(str,i+10,4)
+	        give_phone(temp2,temp3)
+	    }
     
 	}
 	else if temp1 == "*"
