@@ -1318,5 +1318,35 @@
 		"baseExp": 4,
 		"icon": 2,
 		"sprite": 85
+	},
+	{
+		"brand": "Samsung",
+		"model": "SCH-U520",
+		"description": "A thin flip phone with a widget based UI called Celltop.",
+		"fictional": false,
+		"battery": 800,
+		"attack": 25,
+		"defense": 10,
+		"weight": 84,
+		"rarity": 2,
+		"brokenChance": 5,
+		"baseExp": 4,
+		"icon": 2,
+		"sprite": 86
+	},
+	{
+		"brand": "Samsung",
+		"model": "SPH-A640",
+		"description": "A basic flip phone featuring push to talk.",
+		"fictional": false,
+		"battery": 800,
+		"attack": 20,
+		"defense": 10,
+		"weight": 91,
+		"rarity": 2,
+		"brokenChance": 5,
+		"baseExp": 4,
+		"icon": 2,
+		"sprite": 87
 	}
 ]
