@@ -2,10 +2,13 @@
 
 A phone collecting RPG!
 
-## Editing `wildphones.csv`
 ***Notice: This file is intended for developer use only.***
 
-When working with this project, it's important to know which columns are used for what in the DS Grids.
+When working with this project, it's important to know which columns are used for what in the Grids / Arrays.
+
+## Phone DS Grid
+Used for phones in the party and in boxes. Not used for wild phones.
+
 Column | Value
 --- | ---
 0 | Name
