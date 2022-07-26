@@ -17,7 +17,8 @@ if pressed_z == 1
 	draw_text(66,24+stage,profile_room_name)
 	if profile_room_name != "NO DATA!!"
 	{
-		draw_text(66,40+stage,"$" + string(profile_money))
+		draw_text(66,40+stage,profile_name)
+		draw_text(66,56+stage,"$" + string(profile_money))
 	}
 	draw_rectangle_color(62,98+stage,254,126+stage,c_navy,c_navy,c_black,c_black,false)
 	draw_rectangle_color(66,102+stage,250,122+stage,c_black,c_black,c_navy,c_navy,false)

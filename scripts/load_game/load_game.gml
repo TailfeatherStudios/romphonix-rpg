@@ -8,6 +8,7 @@ function load_game(){
 	global.room_name = ini_read_string("DATA","ROOMNAME","NO DATA!!")
 	global.money = ini_read_real("DATA","MONEY",500)
 	global.seed = ini_read_real("DATA","SEED",global.seed)
+	global.playername = ini_read_string("DATA","PLAYERNAME","Player")
 	ds_grid_read(global.dsgrid_bag,ini_read_string("DSGRID","BAG",0))
 	ds_grid_read(global.dsgrid_phones,ini_read_string("DSGRID","PHONE",0))
 	ds_grid_read(global.dsgrid_phonesbox1,ini_read_string("DSGRID","BOX1",0))

@@ -7,6 +7,8 @@ draw_rectangle(__view_get( e__VW.XView, 0 ) + 130,__view_get( e__VW.YView, 0 ) +
 show_box(2,2,126,22,c_navy)
 show_box(2,130,126,238,c_navy)
 
+draw_sprite(spr_bag,pocket-1,__view_get( e__VW.XView, 0 )+16,__view_get( e__VW.YView, 0 ) + 32)
+
 draw_set_colour(c_white)
 i = scroll
 j = 0
@@ -20,7 +22,7 @@ repeat(17)
 	i += 1
 	j += 1
 }
-draw_text_ext(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 134,ds_grid_get(global.dsgrid_items,(pocket*3)-2,ds_grid_get(global.dsgrid_bag,(pocket*2)-1,selection+scroll)),14,128)
+draw_text_ext(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 134,ds_grid_get(global.dsgrid_items,(pocket*3)-2,ds_grid_get(global.dsgrid_bag,(pocket*2)-2,selection+scroll)),14,128)
 
 draw_set_halign(fa_center)
 switch pocket

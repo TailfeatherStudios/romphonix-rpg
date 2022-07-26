@@ -53,6 +53,12 @@ function script_reference() {
 	
 	Go to Remembered Position
 	[GRP]
+	
+	Open Player Naming window
+	[OPN]
+	
+	Open Player Appearance window
+	[OPA]
 	*/
 
 

@@ -49,6 +49,7 @@
     {"id":{"name":"spr_icons","path":"sprites/spr_icons/spr_icons.yy",},"order":14,},
     {"id":{"name":"show_box","path":"scripts/show_box/show_box.yy",},"order":13,},
     {"id":{"name":"rm_test2","path":"rooms/rm_test2/rm_test2.yy",},"order":3,},
+    {"id":{"name":"spr_bag","path":"sprites/spr_bag/spr_bag.yy",},"order":17,},
     {"id":{"name":"give_phone","path":"scripts/give_phone/give_phone.yy",},"order":5,},
     {"id":{"name":"notes","path":"notes/notes/notes.yy",},"order":1,},
     {"id":{"name":"compatibility_report_200722_2224562456","path":"notes/compatibility_report_200722_2224562456/compatibility_report_200722_2224562456.yy",},"order":3,},
