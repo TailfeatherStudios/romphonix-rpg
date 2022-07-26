@@ -2,11 +2,7 @@
 // You can write your code in this editor
 
 for (var i = 0; i < stage; i++) {
-	draw_set_color(c_black)
-	draw_rectangle_color(__view_get( e__VW.XView, 0 ) + 2,__view_get( e__VW.YView, 0 ) + 2+40*i,__view_get( e__VW.XView, 0 ) + 318,__view_get( e__VW.YView, 0 ) + 38+40*i,c_navy,c_navy,c_black,c_black,false)
-	draw_rectangle_color(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 6+40*i,__view_get( e__VW.XView, 0 ) + 314,__view_get( e__VW.YView, 0 ) + 34+40*i,c_black,c_black,c_navy,c_navy,false)
-	draw_set_color(c_white)
-	draw_rectangle(__view_get( e__VW.XView, 0 ) + 2,__view_get( e__VW.YView, 0 ) + 2+40*i,__view_get( e__VW.XView, 0 ) + 318,__view_get( e__VW.YView, 0 ) + 38+40*i,true)
+	show_box(2,2+40*i,318,38+40*i,c_navy)
 }
 
 draw_set_colour(c_blue)
@@ -30,15 +26,9 @@ if selected != -1 && is_string(ds_grid_get(global.dsgrid_phones, 0, selected))
 	draw_rectangle_color(__view_get( e__VW.XView, 0 ) + 2,__view_get( e__VW.YView, 0 ) + 2,__view_get( e__VW.XView, 0 ) + 62,__view_get( e__VW.YView, 0 ) + 62,c_white,c_white,c_aqua,c_aqua,false)
 	draw_rectangle_color(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 6,__view_get( e__VW.XView, 0 ) + 58,__view_get( e__VW.YView, 0 ) + 58,c_aqua,c_aqua,c_white,c_white,false)
 	draw_rectangle(__view_get( e__VW.XView, 0 ) + 2,__view_get( e__VW.YView, 0 ) + 2,__view_get( e__VW.XView, 0 ) + 62,__view_get( e__VW.YView, 0 ) + 62,true)
-	draw_rectangle_color(__view_get( e__VW.XView, 0 ) + 66,__view_get( e__VW.YView, 0 ) + 2,__view_get( e__VW.XView, 0 ) + 318,__view_get( e__VW.YView, 0 ) + 62,c_navy,c_navy,c_black,c_black,false)
-	draw_rectangle_color(__view_get( e__VW.XView, 0 ) + 70,__view_get( e__VW.YView, 0 ) + 6,__view_get( e__VW.XView, 0 ) + 314,__view_get( e__VW.YView, 0 ) + 58,c_black,c_black,c_navy,c_navy,false)
-	draw_rectangle(__view_get( e__VW.XView, 0 ) + 66,__view_get( e__VW.YView, 0 ) + 2,__view_get( e__VW.XView, 0 ) + 318,__view_get( e__VW.YView, 0 ) + 62,true)
-	draw_rectangle_color(__view_get( e__VW.XView, 0 ) + 2,__view_get( e__VW.YView, 0 ) + 66,__view_get( e__VW.XView, 0 ) + 158,__view_get( e__VW.YView, 0 ) + 238,c_navy,c_navy,c_black,c_black,false)
-	draw_rectangle_color(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 70,__view_get( e__VW.XView, 0 ) + 154,__view_get( e__VW.YView, 0 ) + 234,c_black,c_black,c_navy,c_navy,false)
-	draw_rectangle(__view_get( e__VW.XView, 0 ) + 2,__view_get( e__VW.YView, 0 ) + 66,__view_get( e__VW.XView, 0 ) + 158,__view_get( e__VW.YView, 0 ) + 238,true)
-	draw_rectangle_color(__view_get( e__VW.XView, 0 ) + 162,__view_get( e__VW.YView, 0 ) + 66,__view_get( e__VW.XView, 0 ) + 318,__view_get( e__VW.YView, 0 ) + 238,c_navy,c_navy,c_black,c_black,false)
-	draw_rectangle_color(__view_get( e__VW.XView, 0 ) + 166,__view_get( e__VW.YView, 0 ) + 70,__view_get( e__VW.XView, 0 ) + 314,__view_get( e__VW.YView, 0 ) + 234,c_black,c_black,c_navy,c_navy,false)
-	draw_rectangle(__view_get( e__VW.XView, 0 ) + 162,__view_get( e__VW.YView, 0 ) + 66,__view_get( e__VW.XView, 0 ) + 318,__view_get( e__VW.YView, 0 ) + 238,true)
+	show_box(66,2,318,62,c_navy)
+	show_box(2,66,158,238,c_navy)
+	show_box(162,66,318,238,c_navy)
 	draw_sprite(spr_phonesprites,ds_grid_get(global.dsgrid_phones,20,selected),__view_get( e__VW.XView, 0 ),__view_get( e__VW.YView, 0 ))
 	draw_text(__view_get( e__VW.XView, 0 ) + 70,__view_get( e__VW.YView, 0 ) + 10, string(ds_grid_get(global.dsgrid_phones,7,selected)) + " " + ds_grid_get(global.dsgrid_phones,0,selected))
 	draw_text(__view_get( e__VW.XView, 0 ) + 70,__view_get( e__VW.YView, 0 ) + 24,"Battery: " + string((ds_grid_get(global.dsgrid_phones,2,selected)/ds_grid_get(global.dsgrid_phones,3,selected))*100) + "%")

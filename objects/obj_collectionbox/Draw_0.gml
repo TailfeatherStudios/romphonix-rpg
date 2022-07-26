@@ -4,29 +4,19 @@ draw_set_color(c_white)
 draw_set_halign(fa_center)
 if stage > 0
 {
-	draw_rectangle_color(__view_get( e__VW.XView, 0 ) + 2,__view_get( e__VW.YView, 0 ) + 2,__view_get( e__VW.XView, 0 ) + 126,__view_get( e__VW.YView, 0 ) + 30,c_navy,c_navy,c_black,c_black,false)
-	draw_rectangle_color(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 6,__view_get( e__VW.XView, 0 ) + 122,__view_get( e__VW.YView, 0 ) + 26,c_black,c_black,c_navy,c_navy,false)
-	draw_rectangle(__view_get( e__VW.XView, 0 ) + 2,__view_get( e__VW.YView, 0 ) + 2,__view_get( e__VW.XView, 0 ) + 126,__view_get( e__VW.YView, 0 ) + 30,true)
-	
+	show_box(2,2,126,30,c_navy)
 }
 if stage > 1
 {
-	draw_rectangle_color(__view_get( e__VW.XView, 0 ) + 130,__view_get( e__VW.YView, 0 ) + 2,__view_get( e__VW.XView, 0 ) + 318,__view_get( e__VW.YView, 0 ) + 126,c_navy,c_navy,c_black,c_black,false)
-	draw_rectangle_color(__view_get( e__VW.XView, 0 ) + 134,__view_get( e__VW.YView, 0 ) + 6,__view_get( e__VW.XView, 0 ) + 314,__view_get( e__VW.YView, 0 ) + 122,c_black,c_black,c_navy,c_navy,false)
-	draw_rectangle(__view_get( e__VW.XView, 0 ) + 130,__view_get( e__VW.YView, 0 ) + 2,__view_get( e__VW.XView, 0 ) + 318,__view_get( e__VW.YView, 0 ) + 126,true)
+	show_box(130,2,318,126,c_navy)
 }
 if stage > 2
 {
-	draw_rectangle_color(__view_get( e__VW.XView, 0 ) + 2,__view_get( e__VW.YView, 0 ) + 34,__view_get( e__VW.XView, 0 ) + 126,__view_get( e__VW.YView, 0 ) + 238,c_navy,c_navy,c_black,c_black,false)
-	draw_rectangle_color(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 38,__view_get( e__VW.XView, 0 ) + 122,__view_get( e__VW.YView, 0 ) + 234,c_black,c_black,c_navy,c_navy,false)
-	draw_rectangle(__view_get( e__VW.XView, 0 ) + 2,__view_get( e__VW.YView, 0 ) + 34,__view_get( e__VW.XView, 0 ) + 126,__view_get( e__VW.YView, 0 ) + 238,true)
-	
+	show_box(2,34,126,238,c_navy)
 }
 if stage > 3
 {
-	draw_rectangle_color(__view_get( e__VW.XView, 0 ) + 130,__view_get( e__VW.YView, 0 ) + 130,__view_get( e__VW.XView, 0 ) + 318,__view_get( e__VW.YView, 0 ) + 238,c_navy,c_navy,c_black,c_black,false)
-	draw_rectangle_color(__view_get( e__VW.XView, 0 ) + 134,__view_get( e__VW.YView, 0 ) + 134,__view_get( e__VW.XView, 0 ) + 314,__view_get( e__VW.YView, 0 ) + 234,c_black,c_black,c_navy,c_navy,false)
-	draw_rectangle(__view_get( e__VW.XView, 0 ) + 130,__view_get( e__VW.YView, 0 ) + 130,__view_get( e__VW.XView, 0 ) + 318,__view_get( e__VW.YView, 0 ) + 238,true)
+	show_box(130,130,318,238,c_navy)
 }
 draw_set_color(c_blue)
 draw_rectangle(__view_get( e__VW.XView, 0 ) + 2,__view_get( e__VW.YView, 0 ) + 54,__view_get( e__VW.XView, 0 ) + 126,__view_get( e__VW.YView, 0 ) + 72,false)
