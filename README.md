@@ -29,4 +29,4 @@ Column | Value
 20 | Sprite
 21 | Description
 22 | Base EXP
-23 | (currently unused)
+23 | Is the phone fictional?

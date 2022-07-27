@@ -1309,7 +1309,7 @@
 		"model": "DS-320",
 		"description": "An early Japanese smartphone with a monochrome screen.",
 		"fictional": false,
-		"battery": 800,
+		"battery": 500,
 		"attack": 40,
 		"defense": 10,
 		"weight": 175,
@@ -1348,5 +1348,20 @@
 		"baseExp": 4,
 		"icon": 2,
 		"sprite": 87
+	},
+	{
+		"brand": "Vitelcom",
+		"model": "TSM30",
+		"description": "A candybar phone by a Spanish company called Vitelcom.",
+		"fictional": false,
+		"battery": 800,
+		"attack": 35,
+		"defense": 10,
+		"weight": 110,
+		"rarity": 4,
+		"brokenChance": 6,
+		"baseExp": 4,
+		"icon": 1,
+		"sprite": 88
 	}
 ]

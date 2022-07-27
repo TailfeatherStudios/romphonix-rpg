@@ -40,7 +40,7 @@ function give_phone(number,level){
 			}
 			ds_grid_set(global.dsgrid_phones,20,i,variable_struct_get(global.array_wildphones[number],"sprite"))
 			ds_grid_set(global.dsgrid_phones,21,i,variable_struct_get(global.array_wildphones[number],"description"))
-			ds_grid_set(global.dsgrid_phones,21,i,string_replace_all(ds_grid_get(global.dsgrid_phones,21,i),"~","\""))
+			ds_grid_set(global.dsgrid_phones,23,i,variable_struct_get(global.array_wildphones[number],"fictional"))
 			return 1
 		}
 		else

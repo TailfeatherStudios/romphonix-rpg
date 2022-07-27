@@ -98,4 +98,19 @@ if selected != -1 && is_string(ds_grid_get(global.dsgrid_phones, 0, selected))
 	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 155,"...Cover Status: " + condition_to_string(ds_grid_get(global.dsgrid_phones,14,selected)))
 	
 	draw_text_ext(__view_get( e__VW.XView, 0 ) + 166,__view_get( e__VW.YView, 0 ) + 70,ds_grid_get(global.dsgrid_phones,21,selected),16,160)
+	
+	// Draw fictional icon if the phone is fictional	
+	if ds_grid_get(global.dsgrid_phones, 23, selected) {
+		draw_sprite(spr_fictional, 0, __view_get(e__VW.XView, 0) + 45,__view_get(e__VW.YView, 0) + 45)
+		
+		if mouse_x > __view_get(e__VW.XView, 0) + 45 && mouse_x < __view_get(e__VW.XView, 0) + 56 {
+			if mouse_y > __view_get(e__VW.YView, 0) + 45 && mouse_y < __view_get(e__VW.YView, 0) + 56 {
+				draw_set_colour(c_white)
+				draw_rectangle(mouse_x, mouse_y, mouse_x + 150, mouse_y + 20, false)
+				draw_set_colour(c_black)
+				draw_text(mouse_x + 3, mouse_y + 3, "This phone is fictional.")
+				
+			}
+		}
+	}
 }
