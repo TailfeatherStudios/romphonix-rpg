@@ -5,7 +5,7 @@ if stage < 7
 	stage += 1
 }
 
-if keyboard_check_pressed(global.backButton)
+if keyboard_check_pressed(global.back_button)
 {
 	audio_play_sound(sfx_beep,0,0)
 	if selected == -1
@@ -18,7 +18,7 @@ if keyboard_check_pressed(global.backButton)
 	}
 }
 
-if keyboard_check_pressed(global.selectButton)
+if keyboard_check_pressed(global.select_button)
 {
 	if selected == -1
 	{

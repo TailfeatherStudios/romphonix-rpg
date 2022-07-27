@@ -63,7 +63,7 @@ if !instance_exists(obj_parser) and global.gamepaused == 0
 	}
 	depth = (-y+50000)
 
-	if keyboard_check_pressed(ord("X"))
+	if keyboard_check_pressed(global.back_button)
 	{
 	    instance_create(0,0,obj_menubox)
 	}

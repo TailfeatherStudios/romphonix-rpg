@@ -9,9 +9,27 @@ function save_game(){
 	ini_write_real("DATA","MONEY",global.money)
 	ini_write_real("DATA","SEED",global.seed)
 	ini_write_string("DATA","PLAYERNAME",global.playername)
-	ini_write_string("DSGRID","BAG",ds_grid_write(global.dsgrid_bag))
-	ini_write_string("DSGRID","PHONE",ds_grid_write(global.dsgrid_phones))
-	ini_write_string("DSGRID","BOX1",ds_grid_write(global.dsgrid_phonesbox1))
 	ini_close()
+	
+	save = json_stringify(global.bag)
+	buffer = buffer_create(string_byte_length(save)+1,buffer_fixed,1)
+    buffer_write(buffer,buffer_string,save)
+    buffer_save(buffer,"bag.tfs")
+	
+	save = json_stringify(global.bag_tools)
+	buffer = buffer_create(string_byte_length(save)+1,buffer_fixed,1)
+    buffer_write(buffer,buffer_string,save)
+    buffer_save(buffer,"bag_tools.tfs")
+	
+	save = json_stringify(global.bag_memcards)
+	buffer = buffer_create(string_byte_length(save)+1,buffer_fixed,1)
+    buffer_write(buffer,buffer_string,save)
+    buffer_save(buffer,"bag_memcards.tfs")
+	
+	save = json_stringify(global.phones)
+	buffer = buffer_create(string_byte_length(save)+1,buffer_fixed,1)
+    buffer_write(buffer,buffer_string,save)
+    buffer_save(buffer,"phones.tfs")
+	
 	return 1
 }

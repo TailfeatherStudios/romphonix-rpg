@@ -1,4 +1,4 @@
-if keyboard_check_pressed(ord("X"))
+if keyboard_check_pressed(global.back_button)
 {
     alarm[11] = 5
 }
@@ -26,7 +26,7 @@ if keyboard_check_pressed(vk_down)
 	}
 }
 
-if keyboard_check_pressed(ord("Z"))
+if keyboard_check_pressed(global.select_button)
 {
 	audio_play_sound(sfx_beep,0,0)
     alarm[selection] = 5

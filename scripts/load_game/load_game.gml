@@ -10,10 +10,23 @@ function load_game()
 	global.money = ini_read_real("DATA","MONEY",500)
 	global.seed = ini_read_real("DATA","SEED",global.seed)
 	global.playername = ini_read_string("DATA","PLAYERNAME","Player")
-	ds_grid_read(global.dsgrid_bag,ini_read_string("DSGRID","BAG",0))
-	ds_grid_read(global.dsgrid_phones,ini_read_string("DSGRID","PHONE",0))
-	ds_grid_read(global.dsgrid_phonesbox1,ini_read_string("DSGRID","BOX1",0))
-	ini_close()
+	ini_close()	
+	buffer = buffer_load("bag.tfs")
+	load = buffer_read(buffer,buffer_string)
+	global.bag = json_parse(load)
+	
+	buffer = buffer_load("bag_tools.tfs")
+	load = buffer_read(buffer,buffer_string)
+	global.bag_tools = json_parse(load)
+	
+	buffer = buffer_load("bag_memcards.tfs")
+	load = buffer_read(buffer,buffer_string)
+	global.bag_memcards = json_parse(load)
+	
+	buffer = buffer_load("phones.tfs")
+	load = buffer_read(buffer,buffer_string)
+	global.phones = json_parse(load)
+	
 	random_set_seed(global.seed)
 	room = gotoroom
 }

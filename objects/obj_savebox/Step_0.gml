@@ -12,7 +12,7 @@ if keyboard_check_pressed(vk_down) and stage < 2
 	audio_play_sound(sfx_beep,0,0)
 }
 
-if keyboard_check_pressed(ord("Z"))
+if keyboard_check_pressed(global.select_button)
 {
 	if stage == 0
 	{

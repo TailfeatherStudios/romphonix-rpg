@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if keyboard_check_pressed(ord("Z"))
+if keyboard_check_pressed(global.select_button)
 {
 	if pressed_z == 0
 	{
@@ -30,7 +30,7 @@ if stage > 0
 	stage -= 10
 }
 
-if keyboard_check_pressed(ord("X")) and pressed_z == 1
+if keyboard_check_pressed(global.back_button) and pressed_z == 1
 {
 	pressed_z = 0
 	audio_play_sound(sfx_beep,0,0)

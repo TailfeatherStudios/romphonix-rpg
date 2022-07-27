@@ -1,4 +1,4 @@
-if canclose == 1 and keyboard_check_pressed(ord("Z"))
+if canclose == 1 and keyboard_check_pressed(global.select_button)
 {
     global.textopen = 0
     global.choicemade = choice

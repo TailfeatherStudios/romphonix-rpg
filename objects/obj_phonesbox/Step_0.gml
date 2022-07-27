@@ -5,7 +5,7 @@ if stage < 7
 	stage += 1
 }
 
-if keyboard_check_pressed(ord("X"))
+if keyboard_check_pressed(global.back_button)
 {
 	audio_play_sound(sfx_beep,0,0)
 	if selected == -1
@@ -18,7 +18,7 @@ if keyboard_check_pressed(ord("X"))
 	}
 }
 
-if keyboard_check_pressed(ord("Z"))
+if keyboard_check_pressed(global.select_button)
 {
 	audio_play_sound(sfx_beep,0,0)
 	if selected == -1 && is_string(ds_grid_get(global.dsgrid_phones, 0, selection))
