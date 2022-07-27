@@ -49,6 +49,7 @@
     {"id":{"name":"spr_icons","path":"sprites/spr_icons/spr_icons.yy",},"order":14,},
     {"id":{"name":"show_box","path":"scripts/show_box/show_box.yy",},"order":13,},
     {"id":{"name":"rm_test2","path":"rooms/rm_test2/rm_test2.yy",},"order":3,},
+    {"id":{"name":"spr_fictional","path":"sprites/spr_fictional/spr_fictional.yy",},"order":18,},
     {"id":{"name":"spr_bag","path":"sprites/spr_bag/spr_bag.yy",},"order":17,},
     {"id":{"name":"give_phone","path":"scripts/give_phone/give_phone.yy",},"order":5,},
     {"id":{"name":"notes","path":"notes/notes/notes.yy",},"order":1,},
@@ -110,7 +111,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"items.json","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.5.1.14",
+    "IDEVersion": "2022.300.0.499",
   },
   "resourceVersion": "1.5",
   "name": "romphonix",
