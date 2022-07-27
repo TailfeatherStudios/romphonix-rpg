@@ -1,6 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function load_game(){
+function load_game()
+{
 	ini_open("save.ini")
 	global.gotox = ini_read_real("DATA","X",0)
 	global.gotoy = ini_read_real("DATA","Y",0)
