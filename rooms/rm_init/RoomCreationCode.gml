@@ -14,7 +14,11 @@ str = buffer_read(global.buffer_wildphones,buffer_string)
 global.array_wildphones = json_parse(str)
 buffer_delete(global.buffer_wildphones)
 
-global.dsgrid_items = load_csv("item.csv")
+global.buffer_items = buffer_load("items.json")
+str = buffer_read(global.buffer_items,buffer_string)
+global.array_items = json_parse(str)
+buffer_delete(global.buffer_items)
+show_message(global.array_items[0])
 
 randomise()
 global.seed = irandom_range(0,16777216)
