@@ -12,15 +12,15 @@ draw_set_colour(c_white)
 draw_set_valign(fa_center)
 
 for (var i = 0; i < 6; i++) {
-	if (!is_string(ds_grid_get(global.dsgrid_phones, 0, i))) break
-	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 10+40*i, string(ds_grid_get(global.dsgrid_phones,7,i)) + " " + ds_grid_get(global.dsgrid_phones,0,i))
-	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 30+40*i,"Battery: " + string((ds_grid_get(global.dsgrid_phones,2,i)/ds_grid_get(global.dsgrid_phones,3,i))*100) + "%")
-	draw_text(__view_get( e__VW.XView, 0 ) + 160,__view_get( e__VW.YView, 0 ) + 10+40*i,"Level " + string(ds_grid_get(global.dsgrid_phones,1,i)))
-	draw_text(__view_get( e__VW.XView, 0 ) + 160,__view_get( e__VW.YView, 0 ) + 30+40*i,"EXP: " + string(ds_grid_get(global.dsgrid_phones,5,i)) + "/" + string(ds_grid_get(global.dsgrid_phones,6,i)))
-	draw_sprite(spr_icons,real(ds_grid_get(global.dsgrid_phones,11,i))*2+frame,__view_get( e__VW.XView, 0 )+300,__view_get( e__VW.YView, 0 )+20+40*i)
+	if (!is_string(global.phones[i].model)) break
+	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 10+40*i, string(global.phones[i].brand) + " " + string(global.phones[i].model))
+	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 30+40*i,"Battery: " + string((global.phones[i].hp/global.phones[i].maxHP)*100) + "%")
+	draw_text(__view_get( e__VW.XView, 0 ) + 160,__view_get( e__VW.YView, 0 ) + 10+40*i,"Level " + string(global.phones[i].level))
+	draw_text(__view_get( e__VW.XView, 0 ) + 160,__view_get( e__VW.YView, 0 ) + 30+40*i,"EXP: " + string(global.phones[i].Exp) + "/" + string(global.phones[i].maxExp))
+	draw_sprite(spr_icons,global.phones[i].icon*2+frame,__view_get( e__VW.XView, 0 )+300,__view_get( e__VW.YView, 0 )+20+40*i)
 }
 
-if selected != -1 && is_string(ds_grid_get(global.dsgrid_phones, 0, selected))
+if selected != -1 && is_string(global.phones[selected].model)
 {
 	draw_set_color(c_white)
 	draw_rectangle_color(__view_get( e__VW.XView, 0 ) + 2,__view_get( e__VW.YView, 0 ) + 2,__view_get( e__VW.XView, 0 ) + 62,__view_get( e__VW.YView, 0 ) + 62,c_white,c_white,c_aqua,c_aqua,false)

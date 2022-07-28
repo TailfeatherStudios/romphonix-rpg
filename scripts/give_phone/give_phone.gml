@@ -1,8 +1,8 @@
 function give_phone(number, level)
 {
-	for (var i = 0; i < 6; i++)
+	for (var i = 0; i < array_length(global.phones); i++)
 	{
-		if !global.phones[i].model
+		if !string_length(global.phones[i].model)
 		{
 			global.phones[i].brand = global.wildphones[number].brand
 			global.phones[i].model = global.wildphones[number].model
@@ -16,7 +16,7 @@ function give_phone(number, level)
 			global.phones[i].energy = 100
 			
 			global.phones[i].level = level
-			global.phones[i].exp = 0
+			global.phones[i].Exp = 0
 			global.phones[i].maxExp = floor(global.wildphones[number].baseExp*((level*1.5)+level))
 			global.phones[i].baseExp = global.wildphones[number].baseExp;
 			

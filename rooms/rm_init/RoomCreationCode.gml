@@ -11,7 +11,34 @@ global.back_button = ord("K")
 //global.dsgrid_phonesbox1 = ds_grid_create(24,100)
 //global.bag = ds_grid_create(6,20)
 
-global.phones = []
+Phone = function() constructor {
+    brand = "";
+    model = "";
+    description = "";
+	fictional = false;
+	icon = 0;
+	sprite = spr_phonesprites;
+	hp = 0;
+	maxHP = 0;
+	energy = 0;
+	level = 0;
+	Exp = 0;
+	maxExp = 0;
+	baseExp = 0;
+	attack = 0;
+	defense = 0;
+	weight = 0;
+	brokenChance = 0;
+	screenStatus = 0;
+	boardStatus = 0;
+	coverStatus = 0;
+	batteryStatus = 0
+}
+
+for (var i = 0; i < 6; i++) {
+    global.phones[i] = new Phone(); 
+}
+
 global.phonebox1 = []
 global.bag = []
 global.bag_tools = []
