@@ -12,12 +12,19 @@ draw_set_colour(c_white)
 draw_set_valign(fa_center)
 
 for (var i = 0; i < 6; i++) {
-	if (!is_string(global.phones[i].model)) break
+	if (!string_length(global.phones[i].model)) break
 	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 10+40*i, string(global.phones[i].brand) + " " + string(global.phones[i].model))
 	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 30+40*i,"Battery: " + string((global.phones[i].hp/global.phones[i].maxHP)*100) + "%")
 	draw_text(__view_get( e__VW.XView, 0 ) + 160,__view_get( e__VW.YView, 0 ) + 10+40*i,"Level " + string(global.phones[i].level))
 	draw_text(__view_get( e__VW.XView, 0 ) + 160,__view_get( e__VW.YView, 0 ) + 30+40*i,"EXP: " + string(global.phones[i].Exp) + "/" + string(global.phones[i].maxExp))
-	draw_sprite(spr_icons,global.phones[i].icon*2+frame,__view_get( e__VW.XView, 0 )+300,__view_get( e__VW.YView, 0 )+20+40*i)
+	
+	// Draw phone icon or fallback to a default icon.
+	phoneIcon = "spr_icon_" + global.phones[i].icon
+	if asset_get_type(phoneIcon) == asset_unknown phoneIcon = "spr_icon_new_candybar"
+	
+	//draw_sprite(asset_get_index(phoneIcon), -1, __view_get( e__VW.XView, 0 )+300,__view_get( e__VW.YView, 0 )+20+40*i)
+	
+	draw_sprite_stretched(asset_get_index(phoneIcon), frame, __view_get( e__VW.XView, 0 ) + 284 ,__view_get( e__VW.YView, 0 ) + 4 + 40*i, 32, 32)
 }
 
 if selected != -1 && is_string(global.phones[selected].model)
@@ -29,15 +36,20 @@ if selected != -1 && is_string(global.phones[selected].model)
 	show_box(66,2,318,62,c_navy)
 	show_box(2,66,158,238,c_navy)
 	show_box(162,66,318,238,c_navy)
-	draw_sprite(spr_phonesprites,ds_grid_get(global.dsgrid_phones,20,selected),__view_get( e__VW.XView, 0 ),__view_get( e__VW.YView, 0 ))
-	draw_text(__view_get( e__VW.XView, 0 ) + 70,__view_get( e__VW.YView, 0 ) + 10, string(ds_grid_get(global.dsgrid_phones,7,selected)) + " " + ds_grid_get(global.dsgrid_phones,0,selected))
-	draw_text(__view_get( e__VW.XView, 0 ) + 70,__view_get( e__VW.YView, 0 ) + 24,"Battery: " + string((ds_grid_get(global.dsgrid_phones,2,selected)/ds_grid_get(global.dsgrid_phones,3,selected))*100) + "%")
-	draw_text(__view_get( e__VW.XView, 0 ) + 160,__view_get( e__VW.YView, 0 ) + 24,"...Battery Status: " + condition_to_string(ds_grid_get(global.dsgrid_phones,15,selected)))
-	draw_text(__view_get( e__VW.XView, 0 ) + 70,__view_get( e__VW.YView, 0 ) + 38,"Level " + string(ds_grid_get(global.dsgrid_phones,1,selected)))
-	draw_text(__view_get( e__VW.XView, 0 ) + 70,__view_get( e__VW.YView, 0 ) + 52,"EXP: " + string(ds_grid_get(global.dsgrid_phones,5,selected)) + "/" + string(ds_grid_get(global.dsgrid_phones,6,selected)))
+	
+	// Draw phone sprite or fallback to a default sprite.
+	phoneSprite = "spr_" + string_replace_all(string_replace_all(string(global.phones[selected].brand) + " " + string(global.phones[selected].model), "-", "_"), " ", "_")
+	if asset_get_type(phoneSprite) == asset_unknown phoneSprite = "spr_default_phone"
+	draw_sprite(asset_get_index(phoneSprite), -1, __view_get( e__VW.XView, 0 ),__view_get( e__VW.YView, 0 ))
+	
+	draw_text(__view_get( e__VW.XView, 0 ) + 70,__view_get( e__VW.YView, 0 ) + 10, string(global.phones[selected].brand + " " + global.phones[selected].model))
+	draw_text(__view_get( e__VW.XView, 0 ) + 70,__view_get( e__VW.YView, 0 ) + 24,"Battery: " + string((global.phones[selected].hp/global.phones[selected].maxHP)*100) + "%")
+	draw_text(__view_get( e__VW.XView, 0 ) + 160,__view_get( e__VW.YView, 0 ) + 24,"...Battery Status: " + condition_to_string(global.phones[selected].batteryStatus))
+	draw_text(__view_get( e__VW.XView, 0 ) + 70,__view_get( e__VW.YView, 0 ) + 38,"Level " + string(global.phones[selected].level))
+	draw_text(__view_get( e__VW.XView, 0 ) + 70,__view_get( e__VW.YView, 0 ) + 52,"EXP: " + string(global.phones[selected].Exp) + "/" + string(global.phones[selected].maxExp))
 	draw_set_valign(fa_top)
-	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 70,"AT: " + string(ds_grid_get(global.dsgrid_phones,8,selected)))
-	switch ds_grid_get(global.dsgrid_phones,12,selected)
+	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 70,"AT: " + string(global.phones[selected].attack))
+	switch global.phones[selected].screenStatus
 	{
 		case 0:
 		draw_set_colour(c_red)
@@ -55,9 +67,9 @@ if selected != -1 && is_string(global.phones[selected].model)
 		draw_set_colour(c_white)
 		break
 	}
-	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 85,"...Screen Status: " + condition_to_string(ds_grid_get(global.dsgrid_phones,12,selected)))
-	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 105,"DF: " + string(ds_grid_get(global.dsgrid_phones,9,selected)))
-	switch ds_grid_get(global.dsgrid_phones,13,selected)
+	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 85,"...Screen Status: " + condition_to_string(global.phones[selected].screenStatus))
+	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 105,"DF: " + string(global.phones[selected].defense))
+	switch global.phones[selected].boardStatus
 	{
 		case 0:
 		draw_set_colour(c_red)
@@ -75,9 +87,9 @@ if selected != -1 && is_string(global.phones[selected].model)
 		draw_set_colour(c_white)
 		break
 	}
-	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 120,"...Board Status: " + condition_to_string(ds_grid_get(global.dsgrid_phones,13,selected)))
-	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 140,"WT: " + string(ds_grid_get(global.dsgrid_phones,10,selected)))
-	switch ds_grid_get(global.dsgrid_phones,14,selected)
+	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 120,"...Board Status: " + condition_to_string(global.phones[selected].boardStatus))
+	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 140,"WT: " + string(global.phones[selected].weight))
+	switch global.phones[selected].coverStatus
 	{
 		case 0:
 		draw_set_colour(c_red)
@@ -95,12 +107,12 @@ if selected != -1 && is_string(global.phones[selected].model)
 		draw_set_colour(c_white)
 		break
 	}
-	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 155,"...Cover Status: " + condition_to_string(ds_grid_get(global.dsgrid_phones,14,selected)))
+	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 155,"...Cover Status: " + condition_to_string(global.phones[selected].coverStatus))
 	
-	draw_text_ext(__view_get( e__VW.XView, 0 ) + 166,__view_get( e__VW.YView, 0 ) + 70,ds_grid_get(global.dsgrid_phones,21,selected),16,160)
+	draw_text_ext(__view_get( e__VW.XView, 0 ) + 166,__view_get( e__VW.YView, 0 ) + 70,global.phones[selected].description, 16, 160)
 	
 	// Draw fictional icon if the phone is fictional	
-	if ds_grid_get(global.dsgrid_phones, 23, selected) {
+	if global.phones[selected].fictional {
 		draw_sprite(spr_fictional, 0, __view_get(e__VW.XView, 0) + 45,__view_get(e__VW.YView, 0) + 45)
 		
 		if mouse_x > __view_get(e__VW.XView, 0) + 45 && mouse_x < __view_get(e__VW.XView, 0) + 56 {
@@ -114,3 +126,6 @@ if selected != -1 && is_string(global.phones[selected].model)
 		}
 	}
 }
+
+
+

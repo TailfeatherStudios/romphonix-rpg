@@ -11,8 +11,7 @@
 		"rarity": 1,
 		"brokenChance": 3,
 		"baseExp": 4,
-		"icon": 0,
-		"sprite": 1
+		"icon": "candybar"
 	},
 	{
 		"brand": "LG",
@@ -26,8 +25,7 @@
 		"rarity": 3,
 		"brokenChance": 5,
 		"baseExp": 5,
-		"icon": 2,
-		"sprite": 2
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -41,8 +39,7 @@
 		"rarity": 3,
 		"brokenChance": 5,
 		"baseExp": 5,
-		"icon": 2,
-		"sprite": 3
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -56,8 +53,7 @@
 		"rarity": 4,
 		"brokenChance": 3,
 		"baseExp": 6,
-		"icon": 2,
-		"sprite": 4
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -71,8 +67,7 @@
 		"rarity": 3,
 		"brokenChance": 4,
 		"baseExp": 6,
-		"icon": 2,
-		"sprite": 4
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -86,8 +81,7 @@
 		"rarity": 5,
 		"brokenChance": 5,
 		"baseExp": 7,
-		"icon": 0,
-		"sprite": 5
+		"icon": "candybar"
 	},
 	{
 		"brand": "LG",
@@ -101,8 +95,7 @@
 		"rarity": 5,
 		"brokenChance": 5,
 		"baseExp": 6,
-		"icon": 2,
-		"sprite": 6
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -116,8 +109,7 @@
 		"rarity": 2,
 		"brokenChance": 5,
 		"baseExp": 6,
-		"icon": 2,
-		"sprite": 6
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -131,8 +123,7 @@
 		"rarity": 4,
 		"brokenChance": 5,
 		"baseExp": 6,
-		"icon": 0,
-		"sprite": 7
+		"icon": "candybar"
 	},
 	{
 		"brand": "LG",
@@ -146,8 +137,7 @@
 		"rarity": 3,
 		"brokenChance": 5,
 		"baseExp": 6,
-		"icon": 0,
-		"sprite": 8
+		"icon": "candybar"
 	},
 	{
 		"brand": "LG",
@@ -161,8 +151,7 @@
 		"rarity": 4,
 		"brokenChance": 5,
 		"baseExp": 7,
-		"icon": 2,
-		"sprite": 9
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -176,8 +165,7 @@
 		"rarity": 0,
 		"brokenChance": 5,
 		"baseExp": 7,
-		"icon": 2,
-		"sprite": 10
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -191,8 +179,7 @@
 		"rarity": 2,
 		"brokenChance": 5,
 		"baseExp": 5,
-		"icon": 2,
-		"sprite": 11
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -206,8 +193,7 @@
 		"rarity": 1,
 		"brokenChance": 5,
 		"baseExp": 5,
-		"icon": 2,
-		"sprite": 12
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -221,8 +207,7 @@
 		"rarity": 3,
 		"brokenChance": 4,
 		"baseExp": 7,
-		"icon": 2,
-		"sprite": 13
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -236,8 +221,7 @@
 		"rarity": 1,
 		"brokenChance": 4,
 		"baseExp": 8,
-		"icon": 2,
-		"sprite": 14
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -251,8 +235,7 @@
 		"rarity": 3,
 		"brokenChance": 3,
 		"baseExp": 7,
-		"icon": 2,
-		"sprite": 15
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -266,8 +249,7 @@
 		"rarity": 2,
 		"brokenChance": 3,
 		"baseExp": 8,
-		"icon": 2,
-		"sprite": 16
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -281,8 +263,7 @@
 		"rarity": 3,
 		"brokenChance": 5,
 		"baseExp": 7,
-		"icon": 2,
-		"sprite": 17
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -296,8 +277,7 @@
 		"rarity": 5,
 		"brokenChance": 5,
 		"baseExp": 7,
-		"icon": 2,
-		"sprite": 18
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -311,8 +291,7 @@
 		"rarity": 5,
 		"brokenChance": 5,
 		"baseExp": 8,
-		"icon": 2,
-		"sprite": 19
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -326,8 +305,7 @@
 		"rarity": 3,
 		"brokenChance": 5,
 		"baseExp": 8,
-		"icon": 2,
-		"sprite": 20
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -341,8 +319,7 @@
 		"rarity": 2,
 		"brokenChance": 5,
 		"baseExp": 9,
-		"icon": 2,
-		"sprite": 21
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -356,8 +333,7 @@
 		"rarity": 4,
 		"brokenChance": 5,
 		"baseExp": 9,
-		"icon": 2,
-		"sprite": 22
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -371,8 +347,7 @@
 		"rarity": 1,
 		"brokenChance": 4,
 		"baseExp": 7,
-		"icon": 2,
-		"sprite": 23
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -386,8 +361,7 @@
 		"rarity": 3,
 		"brokenChance": 5,
 		"baseExp": 7,
-		"icon": 2,
-		"sprite": 24
+		"icon": "flip"
 	},
 	{
 		"brand": "LG",
@@ -401,8 +375,7 @@
 		"rarity": 3,
 		"brokenChance": 5,
 		"baseExp": 7,
-		"icon": 3,
-		"sprite": 25
+		"icon": "slider"
 	},
 	{
 		"brand": "LG",
@@ -416,8 +389,7 @@
 		"rarity": 2,
 		"brokenChance": 5,
 		"baseExp": 7,
-		"icon": 2,
-		"sprite": 26
+		"icon": "flip"
 	},
 	{
 		"brand": "Gxphone",
@@ -431,8 +403,7 @@
 		"rarity": 3,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 2,
-		"sprite": 27
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Gxphone",
@@ -446,8 +417,7 @@
 		"rarity": 0,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 1,
-		"sprite": 28
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Gxphone",
@@ -461,8 +431,7 @@
 		"rarity": 2,
 		"brokenChance": 4,
 		"baseExp": 4,
-		"icon": 3,
-		"sprite": 29
+		"icon": "slider"
 	},
 	{
 		"brand": "Gxphone",
@@ -476,8 +445,7 @@
 		"rarity": 1,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 1,
-		"sprite": 30
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Gxphone",
@@ -491,8 +459,7 @@
 		"rarity": 4,
 		"brokenChance": 3,
 		"baseExp": 4,
-		"icon": 3,
-		"sprite": 31
+		"icon": "slider"
 	},
 	{
 		"brand": "Gxphone",
@@ -506,8 +473,7 @@
 		"rarity": 1,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 1,
-		"sprite": 32
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Gxphone",
@@ -521,8 +487,7 @@
 		"rarity": 5,
 		"brokenChance": 4,
 		"baseExp": 4,
-		"icon": 8,
-		"sprite": 33
+		"icon": "gx55x"
 	},
 	{
 		"brand": "Gxphone",
@@ -536,8 +501,7 @@
 		"rarity": 4,
 		"brokenChance": 3,
 		"baseExp": 4,
-		"icon": 8,
-		"sprite": 34
+		"icon": "gx55x"
 	},
 	{
 		"brand": "Gxphone",
@@ -551,8 +515,7 @@
 		"rarity": 4,
 		"brokenChance": 3,
 		"baseExp": 4,
-		"icon": 5,
-		"sprite": 35
+		"icon": "p900"
 	},
 	{
 		"brand": "Nokia",
@@ -566,8 +529,7 @@
 		"rarity": 3,
 		"brokenChance": 4,
 		"baseExp": 4,
-		"icon": 3,
-		"sprite": 36
+		"icon": "slider"
 	},
 	{
 		"brand": "Nokia",
@@ -581,8 +543,7 @@
 		"rarity": 4,
 		"brokenChance": 4,
 		"baseExp": 4,
-		"icon": 7,
-		"sprite": 37
+		"icon": "ngage"
 	},
 	{
 		"brand": "Nokia",
@@ -596,8 +557,7 @@
 		"rarity": 1,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 1,
-		"sprite": 38
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Nokia",
@@ -611,8 +571,7 @@
 		"rarity": 4,
 		"brokenChance": 4,
 		"baseExp": 4,
-		"icon": 2,
-		"sprite": 39
+		"icon": "flip"
 	},
 	{
 		"brand": "Nokia",
@@ -626,8 +585,7 @@
 		"rarity": 0,
 		"brokenChance": 6,
 		"baseExp": 4,
-		"icon": 1,
-		"sprite": 40
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Nokia",
@@ -641,8 +599,7 @@
 		"rarity": 1,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 1,
-		"sprite": 41
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Nokia",
@@ -656,8 +613,7 @@
 		"rarity": 0,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 0,
-		"sprite": 42
+		"icon": "candybar"
 	},
 	{
 		"brand": "Nokia",
@@ -671,8 +627,7 @@
 		"rarity": 0,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 1,
-		"sprite": 43
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Nokia",
@@ -686,8 +641,7 @@
 		"rarity": 5,
 		"brokenChance": 4,
 		"baseExp": 4,
-		"icon": 4,
-		"sprite": 44
+		"icon": "communicator"
 	},
 	{
 		"brand": "Nokia",
@@ -701,8 +655,7 @@
 		"rarity": 2,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 1,
-		"sprite": 45
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Nokia",
@@ -716,8 +669,7 @@
 		"rarity": 0,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 1,
-		"sprite": 46
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Nokia",
@@ -731,8 +683,7 @@
 		"rarity": 6,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 6,
-		"sprite": 47
+		"icon": "77xx"
 	},
 	{
 		"brand": "Nokia",
@@ -746,13 +697,12 @@
 		"rarity": 5,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 6,
-		"sprite": 48
+		"icon": "77xx"
 	},
 	{
 		"brand": "Nokia",
 		"model": "6600",
-		"description": "A popular Nokia smartphone, one of the most advanced phones at the time.",
+		"description": "A popular Nokia smartphone which popularized camera phones.",
 		"fictional": false,
 		"battery": 1020,
 		"attack": 40,
@@ -761,8 +711,7 @@
 		"rarity": 1,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 1,
-		"sprite": 49
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Nokia",
@@ -776,8 +725,7 @@
 		"rarity": 0,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 1,
-		"sprite": 50
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Nokia",
@@ -791,8 +739,7 @@
 		"rarity": 2,
 		"brokenChance": 4,
 		"baseExp": 4,
-		"icon": 0,
-		"sprite": 51
+		"icon": "candybar"
 	},
 	{
 		"brand": "Nokia",
@@ -806,8 +753,7 @@
 		"rarity": 2,
 		"brokenChance": 4,
 		"baseExp": 4,
-		"icon": 2,
-		"sprite": 52
+		"icon": "flip"
 	},
 	{
 		"brand": "Samsung",
@@ -821,8 +767,7 @@
 		"rarity": 1,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 3,
-		"sprite": 53
+		"icon": "slider"
 	},
 	{
 		"brand": "Samsung",
@@ -836,8 +781,7 @@
 		"rarity": 2,
 		"brokenChance": 3,
 		"baseExp": 4,
-		"icon": 2,
-		"sprite": 54
+		"icon": "flip"
 	},
 	{
 		"brand": "Samsung",
@@ -851,8 +795,7 @@
 		"rarity": 2,
 		"brokenChance": 4,
 		"baseExp": 4,
-		"icon": 2,
-		"sprite": 55
+		"icon": "flip"
 	},
 	{
 		"brand": "Ericsson",
@@ -866,8 +809,7 @@
 		"rarity": 4,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 5,
-		"sprite": 56
+		"icon": "p900"
 	},
 	{
 		"brand": "Sony Ericsson",
@@ -881,8 +823,7 @@
 		"rarity": 2,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 1,
-		"sprite": 57
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Sony Ericsson",
@@ -896,8 +837,7 @@
 		"rarity": 1,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 1,
-		"sprite": 58
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Sony Ericsson",
@@ -911,8 +851,7 @@
 		"rarity": 3,
 		"brokenChance": 4,
 		"baseExp": 4,
-		"icon": 5,
-		"sprite": 59
+		"icon": "p900"
 	},
 	{
 		"brand": "Motorola",
@@ -926,8 +865,7 @@
 		"rarity": 4,
 		"brokenChance": 4,
 		"baseExp": 4,
-		"icon": 5,
-		"sprite": 60
+		"icon": "p900"
 	},
 	{
 		"brand": "Motorola",
@@ -941,8 +879,7 @@
 		"rarity": 0,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 2,
-		"sprite": 61
+		"icon": "flip"
 	},
 	{
 		"brand": "Motorola",
@@ -956,8 +893,7 @@
 		"rarity": 1,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 2,
-		"sprite": 61
+		"icon": "flip"
 	},
 	{
 		"brand": "Motorola",
@@ -971,8 +907,7 @@
 		"rarity": 3,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 1,
-		"sprite": 62
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Motorola",
@@ -986,8 +921,7 @@
 		"rarity": 2,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 2,
-		"sprite": 63
+		"icon": "flip"
 	},
 	{
 		"brand": "Motorola",
@@ -1001,8 +935,7 @@
 		"rarity": 2,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 1,
-		"sprite": 64
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Zetafone",
@@ -1016,8 +949,7 @@
 		"rarity": 4,
 		"brokenChance": 3,
 		"baseExp": 4,
-		"icon": 0,
-		"sprite": 65
+		"icon": "candybar"
 	},
 	{
 		"brand": "Zetafone",
@@ -1031,8 +963,7 @@
 		"rarity": 2,
 		"brokenChance": 5,
 		"baseExp": 3,
-		"icon": 0,
-		"sprite": 66
+		"icon": "candybar"
 	},
 	{
 		"brand": "Zetafone",
@@ -1046,8 +977,7 @@
 		"rarity": 3,
 		"brokenChance": 4,
 		"baseExp": 4,
-		"icon": 0,
-		"sprite": 67
+		"icon": "candybar"
 	},
 	{
 		"brand": "Zetafone",
@@ -1061,8 +991,7 @@
 		"rarity": 2,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 1,
-		"sprite": 68
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Zetafone",
@@ -1076,8 +1005,7 @@
 		"rarity": 4,
 		"brokenChance": 3,
 		"baseExp": 5,
-		"icon": 0,
-		"sprite": 69
+		"icon": "candybar"
 	},
 	{
 		"brand": "Zetafone",
@@ -1091,8 +1019,7 @@
 		"rarity": 3,
 		"brokenChance": 5,
 		"baseExp": 5,
-		"icon": 0,
-		"sprite": 70
+		"icon": "candybar"
 	},
 	{
 		"brand": "Zetafone",
@@ -1106,8 +1033,7 @@
 		"rarity": 2,
 		"brokenChance": 5,
 		"baseExp": 5,
-		"icon": 1,
-		"sprite": 71
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Zetafone",
@@ -1121,8 +1047,7 @@
 		"rarity": 3,
 		"brokenChance": 5,
 		"baseExp": 6,
-		"icon": 1,
-		"sprite": 72
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Zetafone",
@@ -1136,8 +1061,7 @@
 		"rarity": 1,
 		"brokenChance": 4,
 		"baseExp": 6,
-		"icon": 0,
-		"sprite": 73
+		"icon": "candybar"
 	},
 	{
 		"brand": "Zetafone",
@@ -1151,8 +1075,7 @@
 		"rarity": 2,
 		"brokenChance": 5,
 		"baseExp": 7,
-		"icon": 0,
-		"sprite": 74
+		"icon": "candybar"
 	},
 	{
 		"brand": "Axolotl",
@@ -1166,8 +1089,7 @@
 		"rarity": 3,
 		"brokenChance": 6,
 		"baseExp": 4,
-		"icon": 1,
-		"sprite": 75
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Axolotl",
@@ -1181,8 +1103,7 @@
 		"rarity": 6,
 		"brokenChance": 2,
 		"baseExp": 4,
-		"icon": 9,
-		"sprite": 76
+		"icon": "flipcover"
 	},
 	{
 		"brand": "Siemens",
@@ -1196,8 +1117,7 @@
 		"rarity": 4,
 		"brokenChance": 4,
 		"baseExp": 4,
-		"icon": 10,
-		"sprite": 77
+		"icon": "xelibri8"
 	},
 	{
 		"brand": "Siemens",
@@ -1211,8 +1131,7 @@
 		"rarity": 3,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 11,
-		"sprite": 78
+		"icon": "sx1"
 	},
 	{
 		"brand": "Siemens",
@@ -1226,8 +1145,7 @@
 		"rarity": 1,
 		"brokenChance": 4,
 		"baseExp": 4,
-		"icon": 1,
-		"sprite": 79
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Senlin",
@@ -1241,8 +1159,7 @@
 		"rarity": 3,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 1,
-		"sprite": 80
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Square",
@@ -1256,8 +1173,7 @@
 		"rarity": 3,
 		"brokenChance": 2,
 		"baseExp": 4,
-		"icon": 2,
-		"sprite": 81
+		"icon": "slider"
 	},
 	{
 		"brand": "Sony",
@@ -1271,8 +1187,7 @@
 		"rarity": 4,
 		"brokenChance": 3,
 		"baseExp": 4,
-		"icon": 9,
-		"sprite": 82
+		"icon": "flipcover"
 	},
 	{
 		"brand": "Samsung",
@@ -1286,8 +1201,7 @@
 		"rarity": 2,
 		"brokenChance": 4,
 		"baseExp": 4,
-		"icon": 3,
-		"sprite": 83
+		"icon": "slider"
 	},
 	{
 		"brand": "Samsung",
@@ -1301,8 +1215,7 @@
 		"rarity": 2,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 3,
-		"sprite": 84
+		"icon": "slider"
 	},
 	{
 		"brand": "Kyocera",
@@ -1316,8 +1229,7 @@
 		"rarity": 5,
 		"brokenChance": 3,
 		"baseExp": 4,
-		"icon": 2,
-		"sprite": 85
+		"icon": "flip"
 	},
 	{
 		"brand": "Samsung",
@@ -1331,8 +1243,7 @@
 		"rarity": 2,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 2,
-		"sprite": 86
+		"icon": "flip"
 	},
 	{
 		"brand": "Samsung",
@@ -1346,8 +1257,7 @@
 		"rarity": 2,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": 2,
-		"sprite": 87
+		"icon": "flip"
 	},
 	{
 		"brand": "Vitelcom",
@@ -1361,7 +1271,62 @@
 		"rarity": 4,
 		"brokenChance": 6,
 		"baseExp": 4,
-		"icon": 1,
-		"sprite": 88
+		"icon": "new_candybar"
+	},
+	{
+		"brand": "Vitelcom",
+		"model": "TSM100",
+		"description": "One of the first smartphones launched on Movistar, in 2003.",
+		"fictional": false,
+		"battery": 900,
+		"attack": 40,
+		"defense": 10,
+		"weight": 125,
+		"rarity": 2,
+		"brokenChance": 5,
+		"baseExp": 4,
+		"icon": "p900"
+	},
+	{
+		"brand": "Gulliver",
+		"model": "TGP-L5300",
+		"description": "Gulliver's first phone with DMB TV functionality. It has a horizontal display for this purpose.",
+		"fictional": true,
+		"battery": 950,
+		"attack": 40,
+		"defense": 10,
+		"weight": 108,
+		"rarity": 4,
+		"brokenChance": 4,
+		"baseExp": 4,
+		"icon": "slider"
+	},
+	{
+		"brand": "Tranit",
+		"model": "702",
+		"description": "A basic feature phone from a Romanian company called Tranit.",
+		"fictional": true,
+		"battery": 900,
+		"attack": 25,
+		"defense": 10,
+		"weight": 90,
+		"rarity": 2,
+		"brokenChance": 6,
+		"baseExp": 4,
+		"icon": "new_candybar"
+	},
+	{
+		"brand": "NEC",
+		"model": "N21i",
+		"description": "One of the few i-mode phones sold outside of Japan by NEC.",
+		"fictional": false,
+		"battery": 1550,
+		"attack": 25,
+		"defense": 10,
+		"weight": 120,
+		"rarity": 3,
+		"brokenChance": 7,
+		"baseExp": 4,
+		"icon": "flip"
 	}
 ]

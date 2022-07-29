@@ -3,6 +3,6 @@
 stage = 0
 selection = 0
 selected = -1
-pocket = 1
+pocket = 0
 scroll = 0
 instance_deactivate_all(true)

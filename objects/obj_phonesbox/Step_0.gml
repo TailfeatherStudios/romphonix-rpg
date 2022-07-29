@@ -21,7 +21,7 @@ if keyboard_check_pressed(global.back_button)
 if keyboard_check_pressed(global.select_button)
 {
 	audio_play_sound(sfx_beep,0,0)
-	if selected == -1 && is_string(ds_grid_get(global.dsgrid_phones, 0, selection))
+	if selected == -1 && string_length(global.phones[selection].model)
 	{
 		selected = selection
 	}

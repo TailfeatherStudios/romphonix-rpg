@@ -9,7 +9,6 @@ function give_phone(number, level)
 			global.phones[i].description = global.wildphones[number].description
 			global.phones[i].fictional = global.wildphones[number].fictional
 			global.phones[i].icon = global.wildphones[number].icon
-			global.phones[i].sprite = global.wildphones[number].sprite
 			
 			global.phones[i].hp = global.wildphones[number].battery
 			global.phones[i].maxHP = global.wildphones[number].battery
