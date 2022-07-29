@@ -1328,5 +1328,19 @@
 		"brokenChance": 7,
 		"baseExp": 4,
 		"icon": "flip"
+	},
+	{
+		"brand": "Samsung",
+		"model": "SGH-i607",
+		"description": "A Windows Mobile device with a QWERTY keyboard, also known as Samsung BlackJack.",
+		"fictional": false,
+		"battery": 1200,
+		"attack": 50,
+		"defense": 10,
+		"weight": 95,
+		"rarity": 3,
+		"brokenChance": 5,
+		"baseExp": 4,
+		"icon": "new_candybar"
 	}
 ]
