@@ -61,7 +61,6 @@ if !instance_exists(obj_parser) and global.gamepaused == 0
 	    image_speed = 0
 	    image_index = 0
 	}
-	depth = (-y+50000)
 
 	if keyboard_check_pressed(global.back_button)
 	{
