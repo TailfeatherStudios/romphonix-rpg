@@ -1356,5 +1356,19 @@
 		"brokenChance": 5,
 		"baseExp": 4,
 		"icon": "gx55x"
+	},
+	{
+		"brand": "Samsung",
+		"model": "SCH-A790",
+		"description": "Samsung's first phone with both CDMA and GSM. Only launched on Verizon, and on China Unicom as the W109.",
+		"fictional": false,
+		"battery": 1100,
+		"attack": 40,
+		"defense": 10,
+		"weight": 119,
+		"rarity": 5,
+		"brokenChance": 6,
+		"baseExp": 4,
+		"icon": "flip"
 	}
 ]
