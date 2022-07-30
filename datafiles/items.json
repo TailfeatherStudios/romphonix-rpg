@@ -44,7 +44,6 @@
 	{
 		"name": "Automatic Screwdriver",
 		"description": "Can be used to repair phones a good amount.",
-		"type": 1,
 		"effect": "repair",
 		"effectParameter": 2
 	},

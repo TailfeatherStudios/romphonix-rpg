@@ -123,7 +123,7 @@
 		"rarity": 4,
 		"brokenChance": 5,
 		"baseExp": 6,
-		"icon": "candybar"
+		"icon": "flipcover"
 	},
 	{
 		"brand": "LG",
@@ -991,7 +991,7 @@
 		"rarity": 2,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": "new_candybar"
+		"icon": "flip"
 	},
 	{
 		"brand": "Zetafone",
@@ -1019,7 +1019,7 @@
 		"rarity": 3,
 		"brokenChance": 5,
 		"baseExp": 5,
-		"icon": "candybar"
+		"icon": "flipcover"
 	},
 	{
 		"brand": "Zetafone",
@@ -1033,7 +1033,7 @@
 		"rarity": 2,
 		"brokenChance": 5,
 		"baseExp": 5,
-		"icon": "new_candybar"
+		"icon": "flip"
 	},
 	{
 		"brand": "Zetafone",
@@ -1047,7 +1047,7 @@
 		"rarity": 3,
 		"brokenChance": 5,
 		"baseExp": 6,
-		"icon": "new_candybar"
+		"icon": "flip"
 	},
 	{
 		"brand": "Zetafone",

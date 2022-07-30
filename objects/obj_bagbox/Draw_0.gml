@@ -22,7 +22,7 @@ repeat(17)
 	i += 1
 	j += 1
 }
-draw_text_ext(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 134, global.items[global.bag[pocket][i].item].description, 14, 128)
+draw_text_ext(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 134, global.items[global.bag[pocket][selection].item].description, 14, 128)
 
 draw_set_halign(fa_center)
 switch pocket
