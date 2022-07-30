@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"spr_Square_LS_X200","path":"sprites/spr_Square_LS_X200/spr_Square_LS_X200.yy",},"order":11,},
     {"id":{"name":"spr_Axolotl_ADX1000","path":"sprites/spr_Axolotl_ADX1000/spr_Axolotl_ADX1000.yy",},"order":5,},
     {"id":{"name":"spr_menuicons","path":"sprites/spr_menuicons/spr_menuicons.yy",},"order":0,},
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},"order":1,},
@@ -16,6 +17,7 @@
     {"id":{"name":"spr_playerdown","path":"sprites/spr_playerdown/spr_playerdown.yy",},"order":3,},
     {"id":{"name":"spr_playerup","path":"sprites/spr_playerup/spr_playerup.yy",},"order":4,},
     {"id":{"name":"spr_playerright","path":"sprites/spr_playerright/spr_playerright.yy",},"order":5,},
+    {"id":{"name":"spr_icon_qwerty","path":"sprites/spr_icon_qwerty/spr_icon_qwerty.yy",},"order":12,},
     {"id":{"name":"spr_playerleft","path":"sprites/spr_playerleft/spr_playerleft.yy",},"order":6,},
     {"id":{"name":"bgm_test","path":"sounds/bgm_test/bgm_test.yy",},"order":1,},
     {"id":{"name":"spr_icon_slider","path":"sprites/spr_icon_slider/spr_icon_slider.yy",},"order":3,},
@@ -43,6 +45,7 @@
     {"id":{"name":"obj_phonesbox","path":"objects/obj_phonesbox/obj_phonesbox.yy",},"order":3,},
     {"id":{"name":"give_item","path":"scripts/give_item/give_item.yy",},"order":7,},
     {"id":{"name":"__global_object_depths","path":"scripts/__global_object_depths/__global_object_depths.yy",},"order":9,},
+    {"id":{"name":"spr_Tranit_702","path":"sprites/spr_Tranit_702/spr_Tranit_702.yy",},"order":9,},
     {"id":{"name":"fon_dialogue","path":"fonts/fon_dialogue/fon_dialogue.yy",},"order":1,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_Senlin_CS10","path":"sprites/spr_Senlin_CS10/spr_Senlin_CS10.yy",},"order":6,},
@@ -55,6 +58,7 @@
     {"id":{"name":"obj_menubox","path":"objects/obj_menubox/obj_menubox.yy",},"order":1,},
     {"id":{"name":"condition_to_string","path":"scripts/condition_to_string/condition_to_string.yy",},"order":6,},
     {"id":{"name":"spr_icon_communicator","path":"sprites/spr_icon_communicator/spr_icon_communicator.yy",},"order":4,},
+    {"id":{"name":"spr_Gulliver_TGP_L5300","path":"sprites/spr_Gulliver_TGP_L5300/spr_Gulliver_TGP_L5300.yy",},"order":10,},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},"order":0,},
     {"id":{"name":"spr_icon_p900","path":"sprites/spr_icon_p900/spr_icon_p900.yy",},"order":5,},
     {"id":{"name":"obj_collectionbox","path":"objects/obj_collectionbox/obj_collectionbox.yy",},"order":2,},
@@ -133,7 +137,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"items.json","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.6.1.26",
+    "IDEVersion": "2022.300.0.499",
   },
   "resourceVersion": "1.5",
   "name": "romphonix",

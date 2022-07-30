@@ -23,7 +23,6 @@ for (var i = 0; i < 6; i++) {
 	if asset_get_type(phoneIcon) == asset_unknown phoneIcon = "spr_icon_new_candybar"
 	
 	//draw_sprite(asset_get_index(phoneIcon), -1, __view_get( e__VW.XView, 0 )+300,__view_get( e__VW.YView, 0 )+20+40*i)
-	
 	draw_sprite_stretched(asset_get_index(phoneIcon), frame, __view_get( e__VW.XView, 0 ) + 284 ,__view_get( e__VW.YView, 0 ) + 4 + 40*i, 32, 32)
 }
 
@@ -54,19 +53,18 @@ if selected != -1 && is_string(global.phones[selected].model)
 		case 0:
 		draw_set_colour(c_red)
 		draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 70,"------")
-		draw_set_colour(c_white)
 		break
 		case 1:
 		draw_set_colour(c_red)
 		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 70,"x 0.8")
-		draw_set_colour(c_white)
 		break
 		case 3:
 		draw_set_colour(c_lime)
 		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 70,"x 1.2")
-		draw_set_colour(c_white)
 		break
 	}
+	
+	draw_set_colour(c_white)
 	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 85,"...Screen Status: " + condition_to_string(global.phones[selected].screenStatus))
 	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 105,"DF: " + string(global.phones[selected].defense))
 	switch global.phones[selected].boardStatus
@@ -74,19 +72,18 @@ if selected != -1 && is_string(global.phones[selected].model)
 		case 0:
 		draw_set_colour(c_red)
 		draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 105,"------")
-		draw_set_colour(c_white)
 		break
 		case 1:
 		draw_set_colour(c_red)
 		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 105,"x 0.8")
-		draw_set_colour(c_white)
 		break
 		case 3:
 		draw_set_colour(c_lime)
 		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 105,"x 1.2")
-		draw_set_colour(c_white)
 		break
 	}
+	
+	draw_set_colour(c_white)
 	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 120,"...Board Status: " + condition_to_string(global.phones[selected].boardStatus))
 	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 140,"WT: " + string(global.phones[selected].weight))
 	switch global.phones[selected].coverStatus
@@ -94,31 +91,30 @@ if selected != -1 && is_string(global.phones[selected].model)
 		case 0:
 		draw_set_colour(c_red)
 		draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 140,"------")
-		draw_set_colour(c_white)
 		break
 		case 1:
 		draw_set_colour(c_red)
 		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 140,"x 0.8")
-		draw_set_colour(c_white)
 		break
 		case 3:
 		draw_set_colour(c_lime)
 		draw_text(__view_get( e__VW.XView, 0 ) + 48,__view_get( e__VW.YView, 0 ) + 140,"x 1.2")
-		draw_set_colour(c_white)
 		break
 	}
+	
+	draw_set_colour(c_white)
 	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 155,"...Cover Status: " + condition_to_string(global.phones[selected].coverStatus))
 	
 	draw_text_ext(__view_get( e__VW.XView, 0 ) + 166,__view_get( e__VW.YView, 0 ) + 70,global.phones[selected].description, 16, 160)
 	
-	// Draw fictional icon if the phone is fictional	
+	// Draw fictional icon if the phone is fictional
 	if global.phones[selected].fictional {
 		draw_sprite(spr_fictional, 0, __view_get(e__VW.XView, 0) + 45,__view_get(e__VW.YView, 0) + 45)
 		
 		if mouse_x > __view_get(e__VW.XView, 0) + 45 && mouse_x < __view_get(e__VW.XView, 0) + 56 {
 			if mouse_y > __view_get(e__VW.YView, 0) + 45 && mouse_y < __view_get(e__VW.YView, 0) + 56 {
 				draw_set_colour(c_white)
-				draw_rectangle(mouse_x, mouse_y, mouse_x + 150, mouse_y + 20, false)
+				draw_rectangle(mouse_x, mouse_y, mouse_x + 140, mouse_y + 20, false)
 				draw_set_colour(c_black)
 				draw_text(mouse_x + 3, mouse_y + 3, "This phone is fictional.")
 				
@@ -126,6 +122,3 @@ if selected != -1 && is_string(global.phones[selected].model)
 		}
 	}
 }
-
-
-

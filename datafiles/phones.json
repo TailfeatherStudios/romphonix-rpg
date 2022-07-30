@@ -680,7 +680,7 @@
 		"attack": 45,
 		"defense": 10,
 		"weight": 189,
-		"rarity": 6,
+		"rarity": 5,
 		"brokenChance": 5,
 		"baseExp": 4,
 		"icon": "77xx"
@@ -694,7 +694,7 @@
 		"attack": 45,
 		"defense": 10,
 		"weight": 189,
-		"rarity": 5,
+		"rarity": 4,
 		"brokenChance": 5,
 		"baseExp": 4,
 		"icon": "77xx"
@@ -1341,6 +1341,20 @@
 		"rarity": 3,
 		"brokenChance": 5,
 		"baseExp": 4,
-		"icon": "new_candybar"
+		"icon": "qwerty"
+	},
+	{
+		"brand": "Square",
+		"model": "LS-X200",
+		"description": "The first ever Square phone with Square World. It has a weird design.",
+		"fictional": true,
+		"battery": 700,
+		"attack": 20,
+		"defense": 10,
+		"weight": 110,
+		"rarity": 4,
+		"brokenChance": 5,
+		"baseExp": 4,
+		"icon": "gx55x"
 	}
 ]
