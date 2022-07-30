@@ -7,7 +7,7 @@ draw_rectangle(__view_get( e__VW.XView, 0 ) + 130,__view_get( e__VW.YView, 0 ) +
 show_box(2,2,126,22,c_navy)
 show_box(2,130,126,238,c_navy)
 
-draw_sprite(spr_bag,pocket-1,__view_get( e__VW.XView, 0 )+16,__view_get( e__VW.YView, 0 ) + 32)
+draw_sprite(spr_bag,pocket,__view_get( e__VW.XView, 0 )+16,__view_get( e__VW.YView, 0 ) + 32)
 
 draw_set_colour(c_white)
 i = scroll

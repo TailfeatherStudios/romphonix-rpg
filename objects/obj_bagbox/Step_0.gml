@@ -57,7 +57,7 @@ if keyboard_check_pressed(vk_down)
 
 if keyboard_check_pressed(vk_left)
 {
-	if pocket > 1 and selected == -1
+	if pocket > 0 and selected == -1
 	{
 		audio_play_sound(sfx_beep,0,0)
 		pocket -= 1
@@ -67,7 +67,7 @@ if keyboard_check_pressed(vk_left)
 
 if keyboard_check_pressed(vk_right)
 {
-	if pocket < 3 and selected == -1
+	if pocket < 2 and selected == -1
 	{
 		audio_play_sound(sfx_beep,0,0)
 		pocket += 1
