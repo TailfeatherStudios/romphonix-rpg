@@ -2,15 +2,15 @@ function give_tool(item, count)
 {
 	for (var i = 0; i < 20; i++)
 	{
-		if !global.bag_tools[i].item
+		if !global.bag[1][i].item
 		{
-			global.bag_tools[i].item = item
-			global.bag_tools[i].count = count
+			global.bag[1][i].item = item
+			global.bag[1][i].count = count
 			return 1
 		}
-		else if global.bag_tools[i].item == item
+		else if global.bag[1][i].item == item
 		{
-			global.bag_tools[i].count += count
+			global.bag[1][i].count += count
 			return 1
 		}
 	}

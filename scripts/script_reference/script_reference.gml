@@ -34,7 +34,7 @@ function script_reference() {
 	[IFW:Label number]
 	
 	Go To Room
-	[GTR:Room number:Spawn X:Spawn Y]
+	[GTR:Spawn X:Spawn Y:Room number]
 	
 	Go To Position
 	[GTP:Spawn X:Spawn Y]
@@ -59,6 +59,9 @@ function script_reference() {
 	
 	Open Player Appearance window
 	[OPA]
+	
+	play SouND
+	[SND:Loop:Sound name]
 	*/
 
 

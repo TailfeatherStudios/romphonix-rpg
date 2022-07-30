@@ -16,20 +16,15 @@ function save_game(){
     buffer_write(buffer,buffer_string,save)
     buffer_save(buffer,"bag.tfs")
 	
-	save = json_stringify(global.bag_tools)
-	buffer = buffer_create(string_byte_length(save)+1,buffer_fixed,1)
-    buffer_write(buffer,buffer_string,save)
-    buffer_save(buffer,"bag_tools.tfs")
-	
-	save = json_stringify(global.bag_memcards)
-	buffer = buffer_create(string_byte_length(save)+1,buffer_fixed,1)
-    buffer_write(buffer,buffer_string,save)
-    buffer_save(buffer,"bag_memcards.tfs")
-	
 	save = json_stringify(global.phones)
 	buffer = buffer_create(string_byte_length(save)+1,buffer_fixed,1)
     buffer_write(buffer,buffer_string,save)
     buffer_save(buffer,"phones.tfs")
+	
+	save = json_stringify(global.phoneBox)
+	buffer = buffer_create(string_byte_length(save)+1,buffer_fixed,1)
+    buffer_write(buffer,buffer_string,save)
+    buffer_save(buffer,"phonebox.tfs")
 	
 	return 1
 }

@@ -15,17 +15,13 @@ function load_game()
 	load = buffer_read(buffer,buffer_string)
 	global.bag = json_parse(load)
 	
-	buffer = buffer_load("bag_tools.tfs")
-	load = buffer_read(buffer,buffer_string)
-	global.bag_tools = json_parse(load)
-	
-	buffer = buffer_load("bag_memcards.tfs")
-	load = buffer_read(buffer,buffer_string)
-	global.bag_memcards = json_parse(load)
-	
 	buffer = buffer_load("phones.tfs")
 	load = buffer_read(buffer,buffer_string)
 	global.phones = json_parse(load)
+	
+	buffer = buffer_load("phonebox.tfs")
+	load = buffer_read(buffer,buffer_string)
+	global.phoneBox = json_parse(load)
 	
 	random_set_seed(global.seed)
 	room = gotoroom

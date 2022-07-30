@@ -20,7 +20,7 @@ function parser_start(argument0) {
 	            temp2 = real(temp2)
 	            temp3 = i
 	            ds_grid_add(labelstack,0,temp2,temp3)
-	            show_message("DEBUG: Added label " + string(temp2) + " at position " + string(temp3))
+	            show_debug_message("DEBUG: Added label " + string(temp2) + " at position " + string(temp3))
 	        }
 	    }
 	}

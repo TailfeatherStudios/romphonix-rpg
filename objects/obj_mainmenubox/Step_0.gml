@@ -19,7 +19,7 @@ if keyboard_check_pressed(global.select_button)
 	else if selection == 1
 	{
 		audio_play_sound(sfx_beep,0,0)
-		room_goto(rm_test)
+		room_goto(rm_intro)
 	}
 }
 

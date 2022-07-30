@@ -78,5 +78,21 @@ if !instance_exists(obj_parser) and global.gamepaused == 0
 	{
 	    instance_create(0,0,obj_menubox)
 	}
+	
+	switch dir
+	{
+		case 0:
+		instance_create_depth(x-16,y,0,obj_looking_at)
+		break
+		case 1:
+		instance_create_depth(x,y-16,0,obj_looking_at)
+		break
+		case 2:
+		instance_create_depth(x,y+16,0,obj_looking_at)
+		break
+		case 3:
+		instance_create_depth(x+16,y,0,obj_looking_at)
+		break
+	}
 }
 

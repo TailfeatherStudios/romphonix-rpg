@@ -6,14 +6,14 @@ function parser() {
 	    if global.choicemade == 0
 	    {
 	        temp2 = string_copy(str,i+5,4)
-	        show_message("DEBUG: Going to label " + temp2)
+	        show_debug_message("DEBUG: Going to label " + temp2)
 	        temp2 = real(temp2)
 	        i = ds_grid_get(labelstack,0,temp2)
 	    }
 	    else if global.choicemade == 1
 	    {
 	        temp2 = string_copy(str,i+10,4)
-	        show_message("DEBUG: Going to label " + temp2)
+	        show_debug_message("DEBUG: Going to label " + temp2)
 	        temp2 = real(temp2)
 	        i = ds_grid_get(labelstack,0,temp2)        
 	    }
@@ -53,7 +53,7 @@ function parser() {
 	    {
 	        //Get the label to be jumped to
 	        temp2 = string_copy(str,i+5,4)
-	        show_message("DEBUG: Going to label " + temp2)
+	        show_debug_message("DEBUG: Going to label " + temp2)
 	        temp2 = real(temp2)
 	        i = ds_grid_get(labelstack,0,temp2)
 	    }
@@ -63,7 +63,6 @@ function parser() {
 	        //Get the room
 	        temp2 = string_copy(str,i+5,4)
 	        temp3 = string_copy(str,i+10,4)
-			asset_get_index(temp4)
 	        i += 14
 	        j = i
 	        do
@@ -73,11 +72,28 @@ function parser() {
 	        }
 	        until temp5 == "]"
 	        temp4 = string_copy(str,i+1,(j-2)-i)
-	        show_message("DEBUG: Going to room number " + temp4 + " at X " + temp2 + " Y " + temp3)
+	        show_debug_message("DEBUG: Going to room number " + temp4 + " at X " + temp2 + " Y " + temp3)
 	        global.gotox = real(temp2)
 	        global.gotoy = real(temp3)
 	        temp4 = asset_get_index(temp4)
 	        room_goto(temp4)
+	        i += (j-1)-i
+	    }
+		
+	    else if temp2 = "SND"
+	    {
+	        //Get the room
+	        temp2 = string_copy(str,i+5,4)
+	        i += 9
+	        j = i
+	        do
+	        {
+	            temp5 = string_char_at(str,j)
+	            j += 1
+	        }
+	        until temp5 == "]"
+	        temp4 = string_copy(str,i+1,(j-2)-i)
+	        audio_play_sound(asset_get_index(temp4),0,real(temp2))
 	        i += (j-1)-i
 	    }
     
@@ -126,40 +142,49 @@ function parser() {
 		else if temp2 = "ITA"
 	    {
 			temp2 = string_copy(str,i+5,4)
+			temp2 = real(temp2)
 			temp3 = string_copy(str,i+10,4)
+			temp3 = real(temp3)
 	        give_item(temp2,temp3)
 	    }
 		
 		else if temp2 = "TLA"
 	    {
 			temp2 = string_copy(str,i+5,4)
+			temp2 = real(temp2)
 			temp3 = string_copy(str,i+10,4)
+			temp3 = real(temp3)
 	        give_tool(temp2,temp3)
 	    }
 		
 		else if temp2 = "MVA"
 	    {
 			temp2 = string_copy(str,i+5,4)
+			temp2 = real(temp2)
 			temp3 = string_copy(str,i+10,4)
+			temp3 = real(temp3)
 	        give_memcard(temp2,temp3)
 	    }
 		
 		else if temp2 = "PHA"
 	    {
 			temp2 = string_copy(str,i+5,4)
+			temp2 = real(temp2)
 			temp3 = string_copy(str,i+10,4)
+			temp3 = real(temp3)
 	        give_phone(temp2,temp3)
 	    }
     
 	}
 	else if temp1 == "*"
 	{
-	    show_message("DEBUG: End of programme, goodbye!")
+	    show_debug_message("DEBUG: End of programme, goodbye!")
 	    parser_running = 0
+		instance_destroy()
 	}
 	else if temp1 == ""
 	{
-	    show_message("DEBUG: No more data; end of programme, goodbye!")
+	    show_debug_message("DEBUG: No more data; end of programme, goodbye!")
 	    parser_running = 0
 	    instance_destroy()
 	}
