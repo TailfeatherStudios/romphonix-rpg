@@ -1,3 +1,4 @@
+visible = 0
 commands = 
 @"
 [LBL:0001]

@@ -44,8 +44,15 @@ for (var i = 0; i < 6; i++) {
     global.phones[i] = new Phone(); 
 }
 
-for (var i = 0; i < 100; i++) {
+for (var i = 0; i < 25; i++) {
     global.phoneBox[0][i] = new Phone(); 
+	global.phoneBox[1][i] = new Phone(); 
+	global.phoneBox[2][i] = new Phone(); 
+	global.phoneBox[3][i] = new Phone(); 
+	global.phoneBox[4][i] = new Phone(); 
+	global.phoneBox[5][i] = new Phone(); 
+	global.phoneBox[6][i] = new Phone(); 
+	global.phoneBox[7][i] = new Phone(); 
 }
 
 for (var i = 0; i < 20; i++) {
