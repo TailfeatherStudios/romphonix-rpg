@@ -105,7 +105,7 @@ if selected != -1 && is_string(global.phones[selected].model)
 	draw_set_colour(c_white)
 	draw_text(__view_get( e__VW.XView, 0 ) + 6,__view_get( e__VW.YView, 0 ) + 155,"...Cover Status: " + condition_to_string(global.phones[selected].coverStatus))
 	
-	draw_text_ext(__view_get( e__VW.XView, 0 ) + 166,__view_get( e__VW.YView, 0 ) + 70,global.phones[selected].description, 16, 160)
+	draw_text_ext(__view_get( e__VW.XView, 0 ) + 166,__view_get( e__VW.YView, 0 ) + 70,global.phones[selected].description, 16, 152)
 	
 	// Draw fictional icon if the phone is fictional
 	if global.phones[selected].fictional {

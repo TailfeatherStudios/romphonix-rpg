@@ -7,6 +7,8 @@ commands =
 [TXT:Hello there! It's so nice to meet you!]
 [TXT:Welcome to the WORLD OF PHONES!]
 [SND:0001:bgm_intro]
+[FOI]
+[FAI]
 [TXT:My name is Professor Rocky, and I'm the authority on phones worldwide.]
 [TXT:Big phones, small phones, smart phones, dumb phones...]
 [TXT:As a preservationist, it's my duty to preserve them all.]
@@ -31,5 +33,8 @@ commands =
 [TXT:I've given you $500 to start off with.]
 [TXT:Have fun out there! And be sure to drop by my lab later.]
 [LBL:0002]
+[FAO]
+[WAI:0030]
 [GTR:0248:0152:rm_test]
+[FAI]
 "

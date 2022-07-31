@@ -2,6 +2,7 @@ function parser_start(argument0) {
 	str = argument0
 	parser_running = 1
 	waitforchoice = 0
+	wait = 0
 	global.choicemade = 0
 	i = 0
 	j = ""

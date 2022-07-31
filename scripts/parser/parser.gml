@@ -1,6 +1,11 @@
 function parser() {
+	// Check if we're waiting
+	if wait > 0
+	{
+		wait -= 1
+	}
 	// Check if we're waiting on a yes/no choice
-	if waitforchoice == 1
+	else if waitforchoice == 1
 	{
 	    waitforchoice = 0
 	    if global.choicemade == 0
@@ -129,7 +134,6 @@ function parser() {
 	        //Get the position
 	        tempr1 = obj_player.x
 	        tempr2 = obj_player.y
-	        i += 10
 	    }
 
 	    else if temp2 = "GRP"
@@ -173,6 +177,28 @@ function parser() {
 			temp3 = string_copy(str,i+10,4)
 			temp3 = real(temp3)
 	        give_phone(temp2,temp3)
+	    }
+		
+		else if temp2 = "WAI"
+	    {
+			temp2 = string_copy(str,i+5,4)
+			temp2 = real(temp2)
+	        wait = temp2
+	    }
+		
+		else if temp2 = "FAO"
+	    {
+			instance_create_depth(0,0,-1,obj_fadeout)
+	    }
+		
+		else if temp2 = "FOI"
+	    {
+			instance_create_depth(0,0,-1,obj_fadeoutinstant)
+	    }
+		
+		else if temp2 = "FAI"
+	    {
+			instance_create_depth(0,0,-1,obj_fadein)
 	    }
     
 	}

@@ -62,6 +62,18 @@ function script_reference() {
 	
 	play SouND
 	[SND:Loop:Sound name]
+	
+	WAIt
+	[WAI:Frames]
+	
+	FAde Out
+	[FAO]
+	
+	FAde In
+	[FAI]
+	
+	Fade Out Instant
+	[FOI]
 	*/
 
 
