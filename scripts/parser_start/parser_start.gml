@@ -1,5 +1,7 @@
 function parser_start(argument0) {
 	str = argument0
+	str = string_replace_all(str,"$p",global.playername)
+	str = string_replace_all(str,"$g","$" + string(global.money))
 	parser_running = 1
 	waitforchoice = 0
 	wait = 0
