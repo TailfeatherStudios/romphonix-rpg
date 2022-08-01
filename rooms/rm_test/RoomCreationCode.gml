@@ -1,3 +1,18 @@
 audio_stop_all()
-audio_play_sound(bgm_test,0,1)
+global.music = bgm_test
+audio_play_sound(global.music,0,1)
 global.room_name = "Test Zone"
+
+global.wildphones_thisarea = 0
+i = 0
+j = 0
+repeat(108)
+{
+	repeat(rarity_to_real(global.wildphones[i].rarity))
+	{
+		global.wildphones_thisarea[i+j] = i
+		j += 1
+	}
+	i += 1
+	j -= 1
+}
