@@ -36,6 +36,7 @@
     {"id":{"name":"parser","path":"scripts/parser/parser.yy",},"order":2,},
     {"id":{"name":"spr_Axolotl_LS342","path":"sprites/spr_Axolotl_LS342/spr_Axolotl_LS342.yy",},"order":4,},
     {"id":{"name":"spr_default_phone","path":"sprites/spr_default_phone/spr_default_phone.yy",},"order":7,},
+    {"id":{"name":"get_phone_sprite","path":"scripts/get_phone_sprite/get_phone_sprite.yy",},"order":16,},
     {"id":{"name":"give_memcard","path":"scripts/give_memcard/give_memcard.yy",},"order":10,},
     {"id":{"name":"spr_Nokia_6600","path":"sprites/spr_Nokia_6600/spr_Nokia_6600.yy",},"order":0,},
     {"id":{"name":"spr_tiles_overworld","path":"sprites/spr_tiles_overworld/spr_tiles_overworld.yy",},"order":0,},
@@ -82,6 +83,7 @@
     {"id":{"name":"spr_icon_p900","path":"sprites/spr_icon_p900/spr_icon_p900.yy",},"order":5,},
     {"id":{"name":"spr_looking_at","path":"sprites/spr_looking_at/spr_looking_at.yy",},"order":11,},
     {"id":{"name":"obj_collectionbox","path":"objects/obj_collectionbox/obj_collectionbox.yy",},"order":2,},
+    {"id":{"name":"spr_rarity","path":"sprites/spr_rarity/spr_rarity.yy",},"order":15,},
     {"id":{"name":"spr_Nokia_5200","path":"sprites/spr_Nokia_5200/spr_Nokia_5200.yy",},"order":16,},
     {"id":{"name":"bgm_battle","path":"sounds/bgm_battle/bgm_battle.yy",},"order":3,},
     {"id":{"name":"bgm_intro","path":"sounds/bgm_intro/bgm_intro.yy",},"order":2,},
@@ -162,8 +164,8 @@
     {"isScaled":false,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [
-    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"phones.json","resourceType":"GMIncludedFile",},
     {"CopyToMask":3035461389054378222,"filePath":"datafiles","resourceVersion":"1.0","name":"items.json","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"phones.json","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2022.300.0.499",
