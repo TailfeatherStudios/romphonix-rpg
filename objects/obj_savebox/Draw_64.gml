@@ -44,3 +44,8 @@ if stage < 2
 	draw_set_font(fon_dialogue)
 	draw_text_ext(226,210,string_hash_to_newline("  Yes#  No"),16,320)
 }
+
+show_box(62,2,254,94,c_navy)
+draw_text(66,8,global.room_name)
+draw_text(66,24,global.playername)
+draw_text(66,40,"$" + string(global.money))

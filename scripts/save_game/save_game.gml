@@ -9,6 +9,7 @@ function save_game(){
 	ini_write_real("DATA","MONEY",global.money)
 	ini_write_real("DATA","SEED",global.seed)
 	ini_write_string("DATA","PLAYERNAME",global.playername)
+	ini_write_string("DATA","STARTDATE",global.start_date)
 	ini_close()
 	
 	save = json_stringify(global.bag)
