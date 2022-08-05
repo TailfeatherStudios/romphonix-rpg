@@ -119,3 +119,7 @@ if selected != -1 && is_string(global.phones[selected].model)
 		}
 	}
 }
+
+
+
+

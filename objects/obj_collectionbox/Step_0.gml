@@ -34,7 +34,7 @@ if keyboard_check_pressed(vk_left)
 	audio_play_sound(sfx_beep,0,0)
 	oldScroll = scroll
 	
-	for (i = selection; i; i--)
+	for (i = selection; i >= 0; i--)
 	{
 		if (i == scroll - 1) scroll--
 		
@@ -76,3 +76,4 @@ if keyboard_check_pressed(vk_right)
 	
 	scroll = oldScroll
 }
+

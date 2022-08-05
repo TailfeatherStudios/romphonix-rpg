@@ -913,7 +913,7 @@
 		"attack": 40,
 		"defense": 4,
 		"weight": 104,
-		"rarity": 1,
+		"rarity": 2,
 		"brokenChance": 3,
 		"baseExp": 4,
 		"icon": "slider"
@@ -928,7 +928,7 @@
 		"attack": 15,
 		"defense": 10,
 		"weight": 137,
-		"rarity": 2,
+		"rarity": 1,
 		"brokenChance": 4,
 		"baseExp": 4,
 		"icon": "candybar"
@@ -943,7 +943,7 @@
 		"attack": 40,
 		"defense": 10,
 		"weight": 125,
-		"rarity": 2,
+		"rarity": 3,
 		"brokenChance": 4,
 		"baseExp": 4,
 		"icon": "flip"
@@ -958,7 +958,7 @@
 		"attack": 40,
 		"defense": 10,
 		"weight": 125,
-		"rarity": 1,
+		"rarity": 2,
 		"brokenChance": 5,
 		"baseExp": 4,
 		"icon": "new_candybar"
@@ -1368,7 +1368,7 @@
 		"attack": 25,
 		"defense": 10,
 		"weight": 67,
-		"rarity": 4,
+		"rarity": 5,
 		"brokenChance": 4,
 		"baseExp": 4,
 		"icon": "xelibri8"
