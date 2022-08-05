@@ -7,10 +7,6 @@ global.gamepaused = 0
 global.select_button = ord("L")
 global.back_button = ord("K")
 
-//global.dsgrid_phones = ds_grid_create(24,6)	
-//global.dsgrid_phonesbox1 = ds_grid_create(24,100)
-//global.bag = ds_grid_create(6,20)
-
 Phone = function() constructor {
     brand = ""
     model = ""
@@ -65,6 +61,11 @@ global.buffer_wildphones = buffer_load("phones.json")
 str = buffer_read(global.buffer_wildphones, buffer_string)
 global.wildphones = json_parse(str)
 buffer_delete(global.buffer_wildphones)
+
+for (var i = 0; i < array_length(global.wildphones); i++) {
+	global.seen[i] = false
+	global.caught[i] = false
+}
 
 global.buffer_items = buffer_load("items.json")
 str = buffer_read(global.buffer_items, buffer_string)

@@ -78,6 +78,7 @@
     {"id":{"name":"spr_Vitelcom_TSM7","path":"sprites/spr_Vitelcom_TSM7/spr_Vitelcom_TSM7.yy",},"order":23,},
     {"id":{"name":"spr_Sony_Ericsson_P900","path":"sprites/spr_Sony_Ericsson_P900/spr_Sony_Ericsson_P900.yy",},"order":13,},
     {"id":{"name":"obj_choicebox","path":"objects/obj_choicebox/obj_choicebox.yy",},"order":8,},
+    {"id":{"name":"spr_unknown_phone","path":"sprites/spr_unknown_phone/spr_unknown_phone.yy",},"order":17,},
     {"id":{"name":"obj_menubox","path":"objects/obj_menubox/obj_menubox.yy",},"order":1,},
     {"id":{"name":"condition_to_string","path":"scripts/condition_to_string/condition_to_string.yy",},"order":6,},
     {"id":{"name":"spr_icon_communicator","path":"sprites/spr_icon_communicator/spr_icon_communicator.yy",},"order":4,},
@@ -176,7 +177,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"phones.json","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.6.1.26",
+    "IDEVersion": "2022.300.0.499",
   },
   "resourceVersion": "1.5",
   "name": "romphonix",

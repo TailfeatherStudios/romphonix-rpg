@@ -35,6 +35,9 @@ function give_phone(number, level)
 				global.phones[i].hp = 0
 				global.phones[i].maxHP = 1
 			}
+			
+			global.seen[number] = true
+			global.caught[number] = true
 			return 1
 		}
 	}

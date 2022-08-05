@@ -27,5 +27,15 @@ function save_game(){
     buffer_write(buffer,buffer_string,save)
     buffer_save(buffer,"phonebox.tfs")
 	
+	save = json_stringify(global.seen)
+	buffer = buffer_create(string_byte_length(save)+1,buffer_fixed,1)
+    buffer_write(buffer,buffer_string,save)
+    buffer_save(buffer,"seen.tfs")
+	
+	save = json_stringify(global.caught)
+	buffer = buffer_create(string_byte_length(save)+1,buffer_fixed,1)
+    buffer_write(buffer,buffer_string,save)
+    buffer_save(buffer,"caught.tfs")
+	
 	return 1
 }

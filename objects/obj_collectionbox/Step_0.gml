@@ -32,27 +32,47 @@ if keyboard_check_pressed(vk_down)
 if keyboard_check_pressed(vk_left)
 {
 	audio_play_sound(sfx_beep,0,0)
+	oldScroll = scroll
+	
 	for (i = selection; i; i--)
 	{
 		if (i == scroll - 1) scroll--
-		if global.wildphones[i].brand != global.wildphones[selection].brand
+		
+		iBrand = "???"
+		if global.seen[i] iBrand = global.wildphones[i].brand
+		selectionBrand = "???"
+		if global.seen[selection] selectionBrand = global.wildphones[selection].brand
+		
+		if iBrand != selectionBrand
 		{
 			selection = i
-			break
+			return
 		}
 	}
+	
+	scroll = oldScroll
 }
 
 if keyboard_check_pressed(vk_right)
 {
 	audio_play_sound(sfx_beep,0,0)
+	oldScroll = scroll
+	
 	for (i = selection; i < array_length(global.wildphones); i++)
 	{
 		if (i == scroll + 14) scroll++
-		if global.wildphones[i].brand != global.wildphones[selection].brand
+			
+		iBrand = "???"
+		if global.seen[i] iBrand = global.wildphones[i].brand
+		selectionBrand = "???"
+		if global.seen[selection] selectionBrand = global.wildphones[selection].brand
+			
+		if iBrand != selectionBrand
 		{
 			selection = i
-			break
+			return
 		}
 	}
+	
+	scroll = oldScroll
 }

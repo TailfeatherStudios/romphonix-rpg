@@ -103,6 +103,21 @@
 	},
 	{
 		"brand": "Gulliver",
+		"model": "TGP-K6400",
+		"description": "Gulliver's budget slim slide phone with strong multitasking capabilities.",
+		"year": 2006,
+		"fictional": true,
+		"battery": 900,
+		"attack": 35,
+		"defense": 40,
+		"weight": 103,
+		"rarity": 3,
+		"brokenChance": 5,
+		"baseExp": 8,
+		"icon": "slider"
+	},
+	{
+		"brand": "Gulliver",
 		"model": "TGP-L5300",
 		"description": "Gulliver's first phone with DMB TV functionality. It has a horizontal display for this purpose.",
 		"year": 2005,
@@ -115,6 +130,21 @@
 		"brokenChance": 4,
 		"baseExp": 4,
 		"icon": "slider"
+	},
+	{
+		"brand": "Gulliver",
+		"model": "TGP-S4100",
+		"description": "Gulliver's first 2 megapixel camera phone. It didn't sell well due to its awkward design.",
+		"year": 2004,
+		"fictional": true,
+		"battery": 1000,
+		"attack": 45,
+		"defense": 40,
+		"weight": 100,
+		"rarity": 5,
+		"brokenChance": 4,
+		"baseExp": 8,
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Gxphone",
@@ -1067,6 +1097,36 @@
 		"brokenChance": 4,
 		"baseExp": 4,
 		"icon": "flip"
+	},
+	{
+		"brand": "Palm",
+		"model": "Treo 600",
+		"description": "A PDA smartphone with a QWERTY keyboard and a large touchscreen.",
+		"year": 2003,
+		"fictional": false,
+		"battery": 1800,
+		"attack": 35,
+		"defense": 25,
+		"weight": 170,
+		"rarity": 2,
+		"brokenChance": 3,
+		"baseExp": 6,
+		"icon": "qwerty"
+	},
+	{
+		"brand": "Palm",
+		"model": "Treo 650",
+		"description": "A successor to Palm's Treo 600 with a higher resolution display, removable battery and Bluetooth.",
+		"year": 2004,
+		"fictional": false,
+		"battery": 1800,
+		"attack": 40,
+		"defense": 25,
+		"weight": 179,
+		"rarity": 2,
+		"brokenChance": 3,
+		"baseExp": 6,
+		"icon": "qwerty"
 	},
 	{
 		"brand": "Samsung",

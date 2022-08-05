@@ -25,6 +25,14 @@ function load_game()
 	load = buffer_read(buffer,buffer_string)
 	global.phoneBox = json_parse(load)
 	
+	buffer = buffer_load("seen.tfs")
+	load = buffer_read(buffer,buffer_string)
+	global.seen = json_parse(load)
+	
+	buffer = buffer_load("caught.tfs")
+	load = buffer_read(buffer,buffer_string)
+	global.caught = json_parse(load)
+	
 	random_set_seed(global.seed)
 	room = gotoroom
 }

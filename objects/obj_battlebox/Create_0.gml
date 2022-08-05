@@ -3,6 +3,8 @@
 instance_deactivate_all(true)
 wildphone = irandom_range(0,array_length(global.wildphones_thisarea))
 wildphone = global.wildphones_thisarea[wildphone]
+global.seen[wildphone] = true
+
 stage = 0
 introdone = 0
 audio_stop_all()
