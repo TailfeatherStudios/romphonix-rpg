@@ -7,8 +7,8 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 15,
-  "bbox_right": 47,
+  "bbox_left": 14,
+  "bbox_right": 49,
   "bbox_top": 0,
   "bbox_bottom": 63,
   "HTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"62628b69-520c-430d-902e-813ce4fb7d10","path":"sprites/spr_Gxphone_GX200/spr_Gxphone_GX200.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"62628b69-520c-430d-902e-813ce4fb7d10","path":"sprites/spr_Gxphone_GX200/spr_Gxphone_GX200.yy",},"LayerId":{"name":"c06180cc-9604-42bb-a853-3f204c2e03a9","path":"sprites/spr_Gxphone_GX200/spr_Gxphone_GX200.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Gxphone_GX200","path":"sprites/spr_Gxphone_GX200/spr_Gxphone_GX200.yy",},"resourceVersion":"1.0","name":"62628b69-520c-430d-902e-813ce4fb7d10","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"15692af1-e19a-4e0e-80c7-16920c8d0d95","path":"sprites/spr_Nokia_N70/spr_Nokia_N70.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"15692af1-e19a-4e0e-80c7-16920c8d0d95","path":"sprites/spr_Nokia_N70/spr_Nokia_N70.yy",},"LayerId":{"name":"326d4db9-727c-4bdf-9c9b-5b2177c6f833","path":"sprites/spr_Nokia_N70/spr_Nokia_N70.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_Nokia_N70","path":"sprites/spr_Nokia_N70/spr_Nokia_N70.yy",},"resourceVersion":"1.0","name":"15692af1-e19a-4e0e-80c7-16920c8d0d95","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Gxphone_GX200","path":"sprites/spr_Gxphone_GX200/spr_Gxphone_GX200.yy",},
+    "spriteId": {"name":"spr_Nokia_N70","path":"sprites/spr_Nokia_N70/spr_Nokia_N70.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c8a12334-c645-4369-adc8-4c40e03c9956","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"62628b69-520c-430d-902e-813ce4fb7d10","path":"sprites/spr_Gxphone_GX200/spr_Gxphone_GX200.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a6d8d991-a6e0-4e9d-aa60-797eb828667c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"15692af1-e19a-4e0e-80c7-16920c8d0d95","path":"sprites/spr_Nokia_N70/spr_Nokia_N70.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Gxphone_GX200","path":"sprites/spr_Gxphone_GX200/spr_Gxphone_GX200.yy",},
+    "parent": {"name":"spr_Nokia_N70","path":"sprites/spr_Nokia_N70/spr_Nokia_N70.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_Gxphone_GX200",
+    "name": "spr_Nokia_N70",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c06180cc-9604-42bb-a853-3f204c2e03a9","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"326d4db9-727c-4bdf-9c9b-5b2177c6f833","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Phone Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_Gxphone_GX200",
+  "name": "spr_Nokia_N70",
   "tags": [],
   "resourceType": "GMSprite",
 }

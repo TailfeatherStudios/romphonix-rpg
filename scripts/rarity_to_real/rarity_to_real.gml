@@ -3,7 +3,7 @@
 function rarity_to_real(number)
 {
 	switch number {
-		case 0: return 32
+		case 0: return 24
 		case 1: return 16
 		case 2: return 8
 		case 3: return 4

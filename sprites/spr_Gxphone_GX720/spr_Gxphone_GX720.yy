@@ -7,8 +7,8 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 15,
-  "bbox_right": 47,
+  "bbox_left": 13,
+  "bbox_right": 49,
   "bbox_top": 0,
   "bbox_bottom": 63,
   "HTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"62628b69-520c-430d-902e-813ce4fb7d10","path":"sprites/spr_Gxphone_GX200/spr_Gxphone_GX200.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"62628b69-520c-430d-902e-813ce4fb7d10","path":"sprites/spr_Gxphone_GX200/spr_Gxphone_GX200.yy",},"LayerId":{"name":"c06180cc-9604-42bb-a853-3f204c2e03a9","path":"sprites/spr_Gxphone_GX200/spr_Gxphone_GX200.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Gxphone_GX200","path":"sprites/spr_Gxphone_GX200/spr_Gxphone_GX200.yy",},"resourceVersion":"1.0","name":"62628b69-520c-430d-902e-813ce4fb7d10","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1adb9b6b-eb7c-4904-a0cc-6e9791c704c2","path":"sprites/spr_Gxphone_GX720/spr_Gxphone_GX720.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1adb9b6b-eb7c-4904-a0cc-6e9791c704c2","path":"sprites/spr_Gxphone_GX720/spr_Gxphone_GX720.yy",},"LayerId":{"name":"878d5099-9214-4eb0-998a-441ffff08a3b","path":"sprites/spr_Gxphone_GX720/spr_Gxphone_GX720.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_Gxphone_GX720","path":"sprites/spr_Gxphone_GX720/spr_Gxphone_GX720.yy",},"resourceVersion":"1.0","name":"1adb9b6b-eb7c-4904-a0cc-6e9791c704c2","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Gxphone_GX200","path":"sprites/spr_Gxphone_GX200/spr_Gxphone_GX200.yy",},
+    "spriteId": {"name":"spr_Gxphone_GX720","path":"sprites/spr_Gxphone_GX720/spr_Gxphone_GX720.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c8a12334-c645-4369-adc8-4c40e03c9956","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"62628b69-520c-430d-902e-813ce4fb7d10","path":"sprites/spr_Gxphone_GX200/spr_Gxphone_GX200.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d5efbe43-cede-43a3-8628-311b62aa7d83","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1adb9b6b-eb7c-4904-a0cc-6e9791c704c2","path":"sprites/spr_Gxphone_GX720/spr_Gxphone_GX720.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Gxphone_GX200","path":"sprites/spr_Gxphone_GX200/spr_Gxphone_GX200.yy",},
+    "parent": {"name":"spr_Gxphone_GX720","path":"sprites/spr_Gxphone_GX720/spr_Gxphone_GX720.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_Gxphone_GX200",
+    "name": "spr_Gxphone_GX720",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c06180cc-9604-42bb-a853-3f204c2e03a9","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"878d5099-9214-4eb0-998a-441ffff08a3b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Phone Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_Gxphone_GX200",
+  "name": "spr_Gxphone_GX720",
   "tags": [],
   "resourceType": "GMSprite",
 }
