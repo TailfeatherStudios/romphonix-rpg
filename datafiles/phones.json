@@ -118,6 +118,21 @@
 	},
 	{
 		"brand": "Gulliver",
+		"model": "TGP-K3100",
+		"description": "A low-end Gulliver flip phone with BREW game support and a colour screen.",
+		"year": 2002,
+		"fictional": true,
+		"battery": 760,
+		"attack": 25,
+		"defense": 30,
+		"weight": 103,
+		"rarity": 4,
+		"brokenChance": 4,
+		"baseExp": 6,
+		"icon": "flip"
+	},
+	{
+		"brand": "Gulliver",
 		"model": "TGP-K6400",
 		"description": "Gulliver's budget slim slide phone with strong multitasking capabilities.",
 		"year": 2006,
