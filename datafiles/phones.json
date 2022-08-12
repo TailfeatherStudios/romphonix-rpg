@@ -1609,7 +1609,7 @@
 		"battery": 600,
 		"attack": 20,
 		"defense": 10,
-		"weight": 108,
+		"weight": 100,
 		"rarity": 5,
 		"brokenChance": 4,
 		"baseExp": 6,
