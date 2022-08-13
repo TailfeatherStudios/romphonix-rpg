@@ -80,3 +80,7 @@ repeat(14)
 	i += 1
 	j += 1
 }
+
+// Draw scroll bar
+draw_set_colour(c_white)
+draw_rectangle(124,34+scroll,126,40+scroll,false)
