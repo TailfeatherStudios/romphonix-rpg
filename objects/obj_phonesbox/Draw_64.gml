@@ -37,7 +37,7 @@ if selected != -1 && is_string(global.phones[selected].model)
 	show_box(2,66,158,238,c_navy)
 	show_box(162,66,318,238,c_navy)
 	
-	draw_sprite(get_phone_sprite(global.phones[i]), -1, 0, 0)
+	draw_sprite(get_phone_sprite(global.phones[selected]), -1, 0, 0)
 	draw_text(70,10, string(global.phones[selected].brand + " " + global.phones[selected].model))
 	draw_text(70,24,"Battery: " + string((global.phones[selected].hp/global.phones[selected].maxHP)*100) + "%")
 	draw_text(160,24,"...Battery Status: " + condition_to_string(global.phones[selected].batteryStatus))

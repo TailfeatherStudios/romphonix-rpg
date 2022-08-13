@@ -82,5 +82,6 @@ repeat(14)
 }
 
 // Draw scroll bar
+scrollbarLevel = scroll*(204/array_length(global.wildphones))
 draw_set_colour(c_white)
-draw_rectangle(124,34+scroll,126,40+scroll,false)
+draw_rectangle(124, 34 + scrollbarLevel, 126, 54 + scrollbarLevel, false)

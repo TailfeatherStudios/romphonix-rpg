@@ -6,7 +6,7 @@ global.room_name = "Test Zone"
 global.wildphones_thisarea = 0
 i = 0
 j = 0
-repeat(108)
+repeat(array_length(global.wildphones))
 {
 	repeat(rarity_to_real(global.wildphones[i].rarity))
 	{
