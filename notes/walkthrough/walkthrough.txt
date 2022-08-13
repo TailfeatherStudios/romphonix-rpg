@@ -1,0 +1,93 @@
+Town 1
+The game starts here.
+
+Route 1
+No trainer battles on the first route.
+
+Town 2
+
+Route 2
+
+Forest
+
+City 3
+Has the first gym.
+
+Route 3
+Has a bridge in the middle.
+
+Route 4
+
+Town 4
+Has the second gym.
+
+Route 5
+Have to go backwards from town 4 and route 4 to reach route 5.
+
+City 5
+Has the third gym.
+
+Route 6
+Has a bridge and leads to cave 1.
+
+Cave 1
+Exits to route 7.
+
+Route 7
+
+Town 6
+
+Route 8
+
+City 7
+Has the fourth gym.
+
+Route 9
+Partially a water route, at this point the player can surf. Leads back to town 2. From town 2 the player goes straight left to route 10 (there are roadblocks preventing the player from going the wrong way).
+
+Route 10
+Partially a water route.
+
+City 8
+Has the fifth gym.
+
+Route 11
+Partially a water route.
+
+City 9
+Has the sixth gym.
+
+Route 12
+Partially covered in snow.
+
+Town 10
+Covered in snow.
+
+Route 13
+Leads to cave 2.
+
+Cave 2
+Exits to route 14.
+
+Route 14
+
+City 11
+Has the seventh gym.
+
+Route 15
+Water route.
+
+City 12
+Covered in trees. Has the eighth and final gym. After defeating the gym the player gets a flight ticket back to city 3, where they go south to route 16.
+
+Route 16
+Partially desert. Guards checking if the player has all badges.
+
+Town 13
+A desert town and the final town of the game. Has training areas and shops to prepare the player for the last battles.
+
+Route 17
+Victory road. Partially a water route.
+
+League
+End of the game, where they have their last battles.
