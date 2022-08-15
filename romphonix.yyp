@@ -26,6 +26,7 @@
     {"id":{"name":"spr_Zetafone_Mini","path":"sprites/spr_Zetafone_Mini/spr_Zetafone_Mini.yy",},"order":52,},
     {"id":{"name":"spr_Nokia_6610","path":"sprites/spr_Nokia_6610/spr_Nokia_6610.yy",},"order":16,},
     {"id":{"name":"spr_Nokia_N90","path":"sprites/spr_Nokia_N90/spr_Nokia_N90.yy",},"order":59,},
+    {"id":{"name":"spr_Folio_FM_P40","path":"sprites/spr_Folio_FM_P40/spr_Folio_FM_P40.yy",},"order":67,},
     {"id":{"name":"spr_collide","path":"sprites/spr_collide/spr_collide.yy",},"order":5,},
     {"id":{"name":"spr_playerdown","path":"sprites/spr_playerdown/spr_playerdown.yy",},"order":6,},
     {"id":{"name":"sfx_door","path":"sounds/sfx_door/sfx_door.yy",},"order":5,},

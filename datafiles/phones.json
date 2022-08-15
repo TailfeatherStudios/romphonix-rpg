@@ -102,6 +102,21 @@
 		"icon": "p900"
 	},
 	{
+		"brand": "Folio",
+		"model": "FM-P40",
+		"description": "Folio Mobile's first phone with polyphonic ringtones.",
+		"year": 2002,
+		"fictional": true,
+		"battery": 700,
+		"attack": 30,
+		"defense": 35,
+		"weight": 100,
+		"rarity": 3,
+		"brokenChance": 5,
+		"baseExp": 6,
+		"icon": "new_candybar"
+	},
+	{
 		"brand": "Grundig",
 		"model": "M131",
 		"description": "One of the Grundig branded phones that were sold on Movistar.",

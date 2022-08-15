@@ -62,7 +62,7 @@ str = buffer_read(global.buffer_wildphones, buffer_string)
 global.wildphones = json_parse(str)
 buffer_delete(global.buffer_wildphones)
 
-for (var i = 0; i < array_length(global.wildphones); i++) {
+for (var i = 0; i < 150; i++) {
 	global.seen[i] = false
 	global.caught[i] = false
 }
