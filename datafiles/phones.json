@@ -1192,6 +1192,21 @@
 		"icon": "flip"
 	},
 	{
+		"brand": "Philips",
+		"model": "Xenium 9@9i",
+		"description": "A flip phone from Philips with a 1.3 megapixel camera.",
+		"year": 2004,
+		"fictional": false,
+		"battery": 1100,
+		"attack": 30,
+		"defense": 45,
+		"weight": 104,
+		"rarity": 4,
+		"brokenChance": 5,
+		"baseExp": 7,
+		"icon": "flip"
+	},
+	{
 		"brand": "Samsung",
 		"model": "SCH-A790",
 		"description": "Samsung's first phone with both CDMA and GSM. Only launched on Verizon, and on China Unicom as the W109.",
@@ -1204,6 +1219,21 @@
 		"brokenChance": 6,
 		"baseExp": 8,
 		"icon": "flip"
+	},
+	{
+		"brand": "Samsung",
+		"model": "SCH-M309",
+		"description": "The Chinese equivalent of the SPH-A800, with a different UI, sounds, synth, etc.",
+		"year": 2004,
+		"fictional": false,
+		"battery": 1000,
+		"attack": 40,
+		"defense": 40,
+		"weight": 122,
+		"rarity": 2,
+		"brokenChance": 5,
+		"baseExp": 8,
+		"icon": "slider"
 	},
 	{
 		"brand": "Samsung",
@@ -1528,6 +1558,21 @@
 	},
 	{
 		"brand": "Sony Ericsson",
+		"model": "P990i",
+		"description": "A flagship smartphone by Sony Ericsson with Wi-Fi support.",
+		"year": 2005,
+		"fictional": false,
+		"battery": 1100,
+		"attack": 50,
+		"defense": 30,
+		"weight": 150,
+		"rarity": 3,
+		"brokenChance": 3,
+		"baseExp": 9,
+		"icon": "p900"
+	},
+	{
+		"brand": "Sony Ericsson",
 		"model": "T610",
 		"description": "A popular Sony Ericsson phone with a camera, polyphonic ringtones, and J2ME support.",
 		"fictional": false,
@@ -1569,6 +1614,36 @@
 		"brokenChance": 4,
 		"baseExp": 7,
 		"icon": "slider"
+	},
+	{
+		"brand": "Square",
+		"model": "LS-L420",
+		"description": "A Square flip phone with a camera and TFT colour display.",
+		"year": 2004,
+		"fictional": true,
+		"battery": 800,
+		"attack": 35,
+		"defense": 30,
+		"weight": 120,
+		"rarity": 2,
+		"brokenChance": 4,
+		"baseExp": 6,
+		"icon": "flip"
+	},
+	{
+		"brand": "Square",
+		"model": "LS-L510",
+		"description": "Equivalent to the LS-L420 but with updated specs and a different design.",
+		"year": 2005,
+		"fictional": true,
+		"battery": 900,
+		"attack": 40,
+		"defense": 35,
+		"weight": 130,
+		"rarity": 3,
+		"brokenChance": 4,
+		"baseExp": 7,
+		"icon": "flip"
 	},
 	{
 		"brand": "Square",
