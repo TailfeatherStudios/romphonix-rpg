@@ -1208,6 +1208,21 @@
 	},
 	{
 		"brand": "Philips",
+		"model": "655",
+		"description": "One of the later Philips phones. Has support for contact images.",
+		"year": 2004,
+		"fictional": false,
+		"battery": 600,
+		"attack": 30,
+		"defense": 25,
+		"weight": 85,
+		"rarity": 2,
+		"brokenChance": 4,
+		"baseExp": 5,
+		"icon": "qwerty"
+	},
+	{
+		"brand": "Philips",
 		"model": "Xenium 9@9i",
 		"description": "A flip phone from Philips with a 1.3 megapixel camera.",
 		"year": 2004,
@@ -1689,6 +1704,21 @@
 		"brokenChance": 5,
 		"baseExp": 5,
 		"icon": "gx55x"
+	},
+	{
+		"brand": "Telfokom",
+		"model": "E540DS",
+		"description": "Telfokom's first phone to have a dual SIM card slot.",
+		"year": 2006,
+		"fictional": true,
+		"battery": 1100,
+		"attack": 45,
+		"defense": 40,
+		"weight": 102,
+		"rarity": 3,
+		"brokenChance": 4,
+		"baseExp": 10,
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Toshiba",
