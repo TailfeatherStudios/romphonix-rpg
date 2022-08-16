@@ -792,6 +792,21 @@
 	},
 	{
 		"brand": "Motorola",
+		"model": "Q",
+		"description": "A Windows Mobile device by Motorola, featuring a QWERTY keyboard.",
+		"year": 2005,
+		"fictional": false,
+		"battery": 1130,
+		"attack": 40,
+		"defense": 40,
+		"weight": 115,
+		"rarity": 3,
+		"brokenChance": 5,
+		"baseExp": 8,
+		"icon": "p900"
+	},
+	{
+		"brand": "Motorola",
 		"model": "RAZR V3",
 		"description": "The best selling flip phone of all time, with over 130 million units sold.",
 		"year": 2004,
@@ -1356,6 +1371,21 @@
 	},
 	{
 		"brand": "Samsung",
+		"model": "SGH-i300",
+		"description": "A Samsung smartphone running Windows Mobile, and the first ever phone with a hard drive.",
+		"year": 2005,
+		"fictional": false,
+		"battery": 1100,
+		"attack": 50,
+		"defense": 30,
+		"weight": 121,
+		"rarity": 3,
+		"brokenChance": 3,
+		"baseExp": 8,
+		"icon": "flip"
+	},
+	{
+		"brand": "Samsung",
 		"model": "SGH-i607",
 		"description": "A Windows Mobile device with a QWERTY keyboard, also known as Samsung BlackJack.",
 		"year": 2006,
@@ -1628,6 +1658,21 @@
 		"rarity": 2,
 		"brokenChance": 5,
 		"baseExp": 4,
+		"icon": "new_candybar"
+	},
+	{
+		"brand": "Sony Ericsson",
+		"model": "W800",
+		"description": "A music oriented phone, and Sony Ericsson's first phone to use the Walkman branding.",
+		"year": 2005,
+		"fictional": false,
+		"battery": 900,
+		"attack": 30,
+		"defense": 30,
+		"weight": 99,
+		"rarity": 2,
+		"brokenChance": 5,
+		"baseExp": 6,
 		"icon": "new_candybar"
 	},
 	{
