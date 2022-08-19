@@ -67,7 +67,7 @@
 		"attack": 35,
 		"defense": 50,
 		"weight": 320,
-		"rarity": 6,
+		"rarity": 5,
 		"brokenChance": 2,
 		"baseExp": 4,
 		"icon": "flipcover"
@@ -1547,7 +1547,7 @@
 	{
 		"brand": "Sferia",
 		"model": "C161c",
-		"description": "A fairly popular phone from the not very popular Polish carrier Sferia, it was a mid-range device in Sferia's line-up.",
+		"description": "A fairly popular mid-range phone from the not so popular Polish carrier Sferia.",
 		"fictional": false,
 		"battery": 800,
 		"attack": 25,
@@ -1589,6 +1589,21 @@
 	},
 	{
 		"brand": "Siemens",
+		"model": "C65",
+		"description": "A mid-range phone by Siemens with J2ME support and a VGA camera.",
+		"year": 2004,
+		"fictional": false,
+		"battery": 600,
+		"attack": 35,
+		"defense": 25,
+		"weight": 86,
+		"rarity": 2,
+		"brokenChance": 5,
+		"baseExp": 5,
+		"icon": "new_candybar"
+	},
+	{
+		"brand": "Siemens",
 		"model": "SX1",
 		"description": "The only Siemens phone running Nokia's Symbian Series 60 platform. Has an unique keypad design.",
 		"fictional": false,
@@ -1612,7 +1627,7 @@
 		"weight": 67,
 		"rarity": 5,
 		"brokenChance": 4,
-		"baseExp": 5,
+		"baseExp": 4,
 		"icon": "xelibri8"
 	},
 	{
@@ -1691,7 +1706,7 @@
 	},
 	{
 		"brand": "Sony Ericsson",
-		"model": "P990i",
+		"model": "P990",
 		"description": "A flagship smartphone by Sony Ericsson with Wi-Fi support.",
 		"year": 2005,
 		"fictional": false,
@@ -1900,7 +1915,7 @@
 	{
 		"brand": "Vitelcom",
 		"model": "TSM7",
-		"description": "Another candybar by the Spanish company Vitelcom, it has i-mode compatibility. Also known as Grundig G342i.",
+		"description": "A candybar phone by the Spanish company Vitelcom, with i-mode compatibility. Also known as Grundig G342i.",
 		"year": 2004,
 		"fictional": false,
 		"battery": 720,
