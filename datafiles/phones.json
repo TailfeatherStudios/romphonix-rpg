@@ -1504,6 +1504,20 @@
 	},
 	{
 		"brand": "Samsung",
+		"model": "SPH-i300",
+		"description": "The first PDA phone in the US with a colour screen.",
+		"fictional": false,
+		"battery": 900,
+		"attack": 35,
+		"defense": 35,
+		"weight": 170,
+		"rarity": 3,
+		"brokenChance": 4,
+		"baseExp": 5,
+		"icon": "flip"
+	},
+	{
+		"brand": "Samsung",
 		"model": "SPH-i500",
 		"description": "A PDA flip phone with Palm OS, a handwriting recognition pad, and GPS support.",
 		"fictional": false,
