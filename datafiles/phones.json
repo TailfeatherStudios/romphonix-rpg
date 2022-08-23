@@ -1475,6 +1475,21 @@
 	},
 	{
 		"brand": "Samsung",
+		"model": "SGH-Z140",
+		"description": "A 3G flip phone from Samsung, commonly found on Vodafone.",
+		"year": 2005,
+		"fictional": false,
+		"battery": 1000,
+		"attack": 35,
+		"defense": 40,
+		"weight": 105,
+		"rarity": 1,
+		"brokenChance": 4,
+		"baseExp": 8,
+		"icon": "flip"
+	},
+	{
+		"brand": "Samsung",
 		"model": "SPH-A640",
 		"description": "A basic flip phone featuring push to talk.",
 		"fictional": false,
