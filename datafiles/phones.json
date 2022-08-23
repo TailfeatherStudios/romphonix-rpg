@@ -1779,6 +1779,21 @@
 		"icon": "new_candybar"
 	},
 	{
+		"brand": "Spain CDMA",
+		"model": "Talk",
+		"description": "A candybar phone for Spain CDMA, it can be used with the stylus or the keyboard. Supports both GSM and CDMA.",
+		"year": 2006,
+		"fictional": true,
+		"battery": 950,
+		"attack": 50,
+		"defense": 30,
+		"weight": 109,
+		"rarity": 0,
+		"brokenChance": 5,
+		"baseExp": 8,
+		"icon": "new_candybar"
+	},
+	{
 		"brand": "Square",
 		"model": "LS-G450",
 		"description": "A high-end Square phone with a beautiful design and a rotating camera.",
