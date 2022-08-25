@@ -156,6 +156,7 @@
     {"id":{"name":"rm_test2","path":"rooms/rm_test2/rm_test2.yy",},"order":4,},
     {"id":{"name":"spr_Zetafone_LT_1120","path":"sprites/spr_Zetafone_LT_1120/spr_Zetafone_LT_1120.yy",},"order":44,},
     {"id":{"name":"spr_Vitelcom_TSM30","path":"sprites/spr_Vitelcom_TSM30/spr_Vitelcom_TSM30.yy",},"order":4,},
+    {"id":{"name":"spr_Mova_MM_G300S","path":"sprites/spr_Mova_MM_G300S/spr_Mova_MM_G300S.yy",},"order":83,},
     {"id":{"name":"spr_Nokia_5110","path":"sprites/spr_Nokia_5110/spr_Nokia_5110.yy",},"order":38,},
     {"id":{"name":"spr_Sferia_C161c","path":"sprites/spr_Sferia_C161c/spr_Sferia_C161c.yy",},"order":20,},
     {"id":{"name":"spr_Nokia_N70","path":"sprites/spr_Nokia_N70/spr_Nokia_N70.yy",},"order":36,},
