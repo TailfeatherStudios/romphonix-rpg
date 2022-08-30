@@ -402,6 +402,21 @@
 	},
 	{
 		"brand": "LG",
+		"model": "Chocolate",
+		"year": 2005,
+		"description": "One of the most popular LG sliders, originally launched for the Korean market and later internationally.",
+		"fictional": false,
+		"battery": 800,
+		"attack": 35,
+		"defense": 30,
+		"weight": 80,
+		"rarity": 1,
+		"brokenChance": 5,
+		"baseExp": 7,
+		"icon": "slider"
+	},
+	{
+		"brand": "LG",
 		"model": "G4010",
 		"year": 2003,
 		"description": "LG's first GSM phone to be released in the US. Notable for being very thin at the time.",
@@ -1807,6 +1822,36 @@
 		"brokenChance": 5,
 		"baseExp": 6,
 		"icon": "new_candybar"
+	},
+	{
+		"brand": "Spain CDMA",
+		"model": "SL21",
+		"description": "The first Spain CDMA phone with a colour screen and one of the first with BREW. Manufactured by TeleTim.",
+		"year": 2002,
+		"fictional": true,
+		"battery": 800,
+		"attack": 30,
+		"defense": 30,
+		"weight": 115,
+		"rarity": 2,
+		"brokenChance": 5,
+		"baseExp": 5,
+		"icon": "candybar"
+	},
+	{
+		"brand": "Spain CDMA",
+		"model": "Slisted",
+		"description": "A multimedia slider phone for Spain CDMA. Supports CDMA and GSM networks and Custom UI.",
+		"year": 2006,
+		"fictional": true,
+		"battery": 950,
+		"attack": 40,
+		"defense": 25,
+		"weight": 98,
+		"rarity": 1,
+		"brokenChance": 4,
+		"baseExp": 7,
+		"icon": "slider"
 	},
 	{
 		"brand": "Spain CDMA",
