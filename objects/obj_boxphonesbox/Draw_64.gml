@@ -21,14 +21,14 @@ for (var i = 0; i < 4; i++) {
 		if asset_get_type(phoneIcon) == asset_unknown phoneIcon = "spr_icon_new_candybar"
 		
 		//draw_sprite(asset_get_index(phoneIcon), -1, 300,20+40*i)
-		draw_sprite_stretched(asset_get_index(phoneIcon), frame, 284 + 40*j ,4 + 40*i, 32, 32)
+		draw_sprite_stretched(asset_get_index(phoneIcon), frame, 2 + 40*j ,4 + 40*i, 32, 32)
 	}
 }
 
-draw_text(6,10+202, string(global.phoneBox[boxno][j+i*8].brand) + " " + string(global.phoneBox[boxno][j+i*8].model))
-draw_text(6,30+202,"Battery: " + string((global.phoneBox[boxno][j+i*8].hp/global.phoneBox[boxno][j+i*8].maxHP)*100) + "%")
-draw_text(160,10+202,"Level " + string(global.phoneBox[boxno][j+i*8].level))
-draw_text(160,30+202,"EXP: " + string(global.phoneBox[boxno][j+i*8].Exp) + "/" + string(global.phoneBox[boxno][j+i*8].maxExp))
+draw_text(6,10+202, string(global.phoneBox[boxno][selection].brand) + " " + string(global.phoneBox[boxno][selection].model))
+draw_text(6,30+202,"Battery: " + string((global.phoneBox[boxno][selection].hp/global.phoneBox[boxno][selection].maxHP)*100) + "%")
+draw_text(160,10+202,"Level " + string(global.phoneBox[boxno][selection].level))
+draw_text(160,30+202,"EXP: " + string(global.phoneBox[boxno][selection].Exp) + "/" + string(global.phoneBox[boxno][j+i*8].maxExp))
 
 if selected != -1 && is_string(global.phoneBox[boxno][selected].model)
 {

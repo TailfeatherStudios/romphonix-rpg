@@ -8,5 +8,14 @@ if result == 1
 }
 else
 {
-	show_message("No room, and boxes haven't been implemented yet. Sorry!")
+	boxno = get_integer("No room, please specify a box.",1)
+	result = give_phone_box(num,1,boxno-1)
+	if result == 1
+	{
+		show_message("Done! Check your Phones box (F).")
+	}
+	else
+	{
+		show_message("No room in that box.")
+	}
 }
