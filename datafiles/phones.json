@@ -393,11 +393,11 @@
 		"fictional": false,
 		"battery": 850,
 		"attack": 20,
-		"defense": 10,
+		"defense": 30,
 		"weight": 105,
 		"rarity": 4,
 		"brokenChance": 5,
-		"baseExp": 6,
+		"baseExp": 4,
 		"icon": "flipcover"
 	},
 	{
@@ -467,13 +467,13 @@
 		"description": "LG's first phone to be released in the US. A basic phone with 10 ringtones and 99 contacts.",
 		"fictional": false,
 		"battery": 850,
-		"attack": 10,
-		"defense": 10,
+		"attack": 15,
+		"defense": 30,
 		"weight": 100,
 		"rarity": 1,
 		"brokenChance": 3,
 		"baseExp": 4,
-		"icon": "candybar"
+		"icon": "flipcover"
 	},
 	{
 		"brand": "LG",
