@@ -40,7 +40,7 @@ for (var i = 0; i < 6; i++) {
     global.phones[i] = new Phone(); 
 }
 
-for (var i = 0; i < 25; i++) {
+for (var i = 0; i < 40; i++) {
     global.phoneBox[0][i] = new Phone(); 
 	global.phoneBox[1][i] = new Phone(); 
 	global.phoneBox[2][i] = new Phone(); 

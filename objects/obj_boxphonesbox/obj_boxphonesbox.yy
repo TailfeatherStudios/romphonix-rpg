@@ -33,7 +33,7 @@
     "path": "folders/Objects/Menu.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_phonesbox",
+  "name": "obj_boxphonesbox",
   "tags": [],
   "resourceType": "GMObject",
 }

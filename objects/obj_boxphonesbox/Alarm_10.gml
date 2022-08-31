@@ -1,3 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_create_depth(0,0,-100,obj_boxphonesbox)
+if frame == 0
+{
+	frame = 1
+}
+else
+{
+	frame = 0
+}
+alarm[10] = 10

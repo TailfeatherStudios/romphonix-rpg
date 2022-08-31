@@ -74,6 +74,7 @@ function script_reference() {
 	
 	Fade Out Instant
 	[FOI]
+	
 	*/
 
 
