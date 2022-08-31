@@ -17,7 +17,7 @@ if keyboard_check_pressed(global.back_button)
 if keyboard_check_pressed(global.select_button)
 {
 	audio_play_sound(sfx_beep,0,0)
-	if selected == -1 && string_length(global.phones[selection].model)
+	if selected == -1 && string_length(global.phoneBox[boxno][selection].model)
 	{
 		selected = selection
 	}
