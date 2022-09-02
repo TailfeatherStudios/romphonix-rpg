@@ -60,6 +60,9 @@ function script_reference() {
 	Open Player Appearance window
 	[OPA]
 	
+	Open Phone Boxes
+	[OPB]
+	
 	play SouND
 	[SND:Loop:Sound name]
 	

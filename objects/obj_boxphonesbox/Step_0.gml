@@ -54,6 +54,7 @@ if keyboard_check_pressed(vk_left)
 		{
 			boxno -= 1
 		}
+		selection += 7
 	}
 	else
 	{
@@ -74,6 +75,7 @@ if keyboard_check_pressed(vk_right)
 		{
 			boxno += 1
 		}
+		selection -= 7
 	}
 	else
 	{

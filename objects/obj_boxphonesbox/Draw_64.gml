@@ -122,3 +122,5 @@ if selected != -1 && is_string(global.phoneBox[boxno][selected].model)
 		}
 	}
 }
+
+draw_set_valign(fa_top)

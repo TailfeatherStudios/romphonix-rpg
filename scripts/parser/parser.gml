@@ -200,6 +200,11 @@ function parser() {
 	    {
 			instance_create_depth(0,0,-1,obj_fadein)
 	    }
+		
+		else if temp2 = "OPB"
+	    {
+			instance_create_depth(0,0,-100,obj_boxphonesbox)
+	    }
     
 	}
 	else if temp1 == "*"
