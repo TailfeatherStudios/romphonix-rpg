@@ -29,6 +29,20 @@ if phase == 1
 	}
 }
 
+if phase == 102
+{
+	if global.battlephone == -1
+	{
+		phase = 100
+		global.battlephone = battlephone_was
+	}
+	else
+	{
+		phase = 2
+		current_message = "You choose your " + global.phones[global.battlephone].brand + " " + global.phones[global.battlephone].model + "!"
+	}
+}
+
 if keyboard_check_pressed(vk_up)
 {
 	if phase == 100
@@ -58,24 +72,89 @@ if keyboard_check_pressed(global.select_button)
 	switch phase
 	{
 		case 0:
-		if global.phones[0].model = ""
-		{
-			phase = 999
-			current_message = "Too bad! You have no phones..."
-		}
-		else
-		{
-			phase = 1
-			instance_create_depth(0,0,-100,obj_battlephonesbox)
-		}
+			if global.phones[0].model = ""
+			{
+				phase = 999
+				current_message = "Too bad! You have no phones..."
+			}
+			else
+			{
+				phase = 1
+				instance_create_depth(0,0,-100,obj_battlephonesbox)
+			}
 		break
 		case 2:
-		phase = 100
-		selection = 0
-		current_message = "Command?"
+			player_turn = 0
+			enemy_turn = 0
+			phase = 100
+			selection = 0
+			current_message = "Command?"
+		break
+		case 3:
+			if enemy_turn == 1
+			{
+				phase = 2
+			}
+			else
+			{
+				phase = 4
+			}
+			player_turn = 1
+			atk = global.phones[global.battlephone].attack
+			atk += irandom_range(-atk/4,atk/4)
+			atk -= enemy_def/2
+			atk = floor(atk)
+			enemy_hp -= atk
+			current_message = "The enemy " + global.wildphones[wildphone].brand + " " + global.wildphones[wildphone].model + " took " + string(atk) + " damage."
+		break
+		case 4:
+			phase = 5
+			current_message = "The enemy " + global.wildphones[wildphone].brand + " " + global.wildphones[wildphone].model + " attacks!"
+		break
+		case 5:
+			if player_turn == 1
+			{
+				phase = 2
+			}
+			else
+			{
+				phase = 6
+			}
+			enemy_turn = 1
+			atk = enemy_atk
+			atk += irandom_range(-atk/4,atk/4)
+			atk -= global.phones[global.battlephone].defense
+			atk = floor(atk)
+			global.phones[global.battlephone].hp -= atk
+			current_message = "Your " + global.phones[global.battlephone].brand + " " + global.phones[global.battlephone].model + " took " + string(atk) + " damage."
+		break
+		case 6:
+			phase = 3
+			current_message = "Your " + global.phones[global.battlephone].brand + " " + global.phones[global.battlephone].model + " attacks!"
+		break
+		case 100:
+			if selection == 0
+			{
+				if enemy_wt < global.phones[global.battlephone].weight
+				{
+					current_message = "Your " + global.phones[global.battlephone].brand + " " + global.phones[global.battlephone].model + " attacks!"
+					phase = 3
+				}
+				else
+				{
+					current_message = "The enemy " + global.wildphones[wildphone].brand + " " + global.wildphones[wildphone].model + " attacks!"
+					phase = 4
+				}
+			}
+			else if selection == 1
+			{
+				battlephone_was = global.battlephone
+				phase = 102
+				instance_create_depth(0,0,-100,obj_battlephonesbox)
+			}
 		break
 		default:
-		instance_destroy()
+			instance_destroy()
 		break
 	}
 }

@@ -7,6 +7,17 @@ global.seen[wildphone] = true
 
 current_message = global.wildphones[wildphone].brand + " " + global.wildphones[wildphone].model + " appeared!"
 
+enemy_hp = global.wildphones[wildphone].battery
+enemy_maxhp = global.wildphones[wildphone].battery
+enemy_atk = global.wildphones[wildphone].attack
+enemy_def = global.wildphones[wildphone].defense
+enemy_wt = global.wildphones[wildphone].weight
+
+atk = 0
+
+player_turn = 0
+enemy_turn = 0
+
 stage = 0
 phase = 0
 introdone = 0
