@@ -243,10 +243,9 @@
   "IncludedFiles": [
     {"CopyToMask":3035461389054378222,"filePath":"datafiles","resourceVersion":"1.0","name":"items.json","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"phones.json","resourceType":"GMIncludedFile",},
-    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"phones.csv","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.300.0.499",
+    "IDEVersion": "2022.6.1.26",
   },
   "resourceVersion": "1.5",
   "name": "romphonix",

@@ -10,5 +10,6 @@ current_message = global.wildphones[wildphone].brand + " " + global.wildphones[w
 stage = 0
 phase = 0
 introdone = 0
+selection = 0
 audio_stop_all()
 song = audio_play_sound(bgm_battle,0,1)

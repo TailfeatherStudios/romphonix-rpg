@@ -13,3 +13,13 @@ show_box(2,192,318,238,c_navy)
 draw_set_colour(c_white)
 draw_set_valign(fa_left)
 draw_text_ext(4,194,current_message,16,312)
+
+if phase == 100
+{
+	show_box(2,32,92,126,c_navy)
+	show_box(2,130,92,160,c_navy)
+	draw_set_colour(c_blue)
+	draw_rectangle(2,(14*selection)+32,92,(14*selection)+46,false)
+	draw_set_colour(c_white)
+	draw_text(6,32,"Fight\nSwitch\nItems\nRun")
+}
