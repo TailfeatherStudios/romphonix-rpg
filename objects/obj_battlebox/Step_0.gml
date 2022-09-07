@@ -104,7 +104,12 @@ if keyboard_check_pressed(global.select_button)
 			atk += irandom_range(-atk/4,atk/4)
 			atk -= enemy_def/2
 			atk = floor(atk)
+			atk *= 5
 			enemy_hp -= atk
+			if enemy_hp <= 0
+			{
+				phase = 200
+			}
 			current_message = "The enemy " + global.wildphones[wildphone].brand + " " + global.wildphones[wildphone].model + " took " + string(atk) + " damage."
 		break
 		case 4:
@@ -125,6 +130,7 @@ if keyboard_check_pressed(global.select_button)
 			atk += irandom_range(-atk/4,atk/4)
 			atk -= global.phones[global.battlephone].defense
 			atk = floor(atk)
+			atk *= 5
 			global.phones[global.battlephone].hp -= atk
 			current_message = "Your " + global.phones[global.battlephone].brand + " " + global.phones[global.battlephone].model + " took " + string(atk) + " damage."
 		break
@@ -152,6 +158,11 @@ if keyboard_check_pressed(global.select_button)
 				phase = 102
 				instance_create_depth(0,0,-100,obj_battlephonesbox)
 			}
+		break
+		case 200:
+			current_message = "Enemy defeated! Your phone gains " + string(floor(enemy_xp/2)) + "EXP!" 
+			global.phones[global.battlephone].Exp += floor(enemy_xp/2)
+			phase = 999
 		break
 		default:
 			instance_destroy()

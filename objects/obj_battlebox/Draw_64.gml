@@ -4,7 +4,7 @@ display_set_gui_size(320, 240)
 
 show_box(160-stage,96-stage,160+stage,96+stage,c_navy)
 
-if introdone == 1
+if introdone == 1 and enemy_hp > 0
 {
 	draw_sprite(get_phone_sprite(global.wildphones[wildphone]),0,160-32,64)
 }

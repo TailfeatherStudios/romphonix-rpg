@@ -12,6 +12,7 @@ enemy_maxhp = global.wildphones[wildphone].battery
 enemy_atk = global.wildphones[wildphone].attack
 enemy_def = global.wildphones[wildphone].defense
 enemy_wt = global.wildphones[wildphone].weight
+enemy_xp = global.wildphones[wildphone].baseExp
 
 atk = 0
 
