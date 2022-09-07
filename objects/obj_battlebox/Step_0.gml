@@ -143,7 +143,7 @@ if keyboard_check_pressed(global.select_button)
 				else
 				{
 					current_message = "The enemy " + global.wildphones[wildphone].brand + " " + global.wildphones[wildphone].model + " attacks!"
-					phase = 4
+					phase = 5
 				}
 			}
 			else if selection == 1
