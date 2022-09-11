@@ -7,8 +7,8 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 21,
-  "bbox_right": 43,
+  "bbox_left": 20,
+  "bbox_right": 42,
   "bbox_top": 0,
   "bbox_bottom": 63,
   "HTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b94e807b-87fb-4c1d-a02d-6fc5f2ea6cad","path":"sprites/spr_Gxphone_GX600/spr_Gxphone_GX600.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b94e807b-87fb-4c1d-a02d-6fc5f2ea6cad","path":"sprites/spr_Gxphone_GX600/spr_Gxphone_GX600.yy",},"LayerId":{"name":"f858b77f-33af-454a-9aa8-26922819f1b0","path":"sprites/spr_Gxphone_GX600/spr_Gxphone_GX600.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Gxphone_GX600","path":"sprites/spr_Gxphone_GX600/spr_Gxphone_GX600.yy",},"resourceVersion":"1.0","name":"b94e807b-87fb-4c1d-a02d-6fc5f2ea6cad","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"029dc420-2280-4d0b-bf63-a7608bae2eb3","path":"sprites/spr_LG_VX_1/spr_LG_VX_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"029dc420-2280-4d0b-bf63-a7608bae2eb3","path":"sprites/spr_LG_VX_1/spr_LG_VX_1.yy",},"LayerId":{"name":"cf6d258f-f08c-4e97-934b-6a831abc125d","path":"sprites/spr_LG_VX_1/spr_LG_VX_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_LG_VX_1","path":"sprites/spr_LG_VX_1/spr_LG_VX_1.yy",},"resourceVersion":"1.0","name":"029dc420-2280-4d0b-bf63-a7608bae2eb3","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Gxphone_GX600","path":"sprites/spr_Gxphone_GX600/spr_Gxphone_GX600.yy",},
+    "spriteId": {"name":"spr_LG_VX_1","path":"sprites/spr_LG_VX_1/spr_LG_VX_1.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"91bb8b31-967d-4238-b99f-f29be1762e22","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b94e807b-87fb-4c1d-a02d-6fc5f2ea6cad","path":"sprites/spr_Gxphone_GX600/spr_Gxphone_GX600.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d8360dd9-2629-48ae-9242-9292b6d07f77","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"029dc420-2280-4d0b-bf63-a7608bae2eb3","path":"sprites/spr_LG_VX_1/spr_LG_VX_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Gxphone_GX600","path":"sprites/spr_Gxphone_GX600/spr_Gxphone_GX600.yy",},
+    "parent": {"name":"spr_LG_VX_1","path":"sprites/spr_LG_VX_1/spr_LG_VX_1.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_Gxphone_GX600",
+    "name": "spr_LG_VX_1",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f858b77f-33af-454a-9aa8-26922819f1b0","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cf6d258f-f08c-4e97-934b-6a831abc125d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Phone Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_Gxphone_GX600",
+  "name": "spr_LG_VX_1",
   "tags": [],
   "resourceType": "GMSprite",
 }

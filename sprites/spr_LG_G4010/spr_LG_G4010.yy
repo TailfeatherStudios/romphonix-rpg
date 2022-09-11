@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b94e807b-87fb-4c1d-a02d-6fc5f2ea6cad","path":"sprites/spr_Gxphone_GX600/spr_Gxphone_GX600.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b94e807b-87fb-4c1d-a02d-6fc5f2ea6cad","path":"sprites/spr_Gxphone_GX600/spr_Gxphone_GX600.yy",},"LayerId":{"name":"f858b77f-33af-454a-9aa8-26922819f1b0","path":"sprites/spr_Gxphone_GX600/spr_Gxphone_GX600.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Gxphone_GX600","path":"sprites/spr_Gxphone_GX600/spr_Gxphone_GX600.yy",},"resourceVersion":"1.0","name":"b94e807b-87fb-4c1d-a02d-6fc5f2ea6cad","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ed025a95-6bd4-4bf9-a2e8-6ed2b5d538e9","path":"sprites/spr_LG_G4010/spr_LG_G4010.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ed025a95-6bd4-4bf9-a2e8-6ed2b5d538e9","path":"sprites/spr_LG_G4010/spr_LG_G4010.yy",},"LayerId":{"name":"4ca5e6e1-1997-429a-942a-649e0dfe6cef","path":"sprites/spr_LG_G4010/spr_LG_G4010.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_LG_G4010","path":"sprites/spr_LG_G4010/spr_LG_G4010.yy",},"resourceVersion":"1.0","name":"ed025a95-6bd4-4bf9-a2e8-6ed2b5d538e9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Gxphone_GX600","path":"sprites/spr_Gxphone_GX600/spr_Gxphone_GX600.yy",},
+    "spriteId": {"name":"spr_LG_G4010","path":"sprites/spr_LG_G4010/spr_LG_G4010.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"91bb8b31-967d-4238-b99f-f29be1762e22","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b94e807b-87fb-4c1d-a02d-6fc5f2ea6cad","path":"sprites/spr_Gxphone_GX600/spr_Gxphone_GX600.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bcbfeec2-cfb9-4cc6-9d86-0d6aca3e95ac","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ed025a95-6bd4-4bf9-a2e8-6ed2b5d538e9","path":"sprites/spr_LG_G4010/spr_LG_G4010.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Gxphone_GX600","path":"sprites/spr_Gxphone_GX600/spr_Gxphone_GX600.yy",},
+    "parent": {"name":"spr_LG_G4010","path":"sprites/spr_LG_G4010/spr_LG_G4010.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_Gxphone_GX600",
+    "name": "spr_LG_G4010",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f858b77f-33af-454a-9aa8-26922819f1b0","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4ca5e6e1-1997-429a-942a-649e0dfe6cef","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Phone Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_Gxphone_GX600",
+  "name": "spr_LG_G4010",
   "tags": [],
   "resourceType": "GMSprite",
 }
