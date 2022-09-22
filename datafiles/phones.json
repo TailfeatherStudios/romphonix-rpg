@@ -102,7 +102,7 @@
 		"rarity": 4,
 		"brokenChance": 5,
 		"baseExp": 5,
-		"icon": "new_candybar"
+		"icon": "qwerty"
 	},
 	{
 		"brand": "BlackBerry",
@@ -882,7 +882,7 @@
 		"rarity": 3,
 		"brokenChance": 5,
 		"baseExp": 8,
-		"icon": "p900"
+		"icon": "qwerty"
 	},
 	{
 		"brand": "Motorola",
@@ -1332,7 +1332,7 @@
 		"rarity": 2,
 		"brokenChance": 4,
 		"baseExp": 5,
-		"icon": "qwerty"
+		"icon": "flip"
 	},
 	{
 		"brand": "Philips",
@@ -1497,7 +1497,7 @@
 		"rarity": 3,
 		"brokenChance": 3,
 		"baseExp": 8,
-		"icon": "flip"
+		"icon": "new_candybar"
 	},
 	{
 		"brand": "Samsung",
@@ -1665,6 +1665,21 @@
 		"icon": "new_candybar"
 	},
 	{
+		"brand": "Sharp",
+		"model": "J-SH04",
+		"description": "The first Japanese mobile phone with a built-in camera. It also had a colour screen.",
+		"year": 2000,
+		"fictional": false,
+		"battery": 1000,
+		"attack": 40,
+		"defense": 30,
+		"weight": 74,
+		"rarity": 4,
+		"brokenChance": 5,
+		"baseExp": 9,
+		"icon": "flipcover"
+	},
+	{
 		"brand": "Siemens",
 		"model": "A50",
 		"description": "A popular Siemens phone with a WAP browser.",
@@ -1738,21 +1753,6 @@
 		"brokenChance": 4,
 		"baseExp": 4,
 		"icon": "xelibri8"
-	},
-	{
-		"brand": "Sharp",
-		"model": "J-SH04",
-		"description": "The first Japanese mobile phone with a built-in camera. It also had a colour screen.",
-		"year": 2000,
-		"fictional": false,
-		"battery": 1000,
-		"attack": 40,
-		"defense": 30,
-		"weight": 74,
-		"rarity": 4,
-		"brokenChance": 5,
-		"baseExp": 9,
-		"icon": "flipcover"
 	},
 	{
 		"brand": "Sony",
