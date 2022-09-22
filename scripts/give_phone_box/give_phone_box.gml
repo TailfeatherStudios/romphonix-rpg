@@ -23,10 +23,10 @@ function give_phone_box(number, level, box)
 			global.phoneBox[box][i].defense = global.wildphones[number].defense
 			global.phoneBox[box][i].weight = global.wildphones[number].weight
 			
-			global.phoneBox[i].skill1 = 0
-			global.phoneBox[i].skill2 = 0
-			global.phoneBox[i].skill3 = 0
-			global.phoneBox[i].skill4 = 0
+			global.phoneBox[box][i].skill1 = 0
+			global.phoneBox[box][i].skill2 = 0
+			global.phoneBox[box][i].skill3 = 0
+			global.phoneBox[box][i].skill4 = 0
 			
 			var minStatus = 1
 			if irandom_range(1, global.wildphones[number].brokenChance) == 1 minStatus = 0

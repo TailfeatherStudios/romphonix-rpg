@@ -3,13 +3,13 @@
 if keyboard_check_pressed(vk_up) and stage < 2
 {
     choice = 0
-	audio_play_sound(sfx_beep,0,0)
+	audio_play_sound(sfx_cursor,0,0)
 }
 
 if keyboard_check_pressed(vk_down) and stage < 2
 {
     choice = 1
-	audio_play_sound(sfx_beep,0,0)
+	audio_play_sound(sfx_cursor,0,0)
 }
 
 if keyboard_check_pressed(global.select_button)
@@ -18,7 +18,7 @@ if keyboard_check_pressed(global.select_button)
 	{
 		if choice == 0
 		{
-			audio_play_sound(sfx_beep,0,0)
+			audio_play_sound(sfx_decision,0,0)
 			load_game_profile()
 			if profile_seed != global.seed
 			{
@@ -37,7 +37,7 @@ if keyboard_check_pressed(global.select_button)
 		}
 		else
 		{
-			audio_play_sound(sfx_beep,0,0)
+			audio_play_sound(sfx_decision,0,0)
 			alarm[11] = 5
 		}
 	}
@@ -45,7 +45,7 @@ if keyboard_check_pressed(global.select_button)
 	{
 		if choice == 0
 		{
-			audio_play_sound(sfx_beep,0,0)
+			audio_play_sound(sfx_decision,0,0)
 			stage = 2
 			result = save_game()
 			if result == 1
@@ -55,13 +55,13 @@ if keyboard_check_pressed(global.select_button)
 		}
 		else
 		{
-			audio_play_sound(sfx_beep,0,0)
+			audio_play_sound(sfx_decision,0,0)
 			alarm[11] = 5
 		}
 	}
 	else if stage == 3
 	{
-		audio_play_sound(sfx_beep,0,0)
+		audio_play_sound(sfx_decision,0,0)
 		alarm[11] = 5
 	}
 }

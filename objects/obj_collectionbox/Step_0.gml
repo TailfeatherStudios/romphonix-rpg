@@ -13,7 +13,7 @@ if keyboard_check_pressed(vk_up)
 {
 	if selection > 0
 	{
-		audio_play_sound(sfx_beep,0,0)
+		audio_play_sound(sfx_cursor,0,0)
 		selection -= 1
 		if (selection == scroll - 1) scroll--
 	}
@@ -23,7 +23,7 @@ if keyboard_check_pressed(vk_down)
 {
 	if selection < array_length(global.wildphones) - 1
 	{
-		audio_play_sound(sfx_beep,0,0)
+		audio_play_sound(sfx_cursor,0,0)
 		selection++
 		if (selection == scroll + 14) scroll++
 	}
@@ -31,7 +31,7 @@ if keyboard_check_pressed(vk_down)
 
 if keyboard_check_pressed(vk_left)
 {
-	audio_play_sound(sfx_beep,0,0)
+	audio_play_sound(sfx_cursor,0,0)
 	oldScroll = scroll
 	
 	for (i = selection; i >= 0; i--)
@@ -55,7 +55,7 @@ if keyboard_check_pressed(vk_left)
 
 if keyboard_check_pressed(vk_right)
 {
-	audio_play_sound(sfx_beep,0,0)
+	audio_play_sound(sfx_cursor,0,0)
 	oldScroll = scroll
 	
 	for (i = selection; i < array_length(global.wildphones); i++)

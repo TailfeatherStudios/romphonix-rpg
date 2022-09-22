@@ -49,7 +49,7 @@ if keyboard_check_pressed(vk_up)
 	{
 		if selection > 0
 		{
-			audio_play_sound(sfx_beep,0,0)
+			audio_play_sound(sfx_cursor,0,0)
 			selection -= 1
 		}
 	}
@@ -60,7 +60,7 @@ if keyboard_check_pressed(vk_down)
 	{
 		if selection < 3
 		{
-			audio_play_sound(sfx_beep,0,0)
+			audio_play_sound(sfx_cursor,0,0)
 			selection += 1
 		}
 	}
@@ -68,7 +68,7 @@ if keyboard_check_pressed(vk_down)
 
 if keyboard_check_pressed(global.select_button)
 {
-	audio_play_sound(sfx_beep,0,0)
+	audio_play_sound(sfx_decision,0,0)
 	switch phase
 	{
 		case 0:

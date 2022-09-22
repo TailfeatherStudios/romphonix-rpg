@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sfx_beep.wav",
-  "duration": 0.115873,
+  "soundFile": "sfx_decision.wav",
+  "duration": 0.592104,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sfx_beep",
+  "name": "sfx_decision",
   "tags": [],
   "resourceType": "GMSound",
 }

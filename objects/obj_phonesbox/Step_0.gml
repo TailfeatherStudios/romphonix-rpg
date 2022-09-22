@@ -7,7 +7,7 @@ if stage < 7
 
 if keyboard_check_pressed(global.back_button)
 {
-	audio_play_sound(sfx_beep,0,0)
+	audio_play_sound(sfx_back,0,0)
 	if selected == -1
 	{
 		alarm[11] = 5
@@ -20,7 +20,7 @@ if keyboard_check_pressed(global.back_button)
 
 if keyboard_check_pressed(global.select_button)
 {
-	audio_play_sound(sfx_beep,0,0)
+	audio_play_sound(sfx_decision,0,0)
 	if selected == -1 && string_length(global.phones[selection].model)
 	{
 		selected = selection
@@ -31,7 +31,7 @@ if keyboard_check_pressed(vk_up)
 {
 	if selection > 0 and selected == -1
 	{
-		audio_play_sound(sfx_beep,0,0)
+		audio_play_sound(sfx_cursor,0,0)
 		selection -= 1
 	}
 }
@@ -40,7 +40,7 @@ if keyboard_check_pressed(vk_down)
 {
 	if selection < 5 and selected == -1
 	{
-		audio_play_sound(sfx_beep,0,0)
+		audio_play_sound(sfx_cursor,0,0)
 		selection += 1
 	}
 }
