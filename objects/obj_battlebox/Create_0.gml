@@ -15,9 +15,17 @@ enemy_wt = global.wildphones[wildphone].weight
 enemy_xp = global.wildphones[wildphone].baseExp
 
 atk = 0
+screen_shake = 0
+xview = camera_get_view_x(view_camera[0])
+yview = camera_get_view_y(view_camera[0])
+shake_mode = 0
+
+show_animation = 0
+animation_frame = 0
 
 player_turn = 0
 enemy_turn = 0
+cant_select = 0
 
 stage = 0
 phase = 0

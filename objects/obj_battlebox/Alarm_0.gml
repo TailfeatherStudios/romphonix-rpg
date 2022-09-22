@@ -1,74 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-if stage < 64 and introdone == 0
-{
-	stage += 1
-}
-else
-{
-	introdone = 1
-}
-
-if audio_sound_get_track_position(song) > 58.697
-{
-	audio_sound_set_track_position(song,audio_sound_get_track_position(song) - 50.766)
-}
-
-if phase == 1
-{
-	if global.battlephone == -1
-	{
-		phase = 999
-		current_message = "You forfeit the battle..."
-	}
-	else
-	{
-		phase = 2
-		current_message = "You choose your " + global.phones[global.battlephone].brand + " " + global.phones[global.battlephone].model + "!"
-	}
-}
-
-if phase == 102
-{
-	if global.battlephone == -1
-	{
-		phase = 100
-		global.battlephone = battlephone_was
-	}
-	else
-	{
-		phase = 2
-		current_message = "You choose your " + global.phones[global.battlephone].brand + " " + global.phones[global.battlephone].model + "!"
-	}
-}
-
-if keyboard_check_pressed(vk_up)
-{
-	if phase == 100
-	{
-		if selection > 0
-		{
-			audio_play_sound(sfx_cursor,0,0)
-			selection -= 1
-		}
-	}
-}
-if keyboard_check_pressed(vk_down)
-{
-	if phase == 100
-	{
-		if selection < 3
-		{
-			audio_play_sound(sfx_cursor,0,0)
-			selection += 1
-		}
-	}
-}
-
-if keyboard_check_pressed(global.select_button) and cant_select == 0
-{
-	audio_play_sound(sfx_decision,0,0)
 	switch phase
 	{
 		case 0:
@@ -91,6 +20,7 @@ if keyboard_check_pressed(global.select_button) and cant_select == 0
 			current_message = "Command?"
 		break
 		case 3:
+			cant_select = 0
 			if enemy_turn == 1
 			{
 				phase = 2
@@ -110,7 +40,6 @@ if keyboard_check_pressed(global.select_button) and cant_select == 0
 			current_message = "The enemy " + global.wildphones[wildphone].brand + " " + global.wildphones[wildphone].model + " took " + string(atk) + " damage."
 		break
 		case 4:
-			cant_select = 1
 			alarm[0] = 30
 			screen_shake = 1
 			phase = 5
@@ -118,6 +47,7 @@ if keyboard_check_pressed(global.select_button) and cant_select == 0
 		break
 		case 5:
 			screen_shake = 0
+			cant_select = 0
 			if player_turn == 1
 			{
 				phase = 2
@@ -138,10 +68,7 @@ if keyboard_check_pressed(global.select_button) and cant_select == 0
 		break
 		case 6:
 			show_animation = asset_get_index("spr_default_anim")
-			animation_frame = 0
-			alarm[1] = 7
 			phase = 3
-			cant_select = 1
 			current_message = "Your " + global.phones[global.battlephone].brand + " " + global.phones[global.battlephone].model + " attacks!"
 		break
 		case 100:
@@ -150,18 +77,14 @@ if keyboard_check_pressed(global.select_button) and cant_select == 0
 				if enemy_wt < global.phones[global.battlephone].weight
 				{
 					show_animation = asset_get_index("spr_default_anim")
-					animation_frame = 0
-					alarm[1] = 7
-					phase = 3
-					cant_select = 1
 					current_message = "Your " + global.phones[global.battlephone].brand + " " + global.phones[global.battlephone].model + " attacks!"
+					phase = 3
 				}
 				else
 				{
 					alarm[0] = 30
 					screen_shake = 1
 					current_message = "The enemy " + global.wildphones[wildphone].brand + " " + global.wildphones[wildphone].model + " attacks!"
-					cant_select = 1
 					phase = 5
 				}
 			}
@@ -185,19 +108,3 @@ if keyboard_check_pressed(global.select_button) and cant_select == 0
 			instance_destroy()
 		break
 	}
-}
-if screen_shake == 1
-{
-	if shake_mode == -5
-	{
-		shake_mode = 5
-	}
-	else
-	{
-		shake_mode = -5
-	}
-}
-else
-{
-	shake_mode = 0
-}

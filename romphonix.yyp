@@ -170,6 +170,7 @@
     {"id":{"name":"spr_Grundig_M131","path":"sprites/spr_Grundig_M131/spr_Grundig_M131.yy",},"order":106,},
     {"id":{"name":"bgm_intro","path":"sounds/bgm_intro/bgm_intro.yy",},"order":2,},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},"order":2,},
+    {"id":{"name":"spr_default_anim","path":"sprites/spr_default_anim/spr_default_anim.yy",},"order":18,},
     {"id":{"name":"spr_Gulliver_TGP_K3100","path":"sprites/spr_Gulliver_TGP_K3100/spr_Gulliver_TGP_K3100.yy",},"order":45,},
     {"id":{"name":"obj_mainmenubox","path":"objects/obj_mainmenubox/obj_mainmenubox.yy",},"order":0,},
     {"id":{"name":"spr_icon_gx55x","path":"sprites/spr_icon_gx55x/spr_icon_gx55x.yy",},"order":8,},
