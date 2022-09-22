@@ -23,6 +23,11 @@ function give_phone(number, level)
 			global.phones[i].defense = global.wildphones[number].defense
 			global.phones[i].weight = global.wildphones[number].weight
 			
+			global.phones[i].skill1 = 0
+			global.phones[i].skill2 = 1
+			global.phones[i].skill3 = 2
+			global.phones[i].skill4 = 3
+			
 			var minStatus = 1
 			if irandom_range(1, global.wildphones[number].brokenChance) == 1 minStatus = 0
 			global.phones[i].screenStatus = irandom_range(minStatus,3)

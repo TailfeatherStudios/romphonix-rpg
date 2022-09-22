@@ -100,15 +100,7 @@ if keyboard_check_pressed(global.select_button)
 				phase = 4
 			}
 			player_turn = 1
-			atk = global.phones[global.battlephone].attack
-			atk += irandom_range(-atk/4,atk/4)
-			atk -= enemy_def/2
-			atk = floor(atk)
-			atk *= 5
-			if atk < 0
-			{
-				atk = 0
-			}
+			damage_formula(0)
 			enemy_hp -= atk
 			if enemy_hp <= 0
 			{
@@ -131,15 +123,7 @@ if keyboard_check_pressed(global.select_button)
 				phase = 6
 			}
 			enemy_turn = 1
-			atk = enemy_atk
-			atk += irandom_range(-atk/4,atk/4)
-			atk -= global.phones[global.battlephone].defense
-			atk = floor(atk)
-			atk *= 5
-			if atk < 0
-			{
-				atk = 0
-			}
+			damage_formula(1)
 			global.phones[global.battlephone].hp -= atk
 			if global.phones[global.battlephone].hp <= 0
 			{

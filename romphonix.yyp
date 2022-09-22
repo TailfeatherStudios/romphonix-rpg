@@ -52,6 +52,7 @@
     {"id":{"name":"spr_Gxphone_GX650","path":"sprites/spr_Gxphone_GX650/spr_Gxphone_GX650.yy",},"order":30,},
     {"id":{"name":"spr_icon_candybar","path":"sprites/spr_icon_candybar/spr_icon_candybar.yy",},"order":0,},
     {"id":{"name":"spr_LG_4NE1","path":"sprites/spr_LG_4NE1/spr_LG_4NE1.yy",},"order":87,},
+    {"id":{"name":"damage_formula","path":"scripts/damage_formula/damage_formula.yy",},"order":18,},
     {"id":{"name":"spr_Pantech_C300","path":"sprites/spr_Pantech_C300/spr_Pantech_C300.yy",},"order":76,},
     {"id":{"name":"script_reference","path":"scripts/script_reference/script_reference.yy",},"order":0,},
     {"id":{"name":"spr_Motorola_A1000","path":"sprites/spr_Motorola_A1000/spr_Motorola_A1000.yy",},"order":77,},
@@ -261,9 +262,10 @@
   "IncludedFiles": [
     {"CopyToMask":3035461389054378222,"filePath":"datafiles","resourceVersion":"1.0","name":"items.json","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"phones.json","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"skills.json","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.300.0.499",
+    "IDEVersion": "2022.6.1.26",
   },
   "resourceVersion": "1.5",
   "name": "romphonix",

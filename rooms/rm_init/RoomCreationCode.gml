@@ -29,11 +29,19 @@ Phone = function() constructor {
 	boardStatus = 0
 	coverStatus = 0
 	batteryStatus = 0
+	skill1 = 0
+	skill2 = 0
+	skill3 = 0
+	skill4 = 0
 }
 
 Item = function() constructor {
 	item = 0
 	count = 0
+}
+
+Skill = function() constructor {
+    learnBy = ""
 }
 
 for (var i = 0; i < 6; i++) {
@@ -71,6 +79,11 @@ global.buffer_items = buffer_load("items.json")
 str = buffer_read(global.buffer_items, buffer_string)
 global.items = json_parse(str)
 buffer_delete(global.buffer_items)
+
+global.buffer_skills = buffer_load("skills.json")
+str = buffer_read(global.buffer_skills, buffer_string)
+global.skills = json_parse(str)
+buffer_delete(global.buffer_skills)
 
 randomise()
 global.seed = irandom_range(0,16777216)

@@ -102,7 +102,11 @@ if selected != -1 && is_string(global.phones[selected].model)
 	draw_set_colour(c_white)
 	draw_text(6,155,"...Cover Status: " + condition_to_string(global.phones[selected].coverStatus))
 	
-	draw_text_ext(166,70,global.phones[selected].description, 16, 152)
+	draw_text(166,70,"Moves:")
+	draw_text(166,90,global.skills[global.phones[selected].skill1].name)
+	draw_text(166,110,global.skills[global.phones[selected].skill2].name)
+	draw_text(166,130,global.skills[global.phones[selected].skill3].name)
+	draw_text(166,150,global.skills[global.phones[selected].skill4].name)
 	
 	// Draw fictional icon if the phone is fictional
 	if global.phones[selected].fictional {
