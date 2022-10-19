@@ -205,6 +205,11 @@ function parser() {
 	    {
 			instance_create_depth(0,0,-100,obj_boxphonesbox)
 	    }
+		
+		else if temp2 = "OPI"
+	    {
+			instance_create_depth(0,0,-100,obj_prof_rocky)
+	    }
     
 	}
 	else if temp1 == "*"

@@ -8,6 +8,7 @@ commands =
 [TXT:Welcome to the WORLD OF PHONES!]
 [SND:0001:bgm_intro]
 [FOI]
+[OPI]
 [FAI]
 [TXT:My name is Professor Rocky, and I'm the authority on phones worldwide.]
 [TXT:Big phones, small phones, smart phones, dumb phones...]
@@ -35,6 +36,5 @@ commands =
 [LBL:0002]
 [FAO]
 [WAI:0030]
-[GTR:0248:0152:rm_test]
-[FAI]
+[GTR:0248:0152:rm_intro2]
 "

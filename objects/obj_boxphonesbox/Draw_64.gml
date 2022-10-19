@@ -12,7 +12,7 @@ draw_set_colour(c_white)
 draw_set_valign(fa_center)
 draw_text(284,202+18,"BOX " + string(boxno+1))
 
-for (var i = 0; i < 4; i++) {
+for (var i = 0; i < 5; i++) {
 	for (var j = 0; j < 8; j++) {
 		if (!string_length(global.phoneBox[boxno][j+i*8].model)) break
 	

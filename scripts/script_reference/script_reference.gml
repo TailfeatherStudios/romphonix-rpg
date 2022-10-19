@@ -63,6 +63,9 @@ function script_reference() {
 	Open Phone Boxes
 	[OPB]
 	
+	OPen Intro
+	[OPI]
+	
 	play SouND
 	[SND:Loop:Sound name]
 	

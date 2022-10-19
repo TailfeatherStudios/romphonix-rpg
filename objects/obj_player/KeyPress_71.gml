@@ -1,12 +1,24 @@
 /// @description Insert description here
 // You can write your code in this editor
-num = get_integer("What tool should I give you? See item.csv.",1)
-result = give_tool(num,1)
-if result == 1
+i = 0
+repeat(40)
 {
-	show_message("Done! Check your Items menu.")
+	give_phone_box(i,1,0)
+	i += 1
 }
-else
+repeat(40)
 {
-	show_message("No room!")
+	give_phone_box(i,1,1)
+	i += 1
 }
+repeat(40)
+{
+	give_phone_box(i,1,2)
+	i += 1
+}
+repeat(30)
+{
+	give_phone_box(i,1,3)
+	i += 1
+}
+show_message("Unlocked every phone.")
