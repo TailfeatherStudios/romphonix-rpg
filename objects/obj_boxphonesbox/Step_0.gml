@@ -43,42 +43,48 @@ if keyboard_check_pressed(vk_down)
 
 if keyboard_check_pressed(vk_left)
 {
-	audio_play_sound(sfx_cursor,0,0)
-	if selection mod 8 = 0
+	if selected == -1
 	{
-		if boxno == 0
+		audio_play_sound(sfx_cursor,0,0)
+		if selection mod 8 = 0 
 		{
-			boxno = 7
+			if boxno == 0
+			{
+				boxno = 7
+			}
+			else
+			{
+				boxno -= 1
+			}
+			selection += 7
 		}
 		else
 		{
-			boxno -= 1
+			selection -= 1
 		}
-		selection += 7
-	}
-	else
-	{
-		selection -= 1
 	}
 }
 
 if keyboard_check_pressed(vk_right)
 {
-	audio_play_sound(sfx_cursor,0,0)
-	if (selection mod 8) = 7
+	if selected == -1
 	{
-		if boxno == 7
+		audio_play_sound(sfx_cursor,0,0)
+		if (selection mod 8) = 7
 		{
-			boxno = 0
+			if boxno == 7
+			{
+				boxno = 0
+			}
+			else
+			{
+				boxno += 1
+			}
+			selection -= 7
 		}
 		else
 		{
-			boxno += 1
+			selection += 1
 		}
-		selection -= 7
-	}
-	else
-	{
-		selection += 1
 	}
 }
