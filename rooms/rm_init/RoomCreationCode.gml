@@ -3,6 +3,7 @@ global.gotox = 0
 global.gotoy = 0
 global.money = 500
 global.gamepaused = 0
+global.playersprite = spr_player1
 
 global.select_button = ord("L")
 global.back_button = ord("K")

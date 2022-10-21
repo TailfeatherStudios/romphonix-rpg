@@ -1,4 +1,5 @@
-sprite_index = spr_playerdown
+sprite_index = spr_player1
+realimg = 0
 dir = 2
 if global.gotox != 0
 {

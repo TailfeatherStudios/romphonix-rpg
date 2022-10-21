@@ -11,6 +11,8 @@ function load_game()
 	global.seed = ini_read_real("DATA","SEED",global.seed)
 	global.playername = ini_read_string("DATA","PLAYERNAME","Player")
 	global.start_date = ini_read_string("DATA","STARTDATE","0/0/0")
+	global.playersprite = ini_read_string("DATA","SPRITE","spr_player1")
+	global.playersprite = asset_get_index(global.playersprite)
 	ini_close()
 	
 	buffer = buffer_load("bag.tfs")

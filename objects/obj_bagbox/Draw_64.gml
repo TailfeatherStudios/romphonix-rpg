@@ -22,7 +22,7 @@ repeat(17)
 	i += 1
 	j += 1
 }
-draw_text_ext(6,134, global.items[global.bag[pocket][selection].item].description, 14, 128)
+draw_text_ext(6,134, global.items[global.bag[pocket][selection+scroll].item].description, 14, 128)
 
 draw_set_halign(fa_center)
 switch pocket
@@ -37,3 +37,7 @@ switch pocket
 	draw_text(64,6,"Moves")
 	break
 }
+
+scrollbarLevel = scroll*(236/20)
+draw_set_colour(c_white)
+draw_rectangle(316, 2 + scrollbarLevel, 318, 202 + scrollbarLevel, false)

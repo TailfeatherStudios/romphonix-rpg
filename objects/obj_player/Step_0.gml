@@ -13,8 +13,8 @@ if !instance_exists(obj_parser) and global.gamepaused == 0
 				x -= 1
 			}
 		}
-	    sprite_index = spr_playerleft
-	    image_speed = 0.1
+	    sprite_index = spr_player1
+	    image_speed = 1
 	    dir = 0
 	}
 	if keyboard_check(vk_right)
@@ -30,8 +30,8 @@ if !instance_exists(obj_parser) and global.gamepaused == 0
 				x += 1
 			}
 		}
-	    sprite_index = spr_playerright
-	    image_speed = 0.1
+	    sprite_index = spr_player1
+	    image_speed = 1
 	    dir = 3
 	}
 	if keyboard_check(vk_up)
@@ -47,8 +47,8 @@ if !instance_exists(obj_parser) and global.gamepaused == 0
 				y -= 1
 			}
 		}
-	    sprite_index = spr_playerup
-	    image_speed = 0.1
+	    sprite_index = spr_player1
+	    image_speed = 1
 	    dir = 1
 	}
 	if keyboard_check(vk_down)
@@ -64,8 +64,8 @@ if !instance_exists(obj_parser) and global.gamepaused == 0
 				y += 1
 			}
 		}
-	    sprite_index = spr_playerdown
-	    image_speed = 0.1
+	    sprite_index = spr_player1
+	    image_speed = 1
 	    dir = 2
 	}
 	if !keyboard_check(vk_up) and !keyboard_check(vk_down) and !keyboard_check(vk_left) and !keyboard_check(vk_right)

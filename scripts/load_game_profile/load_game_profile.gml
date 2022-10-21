@@ -6,5 +6,6 @@ function load_game_profile(){
 	profile_money = ini_read_real("DATA","MONEY",0)
 	profile_seed = ini_read_real("DATA","SEED",global.seed)
 	profile_name = ini_read_string("DATA","PLAYERNAME","Player")
+	profile_playersprite = ini_read_string("DATA","SPRITE","spr_player1")
 	ini_close()
 }

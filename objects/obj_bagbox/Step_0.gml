@@ -61,7 +61,6 @@ if keyboard_check_pressed(vk_left)
 	{
 		audio_play_sound(sfx_cursor,0,0)
 		pocket -= 1
-		selection = 0
 	}
 }
 
@@ -71,6 +70,5 @@ if keyboard_check_pressed(vk_right)
 	{
 		audio_play_sound(sfx_cursor,0,0)
 		pocket += 1
-		selection = 0
 	}
 }

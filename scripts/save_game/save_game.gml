@@ -8,6 +8,7 @@ function save_game(){
 	ini_write_string("DATA","ROOMNAME",global.room_name)
 	ini_write_real("DATA","MONEY",global.money)
 	ini_write_real("DATA","SEED",global.seed)
+	ini_write_string("DATA","SPRITE",sprite_get_name(global.playersprite))
 	ini_write_string("DATA","PLAYERNAME",global.playername)
 	ini_write_string("DATA","STARTDATE",global.start_date)
 	ini_close()
