@@ -7,6 +7,11 @@ global.gamepaused = 0
 global.select_button = ord("L")
 global.back_button = ord("K")
 
+for (var i = 0; i < 9999; i++)
+{
+	global.vars[i] = 0
+}
+
 Phone = function() constructor {
     brand = ""
     model = ""

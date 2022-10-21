@@ -6,6 +6,10 @@ function parser_start(argument0) {
 	waitforchoice = 0
 	wait = 0
 	global.choicemade = 0
+	for (i = 0; i < 9; i++)
+	{
+		global.vars[i] = 0
+	}
 	i = 0
 	j = ""
 	labelstack = ds_grid_create(1,9999)

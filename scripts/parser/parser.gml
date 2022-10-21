@@ -126,7 +126,7 @@ function parser() {
 	        temp3 = string_copy(str,i+10,4)
 	        obj_player.x = real(temp2)
 	        obj_player.y = real(temp3)
-	        i += 10
+	        i += 15
 	    }
     
 	    else if temp2 = "RMP"
@@ -134,6 +134,7 @@ function parser() {
 	        //Get the position
 	        tempr1 = obj_player.x
 	        tempr2 = obj_player.y
+			i += 5
 	    }
 
 	    else if temp2 = "GRP"
@@ -141,6 +142,7 @@ function parser() {
 	        //Get the position
 	        obj_player.x = real(tempr1)
 	        obj_player.y = real(tempr2)
+			i += 5
 	    }
 		
 		else if temp2 = "ITA"
@@ -150,6 +152,7 @@ function parser() {
 			temp3 = string_copy(str,i+10,4)
 			temp3 = real(temp3)
 	        give_item(temp2,temp3)
+			i += 15
 	    }
 		
 		else if temp2 = "TLA"
@@ -159,6 +162,7 @@ function parser() {
 			temp3 = string_copy(str,i+10,4)
 			temp3 = real(temp3)
 	        give_tool(temp2,temp3)
+			i += 15
 	    }
 		
 		else if temp2 = "MVA"
@@ -168,6 +172,7 @@ function parser() {
 			temp3 = string_copy(str,i+10,4)
 			temp3 = real(temp3)
 	        give_memcard(temp2,temp3)
+			i += 15
 	    }
 		
 		else if temp2 = "PHA"
@@ -177,6 +182,7 @@ function parser() {
 			temp3 = string_copy(str,i+10,4)
 			temp3 = real(temp3)
 	        give_phone(temp2,temp3)
+			i += 15
 	    }
 		
 		else if temp2 = "WAI"
@@ -184,6 +190,17 @@ function parser() {
 			temp2 = string_copy(str,i+5,4)
 			temp2 = real(temp2)
 	        wait = temp2
+			i += 10
+	    }
+		
+	    else if temp2 = "VAR"
+	    {
+			temp2 = string_copy(str,i+5,4)
+			temp2 = real(temp2)
+			temp3 = string_copy(str,i+10,4)
+			temp3 = real(temp3)
+			global.vars[temp2] = temp3
+			i += 15
 	    }
 		
 		else if temp2 = "FAO"
@@ -199,6 +216,11 @@ function parser() {
 		else if temp2 = "FAI"
 	    {
 			instance_create_depth(0,0,-1,obj_fadein)
+	    }
+		
+		else if temp2 = "UPN"
+	    {
+			str = string_replace_all(str,"Player",global.playername)
 	    }
 		
 		else if temp2 = "OPB"

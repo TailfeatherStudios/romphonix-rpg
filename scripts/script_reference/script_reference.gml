@@ -81,6 +81,12 @@ function script_reference() {
 	Fade Out Instant
 	[FOI]
 	
+	set VARiable
+	[VAR:Index:New value]
+	
+	UPdate Name
+	[UPN]
+	
 	*/
 
 
