@@ -14,13 +14,15 @@ function parser() {
 	        show_debug_message("DEBUG: Going to label " + temp2)
 	        temp2 = real(temp2)
 	        i = ds_grid_get(labelstack,0,temp2)
+			i += 10
 	    }
 	    else if global.choicemade == 1
 	    {
 	        temp2 = string_copy(str,i+10,4)
 	        show_debug_message("DEBUG: Going to label " + temp2)
 	        temp2 = real(temp2)
-	        i = ds_grid_get(labelstack,0,temp2)        
+	        i = ds_grid_get(labelstack,0,temp2)
+			i += 10
 	    }
 	}
 	// If not, continue the parser
@@ -61,6 +63,12 @@ function parser() {
 	        show_debug_message("DEBUG: Going to label " + temp2)
 	        temp2 = real(temp2)
 	        i = ds_grid_get(labelstack,0,temp2)
+			i += 10
+	    }
+		
+	    else if temp2 = "LBL"
+	    {
+			i += 10
 	    }
 
 	    else if temp2 = "GTR"

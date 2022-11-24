@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Mova_MM_G300S",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 64,
   "height": 64,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"99c77e7b-c131-4b06-9fa2-ecff5ed1ffd5","path":"sprites/spr_Mova_MM_G300S/spr_Mova_MM_G300S.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"99c77e7b-c131-4b06-9fa2-ecff5ed1ffd5","path":"sprites/spr_Mova_MM_G300S/spr_Mova_MM_G300S.yy",},"LayerId":{"name":"c1b125c8-0fd4-44c4-bceb-d4db0b8486eb","path":"sprites/spr_Mova_MM_G300S/spr_Mova_MM_G300S.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Mova_MM_G300S","path":"sprites/spr_Mova_MM_G300S/spr_Mova_MM_G300S.yy",},"resourceVersion":"1.0","name":"99c77e7b-c131-4b06-9fa2-ecff5ed1ffd5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"99c77e7b-c131-4b06-9fa2-ecff5ed1ffd5",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Mova_MM_G300S","path":"sprites/spr_Mova_MM_G300S/spr_Mova_MM_G300S.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_Mova_MM_G300S",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"8020b17a-edb4-48d3-a456-06a45dde95b8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"99c77e7b-c131-4b06-9fa2-ecff5ed1ffd5","path":"sprites/spr_Mova_MM_G300S/spr_Mova_MM_G300S.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Mova_MM_G300S","path":"sprites/spr_Mova_MM_G300S/spr_Mova_MM_G300S.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_Mova_MM_G300S",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c1b125c8-0fd4-44c4-bceb-d4db0b8486eb","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c1b125c8-0fd4-44c4-bceb-d4db0b8486eb","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Phone Sprites",
     "path": "folders/Sprites/Phone Sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Mova_MM_G300S",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Zetafone_Mini",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 64,
   "height": 64,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"dbf0c8a4-edf7-4404-b9ba-adb4dffd6877","path":"sprites/spr_Zetafone_Mini/spr_Zetafone_Mini.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dbf0c8a4-edf7-4404-b9ba-adb4dffd6877","path":"sprites/spr_Zetafone_Mini/spr_Zetafone_Mini.yy",},"LayerId":{"name":"1f794a11-e57d-4554-9c1a-75c649bfaee2","path":"sprites/spr_Zetafone_Mini/spr_Zetafone_Mini.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Zetafone_Mini","path":"sprites/spr_Zetafone_Mini/spr_Zetafone_Mini.yy",},"resourceVersion":"1.0","name":"dbf0c8a4-edf7-4404-b9ba-adb4dffd6877","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dbf0c8a4-edf7-4404-b9ba-adb4dffd6877",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Zetafone_Mini","path":"sprites/spr_Zetafone_Mini/spr_Zetafone_Mini.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_Zetafone_Mini",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"0f04cf91-3354-4a3c-9821-1f1e2f306f89","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dbf0c8a4-edf7-4404-b9ba-adb4dffd6877","path":"sprites/spr_Zetafone_Mini/spr_Zetafone_Mini.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Zetafone_Mini","path":"sprites/spr_Zetafone_Mini/spr_Zetafone_Mini.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_Zetafone_Mini",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1f794a11-e57d-4554-9c1a-75c649bfaee2","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1f794a11-e57d-4554-9c1a-75c649bfaee2","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Phone Sprites",
     "path": "folders/Sprites/Phone Sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Zetafone_Mini",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

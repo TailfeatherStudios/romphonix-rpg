@@ -18,7 +18,11 @@ else
 {
     draw_rectangle(224,223,318,238,false)
 }
-draw_set_color(c_white)
+draw_set_color(c_navy)
 draw_set_font(fon_dialogue)
+draw_text_ext(4,195,string_hash_to_newline(global.text),16,320)
+draw_text_ext(5,194,string_hash_to_newline(global.text),16,320)
+draw_text_ext(5,195,string_hash_to_newline(global.text),16,320)
+draw_set_color(c_white)
 draw_text_ext(4,194,string_hash_to_newline(global.text),16,320)
 draw_text_ext(226,210,string_hash_to_newline("  Yes#  No"),16,320)

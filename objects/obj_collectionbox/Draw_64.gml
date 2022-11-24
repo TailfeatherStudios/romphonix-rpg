@@ -75,7 +75,7 @@ repeat(14)
 		if (global.caught[i]) draw_set_colour(c_white)
 		model = "???"
 		if global.seen[i] model = global.wildphones[i].brand + " " + global.wildphones[i].model
-		draw_text(64,40 + 14*j, model)
+		draw_text(64,42 + 14*j, model)
 	}
 	i += 1
 	j += 1

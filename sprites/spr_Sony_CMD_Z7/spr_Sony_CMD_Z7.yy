@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Sony_CMD_Z7",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 64,
   "height": 64,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8fe32144-a2ba-43a8-b4ce-8460c7f2fc4b","path":"sprites/spr_Sony_CMD_Z7/spr_Sony_CMD_Z7.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8fe32144-a2ba-43a8-b4ce-8460c7f2fc4b","path":"sprites/spr_Sony_CMD_Z7/spr_Sony_CMD_Z7.yy",},"LayerId":{"name":"40c36f82-6edd-4085-884c-485dea145b5b","path":"sprites/spr_Sony_CMD_Z7/spr_Sony_CMD_Z7.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Sony_CMD_Z7","path":"sprites/spr_Sony_CMD_Z7/spr_Sony_CMD_Z7.yy",},"resourceVersion":"1.0","name":"8fe32144-a2ba-43a8-b4ce-8460c7f2fc4b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8fe32144-a2ba-43a8-b4ce-8460c7f2fc4b",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Sony_CMD_Z7","path":"sprites/spr_Sony_CMD_Z7/spr_Sony_CMD_Z7.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_Sony_CMD_Z7",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"4285c341-1834-421c-bfd2-8fa0234311a3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8fe32144-a2ba-43a8-b4ce-8460c7f2fc4b","path":"sprites/spr_Sony_CMD_Z7/spr_Sony_CMD_Z7.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Sony_CMD_Z7","path":"sprites/spr_Sony_CMD_Z7/spr_Sony_CMD_Z7.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_Sony_CMD_Z7",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"40c36f82-6edd-4085-884c-485dea145b5b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"40c36f82-6edd-4085-884c-485dea145b5b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Phone Sprites",
     "path": "folders/Sprites/Phone Sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Sony_CMD_Z7",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

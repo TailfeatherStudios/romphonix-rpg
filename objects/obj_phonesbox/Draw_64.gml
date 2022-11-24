@@ -14,10 +14,10 @@ draw_set_valign(fa_center)
 
 for (var i = 0; i < 6; i++) {
 	if (!string_length(global.phones[i].model)) break
-	draw_text(6,10+40*i, string(global.phones[i].brand) + " " + string(global.phones[i].model))
-	draw_text(6,30+40*i,"Battery: " + string((global.phones[i].hp/global.phones[i].maxHP)*100) + "%")
-	draw_text(160,10+40*i,"Level " + string(global.phones[i].level))
-	draw_text(160,30+40*i,"EXP: " + string(global.phones[i].Exp) + "/" + string(global.phones[i].maxExp))
+	draw_text(6,11+40*i, string(global.phones[i].brand) + " " + string(global.phones[i].model))
+	draw_text(6,31+40*i,"Battery: " + string((global.phones[i].hp/global.phones[i].maxHP)*100) + "%")
+	draw_text(160,11+40*i,"Level " + string(global.phones[i].level))
+	draw_text(160,31+40*i,"EXP: " + string(global.phones[i].Exp) + "/" + string(global.phones[i].maxExp))
 	
 	// Draw phone icon or fallback to a default icon.
 	phoneIcon = "spr_icon_" + global.phones[i].icon

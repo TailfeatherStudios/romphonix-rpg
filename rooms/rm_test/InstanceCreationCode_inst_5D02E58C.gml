@@ -10,7 +10,7 @@ commands =
 [TXT:What about an item?]
 [CHO:0003:0004]
 [LBL:0003]
-[ITA:0001:0001]
+[TLA:0001:0001]
 [TXT:Done!]
 [LBL:0004]
 "

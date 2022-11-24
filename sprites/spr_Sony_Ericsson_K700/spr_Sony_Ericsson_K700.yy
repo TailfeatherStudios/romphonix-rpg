@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Sony_Ericsson_K700",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 64,
   "height": 64,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f6da4f00-e73e-4afe-9bb9-f4993cd4625b","path":"sprites/spr_Sony_Ericsson_K700/spr_Sony_Ericsson_K700.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f6da4f00-e73e-4afe-9bb9-f4993cd4625b","path":"sprites/spr_Sony_Ericsson_K700/spr_Sony_Ericsson_K700.yy",},"LayerId":{"name":"47716d11-0966-41d5-b1b5-c26dd9df1ef5","path":"sprites/spr_Sony_Ericsson_K700/spr_Sony_Ericsson_K700.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Sony_Ericsson_K700","path":"sprites/spr_Sony_Ericsson_K700/spr_Sony_Ericsson_K700.yy",},"resourceVersion":"1.0","name":"f6da4f00-e73e-4afe-9bb9-f4993cd4625b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f6da4f00-e73e-4afe-9bb9-f4993cd4625b",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Sony_Ericsson_K700","path":"sprites/spr_Sony_Ericsson_K700/spr_Sony_Ericsson_K700.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_Sony_Ericsson_K700",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"20a2f0b8-4f1f-486e-b8a9-305b05ed89c7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f6da4f00-e73e-4afe-9bb9-f4993cd4625b","path":"sprites/spr_Sony_Ericsson_K700/spr_Sony_Ericsson_K700.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Sony_Ericsson_K700","path":"sprites/spr_Sony_Ericsson_K700/spr_Sony_Ericsson_K700.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_Sony_Ericsson_K700",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"47716d11-0966-41d5-b1b5-c26dd9df1ef5","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"47716d11-0966-41d5-b1b5-c26dd9df1ef5","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Phone Sprites",
     "path": "folders/Sprites/Phone Sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Sony_Ericsson_K700",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

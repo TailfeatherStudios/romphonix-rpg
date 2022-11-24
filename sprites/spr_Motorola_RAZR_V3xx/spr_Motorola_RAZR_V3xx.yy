@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Motorola_RAZR_V3xx",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 64,
   "height": 64,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"60d9f092-4b58-41a0-91f2-044f71069b98","path":"sprites/spr_Motorola_RAZR_V3xx/spr_Motorola_RAZR_V3xx.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"60d9f092-4b58-41a0-91f2-044f71069b98","path":"sprites/spr_Motorola_RAZR_V3xx/spr_Motorola_RAZR_V3xx.yy",},"LayerId":{"name":"439a1206-beb4-4c34-af59-4d7f1b0d876c","path":"sprites/spr_Motorola_RAZR_V3xx/spr_Motorola_RAZR_V3xx.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Motorola_RAZR_V3xx","path":"sprites/spr_Motorola_RAZR_V3xx/spr_Motorola_RAZR_V3xx.yy",},"resourceVersion":"1.0","name":"60d9f092-4b58-41a0-91f2-044f71069b98","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"60d9f092-4b58-41a0-91f2-044f71069b98",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Motorola_RAZR_V3xx","path":"sprites/spr_Motorola_RAZR_V3xx/spr_Motorola_RAZR_V3xx.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_Motorola_RAZR_V3xx",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"b637989d-58ea-4ee2-8b43-00bf12762744","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"60d9f092-4b58-41a0-91f2-044f71069b98","path":"sprites/spr_Motorola_RAZR_V3xx/spr_Motorola_RAZR_V3xx.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Motorola_RAZR_V3xx","path":"sprites/spr_Motorola_RAZR_V3xx/spr_Motorola_RAZR_V3xx.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_Motorola_RAZR_V3xx",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"439a1206-beb4-4c34-af59-4d7f1b0d876c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"439a1206-beb4-4c34-af59-4d7f1b0d876c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Phone Sprites",
     "path": "folders/Sprites/Phone Sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Motorola_RAZR_V3xx",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

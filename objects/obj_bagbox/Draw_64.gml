@@ -16,8 +16,8 @@ repeat(17)
 {
 	if global.bag[pocket][i].count
 	{
-		draw_text(134,14*j, global.items[global.bag[pocket][i].item].name)
-		draw_text(300,14*j,":" + string(global.bag[pocket][i].count))
+		draw_text(134,3+14*j, global.items[global.bag[pocket][i].item].name)
+		draw_text(300,3+14*j,":" + string(global.bag[pocket][i].count))
 	}
 	i += 1
 	j += 1

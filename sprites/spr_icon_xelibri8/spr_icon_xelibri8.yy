@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_icon_xelibri8",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 32,
   "height": 32,
   "textureGroupId": {
@@ -24,15 +28,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5894ed49-82ea-469c-8201-b60af0e669d9","path":"sprites/spr_icon_xelibri8/spr_icon_xelibri8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5894ed49-82ea-469c-8201-b60af0e669d9","path":"sprites/spr_icon_xelibri8/spr_icon_xelibri8.yy",},"LayerId":{"name":"161bb38f-3fec-498d-ad0b-489f55da3976","path":"sprites/spr_icon_xelibri8/spr_icon_xelibri8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_icon_xelibri8","path":"sprites/spr_icon_xelibri8/spr_icon_xelibri8.yy",},"resourceVersion":"1.0","name":"5894ed49-82ea-469c-8201-b60af0e669d9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9e6d63e7-9d70-4d4e-b312-5310090c0bf0","path":"sprites/spr_icon_xelibri8/spr_icon_xelibri8.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9e6d63e7-9d70-4d4e-b312-5310090c0bf0","path":"sprites/spr_icon_xelibri8/spr_icon_xelibri8.yy",},"LayerId":{"name":"161bb38f-3fec-498d-ad0b-489f55da3976","path":"sprites/spr_icon_xelibri8/spr_icon_xelibri8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_icon_xelibri8","path":"sprites/spr_icon_xelibri8/spr_icon_xelibri8.yy",},"resourceVersion":"1.0","name":"9e6d63e7-9d70-4d4e-b312-5310090c0bf0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5894ed49-82ea-469c-8201-b60af0e669d9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9e6d63e7-9d70-4d4e-b312-5310090c0bf0",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_icon_xelibri8","path":"sprites/spr_icon_xelibri8/spr_icon_xelibri8.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_icon_xelibri8",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 3.0,
@@ -43,10 +45,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"4a5e37d2-422c-4800-9b60-66464668a6c1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5894ed49-82ea-469c-8201-b60af0e669d9","path":"sprites/spr_icon_xelibri8/spr_icon_xelibri8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"296b225e-fab2-47f1-8f62-f66d9103abbd","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9e6d63e7-9d70-4d4e-b312-5310090c0bf0","path":"sprites/spr_icon_xelibri8/spr_icon_xelibri8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +64,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_icon_xelibri8","path":"sprites/spr_icon_xelibri8/spr_icon_xelibri8.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_icon_xelibri8",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"161bb38f-3fec-498d-ad0b-489f55da3976","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"161bb38f-3fec-498d-ad0b-489f55da3976","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Phone Icons",
     "path": "folders/Sprites/Phone Icons.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_icon_xelibri8",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
